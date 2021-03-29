@@ -3,12 +3,12 @@
     "short_name": "",
     "icons": [
         {
-            "src": "images/android-chrome-192x192.png?v=qAMEoAwyop",
+            "src": "https://www.centroamai.cl/images/android-chrome-192x192.png?v=5A6ygWXgGg",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "images/android-chrome-512x512.png?v=qAMEoAwyop",
+            "src": "https://www.centroamai.cl/images/android-chrome-512x512.png?v=5A6ygWXgGg",
             "sizes": "512x512",
             "type": "image/png"
         }

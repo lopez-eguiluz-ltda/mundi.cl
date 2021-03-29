@@ -39,13 +39,14 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 	<link rel="stylesheet" href="css/custom.css">
 
 	<!--FAvicon -->
-	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=qAMEoAwyop">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=qAMEoAwyop">
-	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=qAMEoAwyop">
-	<link rel="manifest" href="site.webmanifest?v=qAMEoAwyop">
-	<link rel="mask-icon" href="images/safari-pinned-tab.svg?v=qAMEoAwyop" color="#5bbad5">
-	<link rel="shortcut icon" href="images/favicon.ico?v=qAMEoAwyop">
-	<meta name="msapplication-TileColor" content="#9f00a7">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://www.centroamai.cl/images/apple-touch-icon.png?v=5A6ygWXgGg">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://www.centroamai.cl/images/favicon-32x32.png?v=5A6ygWXgGg">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://www.centroamai.cl/images/favicon-16x16.png?v=5A6ygWXgGg">
+	<link rel="manifest" href="https://www.centroamai.cl/images/site.webmanifest?v=5A6ygWXgGg">
+	<link rel="mask-icon" href="https://www.centroamai.cl/images/safari-pinned-tab.svg?v=5A6ygWXgGg" color="#5bbad5">
+	<link rel="shortcut icon" href="https://www.centroamai.cl/images/favicon.ico?v=5A6ygWXgGg">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="https://www.centroamai.cl/images/browserconfig.xml?v=5A6ygWXgGg">
 	<meta name="theme-color" content="#ffffff">
 
 
