@@ -10,12 +10,16 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 <html lang="es">
 
 <head>
-	<title>Centro Amaï - Centro de Apoyo a la Maternidad - La Serena</title>
+
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Centro Amaï - Centro de Apoyo a la Maternidad - La Serena</title>
 	<meta name="description" content="Centro de Apoyo a la Maternidad y Alimentación Infantil. Contamos con profesionales altamente capacitadas en lactancia y alimentación." />
 	<link rel="canonical" href="https://www.centroamai.cl/" />
 
+	<!-- Styles -->
 	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.css">
 
@@ -30,10 +34,19 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 	<link rel="stylesheet" type="text/css" href="fonts/flaticon/font/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Custom -->
 	<link rel="stylesheet" href="css/custom.css">
 
 	<!--FAvicon -->
-	<link rel="shortcut icon" type="image/png" href="images/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=qAMEoAwyop">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=qAMEoAwyop">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=qAMEoAwyop">
+	<link rel="manifest" href="site.webmanifest?v=qAMEoAwyop">
+	<link rel="mask-icon" href="images/safari-pinned-tab.svg?v=qAMEoAwyop" color="#5bbad5">
+	<link rel="shortcut icon" href="images/favicon.ico?v=qAMEoAwyop">
+	<meta name="msapplication-TileColor" content="#9f00a7">
+	<meta name="theme-color" content="#ffffff">
 
 
 </head>
