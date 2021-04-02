@@ -25,6 +25,9 @@
   <img alt="Security Headers" src="https://img.shields.io/security-headers?url=https%3A%2F%2Fcentroamai.cl">
   </a>
   
+  <a href="https://img.shields.io/badge/HH-17.69%20[hr]-blueviolet" alt="Hours Spent">
+  <img alt="Hours Spent" src="https://img.shields.io/badge/HH-17.69%20[hr]-blueviolet">
+  </a>
 </p>
 
 Repositorio con el código fuente de la página web del Centro de Apoyo a la Maternidad y Alimentación Infantil (AMAI)
