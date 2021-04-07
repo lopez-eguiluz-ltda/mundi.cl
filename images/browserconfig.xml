@@ -2,8 +2,8 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square150x150logo src="https://www.centroamai.cl/images/mstile-150x150.png?v=5A6ygWXgGg"/>
-            <TileColor>#da532c</TileColor>
+            <square150x150logo src="/images/mstile-150x150.png?v=Gv6Og2WOAW"/>
+            <TileColor>#9f00a7</TileColor>
         </tile>
     </msapplication>
 </browserconfig>
