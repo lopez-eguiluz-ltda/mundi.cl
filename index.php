@@ -819,9 +819,6 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 										<div>
 											<span class="text">+56 9 5990 5385</span>
 										</div>
-										<div>
-											<span class="text">+56 9 5687 6165</span>
-										</div>
 									</div>
 								</li>
 								<li>
