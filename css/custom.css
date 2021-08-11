@@ -127,7 +127,7 @@
 }
 
 .no-webp .img#item7 {
-    background-image: url(../images/paulette_toha.jepg);
+    background-image: url(../images/paulette_toha.jpeg);
 }
 
 .webp .img#item7 {
@@ -222,7 +222,21 @@
     background-image: url(../images/gabriela_araya.webp);
 }
 
+.no-webp .img#item19 {
+    background-image: url(../images/felipe_contreras.jpeg);
+}
 
+.webp .img#item19 {
+    background-image: url(../images/felipe_contreras.webp);
+}
+
+.no-webp .img#item2 {
+    background-image: url(../images/valentina_collao.jpeg);
+}
+
+.webp .img#item20 {
+    background-image: url(../images/valentina_collao.webp);
+}
 
 
 /*MISION Y VISION*/

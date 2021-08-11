@@ -640,6 +640,32 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
                 </div>
             </div>
 
+            <div class="col-md-6 col-lg-3 ftco-animate">
+                <div class="staff">
+                    <div class="img-wrap d-flex align-items-stretch">
+                        <div class="img align-self-stretch" id="item19">
+                        </div>
+                    </div>
+                    <div class="text pt-3 text-center">
+                        <h3>Felipe Contreras</h3>
+                        <span class="position">Psicólogo</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 ftco-animate">
+                <div class="staff">
+                    <div class="img-wrap d-flex align-items-stretch">
+                        <div class="img align-self-stretch" id="item20">
+                        </div>
+                    </div>
+                    <div class="text pt-3 text-center">
+                        <h3>Valentina Collao</h3>
+                        <span class="position">Nutricionista</span>
+                    </div>
+                </div>
+            </div>
+
 
         </div>
     </div>
