@@ -6,7 +6,96 @@
   <component name="ChangeListManager">
     <list default="true" id="7d6a23b3-b13d-41a0-bd66-7c0d1b3d0792" name="Changes" comment="archivos de sincronización ftp  &amp; README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/mdb.free.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mdb.dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mdb.dark.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mdb.dark.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mdb.dark.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mdb.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mdb.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mdb.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mdb.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_accordion.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_containers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_helpers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_offcanvas.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_spinners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_toasts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/bootstrap-utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/forms/_floating-labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/forms/_form-check.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/forms/_form-control.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/forms/_form-range.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/forms/_form-select.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/forms/_form-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/forms/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/forms/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/forms/_validation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/helpers/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/helpers/_colored-links.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/helpers/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/helpers/_ratio.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/helpers/_stretched-link.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/helpers/_text-truncation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/helpers/_visually-hidden.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_color-scheme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_container.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_deprecate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_table-variants.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/mixins/_visually-hidden.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/utilities/_api.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bootstrap/vendor/_rfs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/mdb.free.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/mdb.free.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +106,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="3341" />
+    <option name="totalTimeSeconds" value="3449" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -62,6 +151,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -71,7 +161,7 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="PHP Built-in Web Server.Localhost">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://ftp.progresscap.cl/index.html">
       <method v="2" />
     </configuration>
@@ -79,8 +169,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHP Built-in Web Server.Localhost" />
       <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="PHP Built-in Web Server.Localhost" />
     </list>
     <recent_temporary>
       <list>
@@ -100,6 +190,7 @@
       <workItem from="1633451518713" duration="170000" />
       <workItem from="1633451704079" duration="42000" />
       <workItem from="1633451760057" duration="4900000" />
+      <workItem from="1633461605751" duration="298000" />
     </task>
     <task id="LOCAL-00001" summary="CentroAmai.cl con rediseñado">
       <created>1633455188608</created>
