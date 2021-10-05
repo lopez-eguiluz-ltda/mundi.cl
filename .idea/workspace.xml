@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d6a23b3-b13d-41a0-bd66-7c0d1b3d0792" name="Changes" comment="Logo navbar &amp; dependencias sin uso">
-      <change afterPath="$PROJECT_DIR$/img/amai_logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/amai_logo_simplificado.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/site.webmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/mdb-favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="7d6a23b3-b13d-41a0-bd66-7c0d1b3d0792" name="Changes" comment="favicon implementados">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +16,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="4121" />
+    <option name="totalTimeSeconds" value="4409" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -114,7 +100,7 @@
       <workItem from="1633451518713" duration="170000" />
       <workItem from="1633451704079" duration="42000" />
       <workItem from="1633451760057" duration="4900000" />
-      <workItem from="1633461605751" duration="1038000" />
+      <workItem from="1633461605751" duration="1323000" />
     </task>
     <task id="LOCAL-00001" summary="CentroAmai.cl con rediseñado">
       <created>1633455188608</created>
@@ -137,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633462154763</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="favicon implementados">
+      <created>1633462667618</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633462667618</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +155,8 @@
     <MESSAGE value="CentroAmai.cl con rediseñado" />
     <MESSAGE value="archivos de sincronización ftp  &amp; README" />
     <MESSAGE value="Logo navbar &amp; dependencias sin uso" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logo navbar &amp; dependencias sin uso" />
+    <MESSAGE value="favicon implementados" />
+    <option name="LAST_COMMIT_MESSAGE" value="favicon implementados" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
