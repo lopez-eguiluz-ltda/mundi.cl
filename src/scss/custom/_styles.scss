@@ -1,0 +1,134 @@
+// Your custom variables
+@import "variables";
+
+.btn-primary {
+  background-color: $primary;
+}
+
+.btn-secondary {
+  background-color: $secondary;
+}
+
+h3 {
+  color: $primary;
+}
+
+h3 span {
+  color: $secondary;
+}
+
+.icon {
+  line-height: 1;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: $primary;
+  border-radius: 50%;
+}
+
+i.white-icon {
+  color: white;
+}
+
+/**
+STAFF & OFICIO
+ */
+.staff:hover .oficio h4,
+.staff:focus .oficio h4 {
+  color: $primary !important;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.staff img {
+  height: 350px;
+  object-fit: cover;
+}
+
+.staff .mask {
+  background-color: rgba(253, 166, 56, 0.3)
+}
+
+.oficio h4 {
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease
+}
+
+.oficio span {
+  text-transform: uppercase;
+  display: block;
+  color: #b3b3b3;
+  letter-spacing: 1px;
+}
+
+
+/**
+MISION
+ */
+.mision img {
+  object-fit: cover !important;
+  height: 400px;
+}
+
+.mision h3 span {
+  color: $primary !important;
+}
+
+/**
+GALERIA
+ */
+.galeria img {
+  object-fit: cover !important;
+  height: 300px;
+}
+
+/**
+FOOTER
+ */
+.footer {
+  background-color: $primaryFooter;
+}
+
+.footer h3 {
+  color: white;
+}
+
+/**
+Copyright
+ */
+.copyright {
+  background-color: $primaryFooterDark;
+  font-size: 14px;
+}
+
+.copyright a,
+.copyright a:hover {
+  color: white;
+}
+
+/**
+CONTACTO
+ */
+.contacto, .links a,.links a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/**
+HR
+ */
+.hr-light {
+  max-width: 25%;
+}
+
+.hr-light,
+.hr-light-full-width {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.hr-light-full-width {
+  max-width: 100%;
+}

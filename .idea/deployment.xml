@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="ftp.centroamai.cl" remoteFilesAllowedToDisappearOnAutoupload="false" notifyRemoteChanges="true" compareModeInSync="TIMESTAMP">
+  <component name="PublishConfigData" serverName="ftp.progresscap.cl" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
-      <paths name="ftp.centroamai.cl">
+      <paths name="ftp.progresscap.cl">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

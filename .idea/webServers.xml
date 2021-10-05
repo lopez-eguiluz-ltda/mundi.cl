@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="ff1c2cf7-747b-42c0-b530-055a39d87d51" name="ftp.centroamai.cl" url="http://ftp.progresscap.cl">
+      <webServer id="ebeb8523-a710-4f07-b1f2-6e3850e69ca3" name="ftp.progresscap.cl" url="http://ftp.progresscap.cl">
         <fileTransfer host="ftp.progresscap.cl" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
