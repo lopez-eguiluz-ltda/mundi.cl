@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d6a23b3-b13d-41a0-bd66-7c0d1b3d0792" name="Changes" comment="CentroAmai.cl con rediseñado">
+    <list default="true" id="7d6a23b3-b13d-41a0-bd66-7c0d1b3d0792" name="Changes" comment="archivos de sincronización ftp  &amp; README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/mdb.free.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +17,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="2463" />
+    <option name="totalTimeSeconds" value="3341" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -70,10 +71,22 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://ftp.progresscap.cl/index.html">
+      <method v="2" />
+    </configuration>
     <configuration name="Localhost" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="PHP Built-in Web Server.Localhost" />
+      <item itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,7 +99,7 @@
       <workItem from="1633450706182" duration="787000" />
       <workItem from="1633451518713" duration="170000" />
       <workItem from="1633451704079" duration="42000" />
-      <workItem from="1633451760057" duration="3910000" />
+      <workItem from="1633451760057" duration="4900000" />
     </task>
     <task id="LOCAL-00001" summary="CentroAmai.cl con rediseñado">
       <created>1633455188608</created>
@@ -95,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633455188608</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="archivos de sincronización ftp  &amp; README">
+      <created>1633458253379</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633458253379</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +138,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="CentroAmai.cl con rediseñado" />
-    <option name="LAST_COMMIT_MESSAGE" value="CentroAmai.cl con rediseñado" />
+    <MESSAGE value="archivos de sincronización ftp  &amp; README" />
+    <option name="LAST_COMMIT_MESSAGE" value="archivos de sincronización ftp  &amp; README" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
