@@ -3,7 +3,7 @@ header('X-Content-Type-Options: nosniff');
 header('X-Frame-Options: DENY');
 header("X-XSS-Protection: 1; mode=block");
 header("Referrer-Policy: strict-origin-when-cross-origin");
-header("Content-Security-Policy: default-src 'self' https://*.google.com/ ;frame-src 'self' https://*.google.com/  ;font-src 'self' https://use.fontawesome.com https://fonts.gstatic.com ;script-src 'self' 'sha256-pcSfKeb5ISc7eSOGHdx8sh+pLkI3fGb8H3Lsz7J45MA=' ;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://use.fontawesome.com");
+header("Content-Security-Policy: default-src 'self' https://*.google.com/ ;img-src 'self' data:;frame-src 'self' https://*.google.com/  ;font-src 'self' https://use.fontawesome.com https://fonts.gstatic.com ;script-src 'self' 'sha256-dT5xHKPAHq7TFap2W0i4iHFTbagTLacDDqTR9ciU+Sw=' 'sha256-pcSfKeb5ISc7eSOGHdx8sh+pLkI3fGb8H3Lsz7J45MA=' ;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://use.fontawesome.com");
 header("Permissions-Policy: fullscreen=(), geolocation=(), camera=(), microphone=()");
 header('Accept-Encoding: gzip, compress, br');
 ?>
@@ -114,7 +114,7 @@ header('Accept-Encoding: gzip, compress, br');
         <!-- Imagenes -->
         <div class="carousel-inner">
 
-            <div class="carousel-item active" data-mdb-interval="7000">
+            <div class="carousel-item active webp" data-mdb-interval="7000">
 
                 <div class="mask dark-bg">
                     <div class="d-flex flex-column justify-content-center align-items-center h-100">
@@ -309,30 +309,48 @@ header('Accept-Encoding: gzip, compress, br');
         <div class="container-fluid mt-5 pt-5">
             <div class="row gx-2">
                 <div class="col-lg-3 col-md-6 galeria">
-                    <img
-                            alt=""
-                            class="w-100 shadow-1-strong rounded mb-2"
-                            src="img/galeria/fotos_amai.jpeg"
-                    />
 
-                    <img
-                            alt=""
-                            class="w-100 shadow-1-strong rounded mb-2"
-                            src="img/carousel/fotos_portada3.jpeg"
-                    />
+                    <picture>
+                        <!--<source srcset="img/galeria/fotos_amai.webp" type="image/webp">-->
+                        <source srcset="img/galeria/fotos_amai.jpeg" type="image/jpeg">
+                        <img
+                                alt=""
+                                class="w-100 shadow-1-strong rounded mb-2"
+                                src="img/galeria/fotos_amai.jpeg"
+                        />
+                    </picture>
+
+                    <picture>
+                        <source srcset="img/carousel/fotos_portada3.webp" type="image/webp">
+                        <source srcset="img/carousel/fotos_portada3.jpeg" type="image/jpeg">
+                        <img
+                                alt=""
+                                class="w-100 shadow-1-strong rounded mb-2"
+                                src="img/carousel/fotos_portada3.jpeg"
+                        />
+                    </picture>
                 </div>
 
                 <div class="col-lg-3 col-md-6 galeria">
-                    <img
-                            alt=""
-                            class="w-100 shadow-1-strong rounded mb-2"
-                            src="img/carousel/fotos_portada1.jpeg"
-                    />
-                    <img
-                            alt=""
-                            class="w-100 shadow-1-strong rounded mb-2"
-                            src="img/galeria/fotos_amai4.jpeg"
-                    />
+                    <picture>
+                        <source srcset="img/carousel/fotos_portada1.webp" type="image/webp">
+                        <source srcset="img/carousel/fotos_portada1.jpeg" type="image/jpeg">
+                        <img
+                                alt=""
+                                class="w-100 shadow-1-strong rounded mb-2"
+                                src="img/carousel/fotos_portada1.jpeg"
+                        />
+                    </picture>
+
+                    <picture>
+                        <!--<source srcset="img/galeria/fotos_amai4.webp" type="image/webp">-->
+                        <source srcset="img/galeria/fotos_amai4.jpeg" type="image/jpeg">
+                        <img
+                                alt=""
+                                class="w-100 shadow-1-strong rounded mb-2"
+                                src="img/galeria/fotos_amai4.jpeg"
+                        />
+                    </picture>
 
                 </div>
 
@@ -343,11 +361,16 @@ header('Accept-Encoding: gzip, compress, br');
                             class="w-100 shadow-1-strong rounded mb-2"
                             src="img/galeria/amai_logo_simplificado.jpg"
                     />
-                    <img
-                            alt=""
-                            class="w-100 shadow-1-strong rounded mb-2"
-                            src="img/carousel/fotos_portada2.jpeg"
-                    />
+
+                    <picture>
+                        <source srcset="img/carousel/fotos_portada2.webp" type="image/webp">
+                        <source srcset="img/carousel/fotos_portada2.jpeg" type="image/jpeg">
+                        <img
+                                alt=""
+                                class="w-100 shadow-1-strong rounded mb-2"
+                                src="img/carousel/fotos_portada2.jpeg"
+                        />
+                    </picture>
                 </div>
 
                 <div class="col-lg-3 col-md-6 galeria">
@@ -1032,8 +1055,16 @@ header('Accept-Encoding: gzip, compress, br');
 <!-- MDB -->
 <script src="js/mdb.min.js" type="text/javascript"></script>
 
-<!-- Custom scripts -->
-<script type="text/javascript"></script>
+<script src="js/modernizr-custom.js"></script>
+<script>
+    Modernizr.on('webp', function (result) {
+        if (result) {
+            // supported
+        } else {
+            // not-supported
+        }
+    });
+</script>
 
 </body>
 </html>

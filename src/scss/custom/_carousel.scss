@@ -11,23 +11,34 @@
   height: 100vh;
 }
 
-.carousel-item:nth-child(1) {
-  background-image: url('../../../img/carousel/fotos_portada2.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.carousel-item:nth-child(2) {
-  background-image: url('../../../img/carousel/fotos_portada1.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
+.carousel-item:nth-child(1),
+.carousel-item:nth-child(2),
 .carousel-item:nth-child(3) {
-  background-image: url('../../../img/carousel/fotos_portada3.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+.webp .carousel-item:nth-child(1) {
+  background-image: url('../../../img/carousel/fotos_portada2.webp');
+}
+
+.no-webp .carousel-item:nth-child(1) {
+  background-image: url('../../../img/carousel/fotos_portada2.jpeg');
+}
+
+.webp .carousel-item:nth-child(2) {
+  background-image: url('../../../img/carousel/fotos_portada1.webp');
+}
+
+.no-webp .carousel-item:nth-child(2) {
+  background-image: url('../../../img/carousel/fotos_portada1.jpeg');
+}
+
+.webp .carousel-item:nth-child(3) {
+  background-image: url('../../../img/carousel/fotos_portada3.webp');
+}
+
+.no-webp .carousel-item:nth-child(3) {
+  background-image: url('../../../img/carousel/fotos_portada3.jpeg');
 }
