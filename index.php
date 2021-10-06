@@ -385,9 +385,15 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <!-- FOTO -->
                         <div class="bg-image hover-overlay hover-zoom mb-4">
-                            <img alt="Mauro Rivera" class="img-fluid rounded-5 w-100"
-                                 src="img/funcionarios/mauro_rivera.jpg">
+                            <picture>
+                                <source srcset="img/funcionarios/mauro_rivera.webp" type="image/webp">
+                                <source srcset="img/funcionarios/mauro_rivera.jpg" type="image/jpeg">
+
+                                <img alt="Mauro Rivera" class="img-fluid rounded-5 w-100"
+                                     src="img/funcionarios/mauro_rivera.jpg">
+                            </picture>
                             <div class="mask"></div>
+
                         </div>
 
                         <!-- Profesion -->
@@ -405,8 +411,12 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <!-- FOTO -->
                         <div class="bg-image hover-overlay hover-zoom mb-4">
-                            <img alt="Carmina Nicolai" class="img-fluid rounded-5 w-100"
-                                 src="img/funcionarios/carmina_nicolai.jpg">
+                            <picture>
+                                <source srcset="img/funcionarios/carmina_nicolai.webp" type="image/webp">
+                                <source srcset="img/funcionarios/carmina_nicolai.jpg" type="image/jpeg">
+                                <img alt="Carmina Nicolai" class="img-fluid rounded-5 w-100"
+                                     src="img/funcionarios/carmina_nicolai.jpg">
+                            </picture>
                             <div class="mask"></div>
                         </div>
 
@@ -425,8 +435,12 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <!-- FOTO -->
                         <div class="bg-image hover-overlay hover-zoom mb-4">
-                            <img alt="Daniel Oliva" class="img-fluid rounded-5 w-100"
-                                 src="img/funcionarios/daniel_oliva.webp">
+                            <picture>
+                                <source srcset="img/funcionarios/daniel_oliva.webp" type="image/webp">
+                                <source srcset="img/funcionarios/daniel_oliva.jpg" type="image/jpeg">
+                                <img alt="Daniel Oliva" class="img-fluid rounded-5 w-100"
+                                     src="img/funcionarios/daniel_oliva.jpg">
+                            </picture>
                             <div class="mask"></div>
                         </div>
 
@@ -445,8 +459,13 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <!-- FOTO -->
                         <div class="bg-image hover-overlay hover-zoom mb-4">
-                            <img alt="Daniel Oliva" class="img-fluid rounded-5 w-100"
-                                 src="img/funcionarios/pia_espejo.jpg">
+                            <picture>
+                                <source srcset="img/funcionarios/pia_espejo.webp" type="image/webp">
+                                <source srcset="img/funcionarios/pia_espejo.jpg" type="image/jpeg">
+                                <img alt="Daniel Oliva" class="img-fluid rounded-5 w-100"
+                                     src="img/funcionarios/pia_espejo.jpg">
+                            </picture>
+
                             <div class="mask"></div>
                         </div>
 
@@ -467,8 +486,13 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <!-- FOTO -->
                         <div class="bg-image hover-overlay hover-zoom mb-4">
-                            <img alt="Paulette Tohá" class="img-fluid rounded-5 w-100"
-                                 src="img/funcionarios/paulette_toha.jpeg">
+                            <picture>
+                                <source srcset="img/funcionarios/paulette_toha.webp" type="image/webp">
+                                <source srcset="img/funcionarios/paulette_toha.jpeg" type="image/jpeg">
+                                <img alt="Paulette Tohá" class="img-fluid rounded-5 w-100"
+                                     src="img/funcionarios/paulette_toha.jpeg">
+                            </picture>
+
                             <div class="mask"></div>
                         </div>
 
@@ -487,8 +511,13 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <!-- FOTO -->
                         <div class="bg-image hover-overlay hover-zoom mb-4">
-                            <img alt="Karla López" class="img-fluid rounded-5 w-100"
-                                 src="img/funcionarios/karla_lopez.jpg">
+                            <picture>
+                                <source srcset="img/funcionarios/karla_lopez.webp" type="image/webp">
+                                <source srcset="img/funcionarios/karla_lopez.jpg" type="image/jpeg">
+                                <img alt="Karla López" class="img-fluid rounded-5 w-100"
+                                     src="img/funcionarios/karla_lopez.jpg">
+                            </picture>
+
                             <div class="mask"></div>
                         </div>
 
@@ -507,8 +536,13 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <!-- FOTO -->
                         <div class="bg-image hover-overlay hover-zoom mb-4">
-                            <img alt="Claudia Salas" class="img-fluid rounded-5 w-100"
-                                 src="img/funcionarios/claudia_salas.jpeg">
+                            <picture>
+                                <source srcset="img/funcionarios/claudia_salas.webp" type="image/webp">
+                                <source srcset="img/funcionarios/claudia_salas.jpeg" type="image/jpeg">
+                                <img alt="Claudia Salas" class="img-fluid rounded-5 w-100"
+                                     src="img/funcionarios/claudia_salas.jpeg">
+                            </picture>
+
                             <div class="mask"></div>
                         </div>
 
@@ -528,8 +562,13 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <!-- FOTO -->
                         <div class="bg-image hover-overlay hover-zoom mb-4">
-                            <img alt="Scarlett Orellana" class="img-fluid rounded-5 w-100"
-                                 src="img/funcionarios/scarlett_orellana.jpeg">
+                            <picture>
+                                <source srcset="img/funcionarios/scarlett_orellana.webp" type="image/webp">
+                                <source srcset="img/funcionarios/scarlett_orellana.jpeg" type="image/jpeg">
+                                <img alt="Scarlett Orellana" class="img-fluid rounded-5 w-100"
+                                     src="img/funcionarios/scarlett_orellana.jpeg">
+                            </picture>
+
                             <div class="mask"></div>
                         </div>
 
@@ -552,8 +591,12 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <!-- FOTO -->
                         <div class="bg-image hover-overlay hover-zoom mb-4">
-                            <img alt="Francisca Gutiérrez" class="img-fluid rounded-5 w-100"
-                                 src="img/funcionarios/fran_gutierrez.jpeg">
+                            <picture>
+                                <source srcset="img/funcionarios/fran_gutierrez.webp" type="image/webp">
+                                <source srcset="img/funcionarios/fran_gutierrez.jpeg" type="image/jpeg">
+                                <img alt="Francisca Gutiérrez" class="img-fluid rounded-5 w-100"
+                                     src="img/funcionarios/fran_gutierrez.jpeg">
+                            </picture>
                             <div class="mask"></div>
                         </div>
 
@@ -573,8 +616,13 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <!-- FOTO -->
                         <div class="bg-image hover-overlay hover-zoom mb-4">
-                            <img alt="Stefania Rigotti" class="img-fluid rounded-5 w-100"
-                                 src="img/funcionarios/stefania_rigotti.jpeg">
+                            <picture>
+                                <source srcset="img/funcionarios/stefania_rigotti.webp" type="image/webp">
+                                <source srcset="img/funcionarios/stefania_rigotti.jpeg" type="image/jpeg">
+                                <img alt="Stefania Rigotti" class="img-fluid rounded-5 w-100"
+                                     src="img/funcionarios/stefania_rigotti.jpeg">
+                            </picture>
+
                             <div class="mask"></div>
                         </div>
 
@@ -593,8 +641,13 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <!-- FOTO -->
                         <div class="bg-image hover-overlay hover-zoom mb-4">
-                            <img alt="Francisca Muñoz" class="img-fluid rounded-5 w-100"
-                                 src="img/funcionarios/fran_munoz.jpeg">
+                            <picture>
+                                <source srcset="img/funcionarios/fran_munoz.webp" type="image/webp">
+                                <source srcset="img/funcionarios/fran_munoz.jpeg" type="image/jpeg">
+                                <img alt="Francisca Muñoz" class="img-fluid rounded-5 w-100"
+                                     src="img/funcionarios/fran_munoz.jpeg">
+                            </picture>
+
                             <div class="mask"></div>
                         </div>
 
@@ -613,8 +666,13 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <!-- FOTO -->
                         <div class="bg-image hover-overlay hover-zoom mb-4">
-                            <img alt="Mª Valentina Olivier" class="img-fluid rounded-5 w-100"
-                                 src="img/funcionarios/m_valentina_olivier.jpeg">
+                            <picture>
+                                <source srcset="img/funcionarios/m_valentina_olivier.webp" type="image/webp">
+                                <source srcset="img/funcionarios/m_valentina_olivier.jpeg" type="image/jpeg">
+                                <img alt="Mª Valentina Olivier" class="img-fluid rounded-5 w-100"
+                                     src="img/funcionarios/m_valentina_olivier.jpeg">
+                            </picture>
+
                             <div class="mask"></div>
                         </div>
 
@@ -637,8 +695,13 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <!-- FOTO -->
                         <div class="bg-image hover-overlay hover-zoom mb-4">
-                            <img alt="Francisca Gutiérrez" class="img-fluid rounded-5 w-100"
-                                 src="img/funcionarios/charnelle_galleguillos.jpg">
+                            <picture>
+                                <source srcset="img/funcionarios/charnelle_galleguillos.webp" type="image/webp">
+                                <source srcset="img/funcionarios/charnelle_galleguillos.jpg" type="image/jpeg">
+                                <img alt="Francisca Gutiérrez" class="img-fluid rounded-5 w-100"
+                                     src="img/funcionarios/charnelle_galleguillos.jpg">
+                            </picture>
+
                             <div class="mask"></div>
                         </div>
 
@@ -657,8 +720,12 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <!-- FOTO -->
                         <div class="bg-image hover-overlay hover-zoom mb-4">
-                            <img alt="Constanza Retamal" class="img-fluid rounded-5 w-100"
-                                 src="img/funcionarios/constanza_retamal.jpg">
+                            <picture>
+                                <source srcset="img/funcionarios/constanza_retamal.webp" type="image/webp">
+                                <source srcset="img/funcionarios/constanza_retamal.jpg" type="image/jpeg">
+                                <img alt="Constanza Retamal" class="img-fluid rounded-5 w-100"
+                                     src="img/funcionarios/constanza_retamal.jpg">
+                            </picture>
                             <div class="mask"></div>
                         </div>
 
@@ -678,8 +745,13 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <!-- FOTO -->
                         <div class="bg-image hover-overlay hover-zoom mb-4">
-                            <img alt="Mariflor Martínez" class="img-fluid rounded-5 w-100"
-                                 src="img/funcionarios/mariflor_martinez.jpg">
+                            <picture>
+                                <source srcset="img/funcionarios/mariflor_martinez.webp" type="image/webp">
+                                <source srcset="img/funcionarios/mariflor_martinez.jpg" type="image/jpeg">
+                                <img alt="Mariflor Martínez" class="img-fluid rounded-5 w-100"
+                                     src="img/funcionarios/mariflor_martinez.jpg">
+                            </picture>
+
                             <div class="mask"></div>
                         </div>
 
@@ -698,8 +770,14 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <!-- FOTO -->
                         <div class="bg-image hover-overlay hover-zoom mb-4">
-                            <img alt="Gabriela Araya" class="img-fluid rounded-5 w-100"
-                                 src="img/funcionarios/gabriela_araya.jpg">
+
+                            <picture>
+                                <source srcset="img/funcionarios/gabriela_araya.webp" type="image/webp">
+                                <source srcset="img/funcionarios/gabriela_araya.jpg" type="image/jpeg">
+                                <img alt="Gabriela Araya" class="img-fluid rounded-5 w-100"
+                                     src="img/funcionarios/gabriela_araya.jpg">
+                            </picture>
+
                             <div class="mask"></div>
                         </div>
 
@@ -723,8 +801,12 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <!-- FOTO -->
                         <div class="bg-image hover-overlay hover-zoom mb-4">
-                            <img alt="Felipe Contreras" class="img-fluid rounded-5 w-100"
-                                 src="img/funcionarios/felipe_contreras.jpeg">
+                            <picture>
+                                <source srcset="img/funcionarios/felipe_contreras.webp" type="image/webp">
+                                <source srcset="img/funcionarios/felipe_contreras.jpeg" type="image/jpeg">
+                                <img alt="Felipe Contreras" class="img-fluid rounded-5 w-100"
+                                     src="img/funcionarios/felipe_contreras.jpeg">
+                            </picture>
                             <div class="mask"></div>
                         </div>
 
@@ -743,8 +825,14 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <!-- FOTO -->
                         <div class="bg-image hover-overlay hover-zoom mb-4">
-                            <img alt="Valentina Collao" class="img-fluid rounded-5 w-100"
-                                 src="img/funcionarios/valentina_collao.jpeg">
+
+                            <picture>
+                                <source srcset="img/funcionarios/valentina_collao.webp" type="image/webp">
+                                <source srcset="img/funcionarios/valentina_collao.jpeg" type="image/jpeg">
+                                <img alt="Valentina Collao" class="img-fluid rounded-5 w-100"
+                                     src="img/funcionarios/valentina_collao.jpeg">
+                            </picture>
+
                             <div class="mask"></div>
                         </div>
 
