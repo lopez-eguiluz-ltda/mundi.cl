@@ -51,12 +51,18 @@ header('Accept-Encoding: gzip, compress, br');
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="https://www.centroamai.cl">
-                <img
-                        alt="Centro Amai Logo"
-                        height="45"
-                        loading="lazy"
-                        src="img/amai_logo_navbar.png"
-                />
+
+                <picture>
+                    <source srcset="img/amai_logo_navbar.webp" type="image/webp">
+                    <source srcset="img/amai_logo_navbar.png" type="image/jpeg">
+                    <img
+                            alt="Centro Amai Logo"
+                            height="45"
+                            loading="lazy"
+                            src="img/amai_logo_navbar.png"
+                    />
+                </picture>
+
             </a>
             <button
                     aria-controls="navbarNavAltMarkup"
@@ -311,7 +317,7 @@ header('Accept-Encoding: gzip, compress, br');
                 <div class="col-lg-3 col-md-6 galeria">
 
                     <picture>
-                        <!--<source srcset="img/galeria/fotos_amai.webp" type="image/webp">-->
+                        <source srcset="img/galeria/fotos_amai.webp" type="image/webp">
                         <source srcset="img/galeria/fotos_amai.jpeg" type="image/jpeg">
                         <img
                                 alt=""
@@ -343,7 +349,7 @@ header('Accept-Encoding: gzip, compress, br');
                     </picture>
 
                     <picture>
-                        <!--<source srcset="img/galeria/fotos_amai4.webp" type="image/webp">-->
+                        <source srcset="img/galeria/fotos_amai4.webp" type="image/webp">
                         <source srcset="img/galeria/fotos_amai4.jpeg" type="image/jpeg">
                         <img
                                 alt=""
@@ -356,11 +362,17 @@ header('Accept-Encoding: gzip, compress, br');
 
 
                 <div class="col-lg-3 col-md-6 galeria">
-                    <img
-                            alt=""
-                            class="w-100 shadow-1-strong rounded mb-2"
-                            src="img/galeria/amai_logo_simplificado.jpg"
-                    />
+
+                    <picture>
+                        <source srcset="img/galeria/amai_logo_simplificado.webp" type="image/webp">
+                        <source srcset="img/galeria/amai_logo_simplificado.jpg" type="image/jpeg">
+                        <img
+                                alt=""
+                                class="w-100 shadow-1-strong rounded mb-2"
+                                src="img/galeria/amai_logo_simplificado.jpg"
+                        />
+                    </picture>
+
 
                     <picture>
                         <source srcset="img/carousel/fotos_portada2.webp" type="image/webp">
@@ -374,16 +386,28 @@ header('Accept-Encoding: gzip, compress, br');
                 </div>
 
                 <div class="col-lg-3 col-md-6 galeria">
-                    <img
-                            alt=""
-                            class="w-100 shadow-1-strong rounded mb-2"
-                            src="img/galeria/fotos_amai3.jpeg"
-                    />
-                    <img
-                            alt=""
-                            class="w-100 shadow-1-strong rounded mb-2"
-                            src="img/galeria/fotos_amai1.jpeg"
-                    />
+
+                    <picture>
+                        <source srcset="img/galeria/fotos_amai3.webp" type="image/webp">
+                        <source srcset="img/galeria/fotos_amai3.jpeg" type="image/jpeg">
+                        <img
+                                alt=""
+                                class="w-100 shadow-1-strong rounded mb-2"
+                                src="img/galeria/fotos_amai3.jpeg"
+                        />
+                    </picture>
+
+
+                    <picture>
+                        <source srcset="img/galeria/fotos_amai1.webp" type="image/webp">
+                        <source srcset="img/galeria/fotos_amai1.jpeg" type="image/jpeg">
+                        <img
+                                alt=""
+                                class="w-100 shadow-1-strong rounded mb-2"
+                                src="img/galeria/fotos_amai1.jpeg"
+                        />
+                    </picture>
+
                 </div>
             </div>
         </div>
@@ -876,7 +900,13 @@ header('Accept-Encoding: gzip, compress, br');
 
         <div class="bg-image mision mt-5">
 
-            <img alt="Mision - Vision" class="img-fluid w-100" src="img/foto_mision_vision.jpg">
+
+            <picture>
+                <source srcset="img/foto_mision_vision.webp" type="image/webp">
+                <source srcset="img/foto_mision_vision.jpg" type="image/jpeg">
+                <img alt="Mision - Vision" class="img-fluid w-100" src="img/foto_mision_vision.jpg">
+            </picture>
+
 
             <div class="mask dark-bg">
 

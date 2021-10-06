@@ -4,18 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d6a23b3-b13d-41a0-bd66-7c0d1b3d0792" name="Changes" comment="Sitemap">
-      <change afterPath="$PROJECT_DIR$/src/scss/mdb.free.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/mdb.free.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+    <list default="true" id="7d6a23b3-b13d-41a0-bd66-7c0d1b3d0792" name="Changes" comment="Index php y minimized mbd">
+      <change afterPath="$PROJECT_DIR$/img/amai_logo_navbar.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/amai_logo_simplificado.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/foto_mision_vision.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/galeria/amai_logo_simplificado.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/galeria/fotos_amai.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/galeria/fotos_amai1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/galeria/fotos_amai3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/galeria/fotos_amai4.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/custom/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/custom/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/custom/carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/custom/carousel.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/custom/carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/custom/_carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/mdb.free.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/mdb.free.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/amai_logo_navbar.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/amai_logo_navbar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/amai_logo_simplificado.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/amai_logo_simplificado.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/foto_mision_vision.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/foto_mision_vision.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galeria/amai_logo_simplificado.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/galeria/amai_logo_simplificado.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galeria/fotos_amai.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/galeria/fotos_amai.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galeria/fotos_amai1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/galeria/fotos_amai1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galeria/fotos_amai3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/galeria/fotos_amai3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/galeria/fotos_amai4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/galeria/fotos_amai4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +34,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="9761" />
+    <option name="totalTimeSeconds" value="14780" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -34,6 +42,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -65,7 +74,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -84,6 +93,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\figon\GithubProjects\centroamai.cl\img\galeria" />
       <recent name="D:\figon\GithubProjects\centroamai.cl\font" />
     </key>
   </component>
@@ -95,8 +105,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHP Built-in Web Server.Localhost" />
       <item itemvalue="JavaScript Debug.index.php" />
+      <item itemvalue="PHP Built-in Web Server.Localhost" />
     </list>
     <recent_temporary>
       <list>
@@ -119,7 +129,9 @@
       <workItem from="1633461605751" duration="1323000" />
       <workItem from="1633463381276" duration="170000" />
       <workItem from="1633463729459" duration="263000" />
-      <workItem from="1633538202752" duration="8213000" />
+      <workItem from="1633538202752" duration="9707000" />
+      <workItem from="1633553124595" duration="6000" />
+      <workItem from="1633554584025" duration="5723000" />
     </task>
     <task id="LOCAL-00001" summary="CentroAmai.cl con rediseñado">
       <created>1633455188608</created>
@@ -156,7 +168,28 @@
       <option name="project" value="LOCAL" />
       <updated>1633463475058</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Index php y minimized mbd">
+      <created>1633550413987</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1633550413987</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Funcionarios con imagenes webp">
+      <created>1633562829265</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1633562829265</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Carousel con imagenes webp">
+      <created>1633564176929</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1633564176929</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +216,10 @@
     <MESSAGE value="Logo navbar &amp; dependencias sin uso" />
     <MESSAGE value="favicon implementados" />
     <MESSAGE value="Sitemap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sitemap" />
+    <MESSAGE value="Index php y minimized mbd" />
+    <MESSAGE value="Funcionarios con imagenes webp" />
+    <MESSAGE value="Carousel con imagenes webp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Carousel con imagenes webp" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
