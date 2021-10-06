@@ -1,3 +1,8 @@
+@import "variables";
+
+.dark-bg {
+  background-color: $darkMask;
+}
 
 #introCarousel,
 .carousel-inner,

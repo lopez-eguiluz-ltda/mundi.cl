@@ -1,10 +1,25 @@
+<?php
+header('X-Content-Type-Options: nosniff');
+header('X-Frame-Options: DENY');
+header("X-XSS-Protection: 1; mode=block");
+header("Referrer-Policy: strict-origin-when-cross-origin");
+header("Content-Security-Policy: default-src 'self' https://*.google.com/ ;frame-src 'self' https://*.google.com/  ;font-src 'self' https://use.fontawesome.com https://fonts.gstatic.com ;script-src 'self' 'sha256-pcSfKeb5ISc7eSOGHdx8sh+pLkI3fGb8H3Lsz7J45MA=' ;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://use.fontawesome.com");
+header("Permissions-Policy: fullscreen=(), geolocation=(), camera=(), microphone=()");
+header('Accept-Encoding: gzip, compress, br');
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8"/>
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
     <meta content="ie=edge" http-equiv="x-ua-compatible"/>
+
     <title>Centro Amaï - Centro de Apoyo a la Maternidad - La Serena</title>
+    <meta name="description"
+          content="Centro de Apoyo a la Maternidad y Alimentación Infantil. Contamos con profesionales altamente capacitadas en lactancia y alimentación."/>
+    <link rel="canonical" href="https://www.centroamai.cl/"/>
+
     <!-- FAVICON -->
     <link href="/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
     <link href="/img/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
@@ -27,7 +42,7 @@
     />
 
     <!-- CUSTOM MDB -->
-    <link href="src/scss/mdb.free.css" rel="stylesheet">
+    <link href="src/scss/mdb.free.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -68,12 +83,12 @@
                 <!-- Left Icons -->
                 <ul class="navbar-nav d-flex flex-row ms-auto">
                     <li class="nav-item me-lg-1 me-3"><a class="nav-link" href="https://www.facebook.com/centroamai"
-                                                         rel="noopener" target="_blank"><i
-                            class="fab fa-facebook-f"></i></a>
+                                                         rel="noopener noreferrer" target="_blank"><i
+                                    class="fab fa-facebook-f"></i></a>
                     </li>
                     <li class="nav-item me-3"><a class="nav-link" href="https://www.instagram.com/centroamai/"
-                                                 rel="noopener" target="_blank"><i
-                            class="fab fa-instagram"></i></a>
+                                                 rel="noopener noreferrer" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
                     </li>
                 </ul>
 
@@ -101,7 +116,7 @@
 
             <div class="carousel-item active" data-mdb-interval="7000">
 
-                <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                <div class="mask dark-bg">
                     <div class="d-flex flex-column justify-content-center align-items-center h-100">
 
                         <div class="text-white text-center">
@@ -109,6 +124,7 @@
                             <p class="mb-3">Solicita tu hora con nuestros especialistas</p>
 
                             <a class="btn btn-outline-primary btn-lg"
+                               rel="noopener noreferrer"
                                href="https://www.reservo.cl/makereserva/selecttratamientodisponibilidad/1645/1641/2/0/"
                                target="_blank">Reserva
                                 aquí</a>
@@ -121,7 +137,7 @@
             <div class="carousel-item" data-mdb-interval="7000">
 
                 <!-- Mask -->
-                <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                <div class="mask dark-bg">
                     <div class="d-flex justify-content-center align-items-center h-100">
                         <h1 class="text-white text-center p-5">Centro de Apoyo a la Maternidad y Alimentación
                             Infantil</h1>
@@ -133,7 +149,7 @@
             <div class="carousel-item" data-mdb-interval="7000">
 
                 <!-- Mask -->
-                <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                <div class="mask dark-bg">
                     <div class="d-flex justify-content-center align-items-center h-100">
                         <h1 class="text-white text-center p-5">Apoyo a la Maternidad y Alimentación Infantil</h1>
                     </div>
@@ -155,7 +171,7 @@
                 <div class="col-lg-6 col-md-12 mb-md-4">
                     <div class="d-flex justify-content-start align-items-start">
                         <div class="icon d-flex justify-content-center align-items-center"><i
-                                class="fas fa-baby fa-3x white-icon"></i>
+                                    class="fas fa-baby fa-3x white-icon"></i>
                         </div>
                         <div class="ms-3">
                             <h5 class="h5">Pediatría</h5>
@@ -172,7 +188,7 @@
                 <div class="col-lg-6 col-md-12 mb-md-4">
                     <div class="d-flex justify-content-start align-items-start">
                         <div class="icon d-flex justify-content-center align-items-center"><i
-                                class="fas fa-baby-carriage fa-3x white-icon"></i></div>
+                                    class="fas fa-baby-carriage fa-3x white-icon"></i></div>
                         <div class="ms-3">
                             <h5 class="h5">Consejería en Lactancia Materna</h5>
                             <ul>
@@ -191,7 +207,7 @@
 
                     <div class="d-flex justify-content-start align-items-start">
                         <div class="icon d-flex justify-content-center align-items-center"><i
-                                class="fas fa-apple-alt fa-3x white-icon"></i></div>
+                                    class="fas fa-apple-alt fa-3x white-icon"></i></div>
                         <div class="ms-3">
                             <h5 class="h5">Nutrición</h5>
                             <ul class="text-muted">
@@ -206,7 +222,7 @@
                 <div class="col-lg-6 col-md-12 mb-md-4">
                     <div class="d-flex justify-content-start align-items-start">
                         <div class="icon d-flex justify-content-center align-items-center"><i
-                                class="fas fa-brain fa-3x white-icon"></i></div>
+                                    class="fas fa-brain fa-3x white-icon"></i></div>
                         <div class="ms-3">
                             <h5>Psicología</h5>
                             <ul class="text-muted">
@@ -222,7 +238,7 @@
                 <div class="col-lg-6 col-md-12 mb-md-4">
                     <div class="d-flex justify-content-start align-items-start">
                         <div class="icon d-flex justify-content-center align-items-center"><i
-                                class="fas fa-assistive-listening-systems fa-3x white-icon"></i></div>
+                                    class="fas fa-assistive-listening-systems fa-3x white-icon"></i></div>
                         <div class="ms-3">
                             <h5>Fonoaudiología</h5>
                             <ul class="text-muted">
@@ -238,7 +254,7 @@
                 <div class="col-lg-6 col-md-12 mb-md-4">
                     <div class="d-flex justify-content-start align-items-start">
                         <div class="icon d-flex justify-content-center align-items-center"><i
-                                class="fas fa-book-reader fa-3x white-icon"></i></div>
+                                    class="fas fa-book-reader fa-3x white-icon"></i></div>
                         <div class="ms-3">
                             <h5>Terapia Ocupacional</h5>
                             <ul class="text-muted">
@@ -255,7 +271,7 @@
                 <div class="col-lg-6 col-md-12 mb-md-4">
                     <div class="d-flex justify-content-start align-items-start">
                         <div class="icon d-flex justify-content-center align-items-center"><i
-                                class="fas fa-user-nurse fa-3x white-icon"></i></div>
+                                    class="fas fa-user-nurse fa-3x white-icon"></i></div>
                         <div class="ms-3">
                             <h5>Matrona</h5>
                             <ul class="text-muted">
@@ -272,7 +288,7 @@
                 <div class="col-lg-6 col-md-12 mb-md-4">
                     <div class="d-flex justify-content-start align-items-start">
                         <div class="icon d-flex justify-content-center align-items-center"><i
-                                class="fas fa-user-md fa-3x white-icon"></i></div>
+                                    class="fas fa-user-md fa-3x white-icon"></i></div>
                         <div class="ms-3">
                             <h5>Medicina General</h5>
                             <ul class="text-muted">
@@ -751,13 +767,13 @@
 
             <img alt="Mision - Vision" class="img-fluid w-100" src="img/foto_mision_vision.jpg">
 
-            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+            <div class="mask dark-bg">
 
                 <div class="d-flex justify-content-center align-items-center h-100">
 
                     <div class="d-row text-center">
                         <h3 class="h1 text-white px-5 fw-bold">Nuestra <span>Visión</span></h3>
-                        <p class="px-5 text-white fw-light" style="line-height: 1.2">"Ser el primer y mejor centro
+                        <p class="px-5 text-white fw-light">"Ser el primer y mejor centro
                             integral de apoyo <br>
                             a la maternidad y la alimentación infantil de la región de Coquimbo".
                         </p>
@@ -765,7 +781,7 @@
 
                     <div class="d-row text-center">
                         <h3 class="h1 text-white px-5 fw-bold">Nuestra <span>Misión</span></h3>
-                        <p class="text-white px-5 fw-light" style="line-height: 1.2;">"Acompañar a las familias en el
+                        <p class="text-white px-5 fw-light">"Acompañar a las familias en el
                             proceso de maternidad,
                             desarrollo infantil,<br> establecimiento de vínculo afectivo seguro y alimentación,<br>
                             siendo la
@@ -837,28 +853,28 @@
                             <div class="col-1 text-center">
                                 <i class="fas fa-arrow-right"></i>
                             </div>
-                            <div class="col-11 "><a href="#inicio">Inicio</a>
+                            <div class="col-11 "><a href="https://www.centroamai.cl/#inicio">Inicio</a>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-1 text-center">
                                 <i class="fas fa-arrow-right"></i>
                             </div>
-                            <div class="col-11 "><a href="#inicio">Servicios</a>
+                            <div class="col-11 "><a href="https://www.centroamai.cl/#servicios">Servicios</a>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-1 text-center">
                                 <i class="fas fa-arrow-right"></i>
                             </div>
-                            <div class="col-11 "><a href="#inicio">Especialistas</a>
+                            <div class="col-11 "><a href="https://www.centroamai.cl/#especialistas">Especialistas</a>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-1 text-center">
                                 <i class="fas fa-arrow-right"></i>
                             </div>
-                            <div class="col-11 "><a href="#inicio">Contacto</a>
+                            <div class="col-11 "><a href="https://www.centroamai.cl/#contacto">Contacto</a>
                             </div>
                         </div>
                     </div>
@@ -875,24 +891,24 @@
                         <a
                                 class="btn btn-floating btn-lg m-1 text-white me-3 shadow-1-strong"
                                 href="https://www.facebook.com/centroamai"
-                                rel="noopener"
+                                rel="noopener noreferrer"
                                 role="button"
                                 style="background-color: #3b5998"
                                 target="_blank"
 
                         ><i class="fab fa-facebook-f fa-lg"></i
-                        ></a>
+                            ></a>
 
                         <!-- Facebook -->
                         <a
                                 class="btn btn-floating btn-lg m-1 text-white shadow-1-strong"
                                 href="https://www.instagram.com/centroamai"
-                                rel="noopener"
+                                rel="noopener noreferrer"
                                 role="button"
                                 style="background-color: #E1306C"
                                 target="_blank"
                         ><i class="fab fa-instagram fa-lg"></i
-                        ></a>
+                            ></a>
                     </div>
                 </div>
             </div>
@@ -901,6 +917,7 @@
 
             <div class="my-5 text-center d-flex justify-content-center">
                 <iframe allowfullscreen=""
+                        title="Centro Amai - Google Maps"
                         aria-hidden="false" height="400"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1028.1569422444134!2d-71.25612644271442!3d-29.913438628768006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691cbd655a180cb%3A0xe7db50e14c040b93!2sCentro%20Amai!5e0!3m2!1sen!2scl!4v1609260296618!5m2!1sen!2scl"
                         style="border:0;" tabindex="0"
@@ -917,7 +934,7 @@
                 document.write(new Date().getFullYear().toString());
             </script>
             Centro Amaï<br/>
-            <p class="my-0">Diseñado por <a class="fw-bold" href="https://www.figonzal.cl" rel="noopener"
+            <p class="my-0">Diseñado por <a class="fw-bold" href="https://www.figonzal.cl" rel="noopener noreferrer"
                                             target="_blank">figonzal.cl</a></p>
         </div>
     </section>

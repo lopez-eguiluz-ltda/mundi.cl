@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d6a23b3-b13d-41a0-bd66-7c0d1b3d0792" name="Changes" comment="favicon implementados">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+    <list default="true" id="7d6a23b3-b13d-41a0-bd66-7c0d1b3d0792" name="Changes" comment="Sitemap">
+      <change afterPath="$PROJECT_DIR$/src/scss/mdb.free.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/mdb.free.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/custom/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/custom/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/custom/carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/custom/carousel.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/custom/carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/custom/_carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/mdb.free.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/mdb.free.css.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +26,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="4409" />
+    <option name="totalTimeSeconds" value="9761" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -68,23 +78,29 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\figon\GithubProjects\centroamai.cl\font" />
+    </key>
+  </component>
   <component name="RunManager" selected="PHP Built-in Web Server.Localhost">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://ftp.progresscap.cl/index.html">
+    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://ftp.progresscap.cl/index.php">
       <method v="2" />
     </configuration>
     <configuration name="Localhost" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="PHP Built-in Web Server.Localhost" />
+      <item itemvalue="JavaScript Debug.index.php" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.php" />
       </list>
     </recent_temporary>
   </component>
@@ -101,6 +117,9 @@
       <workItem from="1633451704079" duration="42000" />
       <workItem from="1633451760057" duration="4900000" />
       <workItem from="1633461605751" duration="1323000" />
+      <workItem from="1633463381276" duration="170000" />
+      <workItem from="1633463729459" duration="263000" />
+      <workItem from="1633538202752" duration="8213000" />
     </task>
     <task id="LOCAL-00001" summary="CentroAmai.cl con rediseñado">
       <created>1633455188608</created>
@@ -130,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633462667618</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Sitemap">
+      <created>1633463475057</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1633463475058</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +182,8 @@
     <MESSAGE value="archivos de sincronización ftp  &amp; README" />
     <MESSAGE value="Logo navbar &amp; dependencias sin uso" />
     <MESSAGE value="favicon implementados" />
-    <option name="LAST_COMMIT_MESSAGE" value="favicon implementados" />
+    <MESSAGE value="Sitemap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sitemap" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
