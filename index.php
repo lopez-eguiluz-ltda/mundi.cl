@@ -3,7 +3,7 @@ header('X-Content-Type-Options: nosniff');
 header('X-Frame-Options: DENY');
 header("X-XSS-Protection: 1; mode=block");
 header("Referrer-Policy: strict-origin-when-cross-origin");
-header("Content-Security-Policy: default-src 'self' https://*.google.com/ ;img-src 'self' data:;frame-src 'self' https://*.google.com/  ;font-src 'self' https://use.fontawesome.com https://fonts.gstatic.com ;script-src 'self' 'sha256-dT5xHKPAHq7TFap2W0i4iHFTbagTLacDDqTR9ciU+Sw=' 'sha256-pcSfKeb5ISc7eSOGHdx8sh+pLkI3fGb8H3Lsz7J45MA=' ;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://use.fontawesome.com");
+header("Content-Security-Policy: default-src 'self' https://*.google.com/ ;img-src 'self' data:;frame-src 'self' https://*.google.com/  ;font-src 'self' https://use.fontawesome.com https://fonts.googleapis.com ;script-src 'self' 'unsafe-inline' 'sha256-dT5xHKPAHq7TFap2W0i4iHFTbagTLacDDqTR9ciU+Sw=' 'sha256-pcSfKeb5ISc7eSOGHdx8sh+pLkI3fGb8H3Lsz7J45MA=' ;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://use.fontawesome.com");
 header("Permissions-Policy: fullscreen=(), geolocation=(), camera=(), microphone=()");
 header('Accept-Encoding: gzip, compress, br');
 ?>
@@ -33,16 +33,65 @@ header('Accept-Encoding: gzip, compress, br');
     <meta content="/img/browserconfig.xml" name="msapplication-config">
     <meta content="#ffffff" name="theme-color">
 
+    <style>
+
+        .dark-bg {
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        #introCarousel,
+        .carousel-inner,
+        .carousel-item,
+        .carousel-item.active {
+            height: 100vh;
+        }
+
+        .carousel-item:nth-child(1),
+        .carousel-item:nth-child(2),
+        .carousel-item:nth-child(3) {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .webp .carousel-item:nth-child(1) {
+            background-image: url('img/carousel/fotos_portada2.webp');
+        }
+
+        .no-webp .carousel-item:nth-child(1) {
+            background-image: url('img/carousel/fotos_portada2.jpeg');
+        }
+
+        .webp .carousel-item:nth-child(2) {
+            background-image: url('img/carousel/fotos_portada1.webp');
+        }
+
+        .no-webp .carousel-item:nth-child(2) {
+            background-image: url('img/carousel/fotos_portada1.jpeg');
+        }
+
+        .webp .carousel-item:nth-child(3) {
+            background-image: url('img/carousel/fotos_portada3.webp');
+        }
+
+        .no-webp .carousel-item:nth-child(3) {
+            background-image: url('img/carousel/fotos_portada3.jpeg');
+        }
+    </style>
+
     <!-- Font Awesome -->
-    <link href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" rel="stylesheet"/>
+    <link href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" rel="preload stylesheet" as="style"
+          type="text/css" crossorigin/>
     <!-- Google Fonts Roboto -->
     <link
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
-            rel="stylesheet"
+            rel="preload"
+            as="font"
+            crossorigin
     />
 
     <!-- CUSTOM MDB -->
-    <link href="src/scss/mdb.free.min.css" rel="stylesheet">
+    <link rel="preload stylesheet" href="src/scss/mdb.free.min.css" as="style" type="text/css" crossorigin>
 </head>
 <body>
 
@@ -1060,6 +1109,7 @@ header('Accept-Encoding: gzip, compress, br');
                 <iframe allowfullscreen=""
                         title="Centro Amai - Google Maps"
                         aria-hidden="false" height="400"
+                        loading="lazy"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1028.1569422444134!2d-71.25612644271442!3d-29.913438628768006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691cbd655a180cb%3A0xe7db50e14c040b93!2sCentro%20Amai!5e0!3m2!1sen!2scl!4v1609260296618!5m2!1sen!2scl"
                         style="border:0;" tabindex="0"
                         width="1300"></iframe>
@@ -1071,7 +1121,7 @@ header('Accept-Encoding: gzip, compress, br');
         <div class="text-center p-4 copyright text-white">
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             Copyright &copy;
-            <script>
+            <script async>
                 document.write(new Date().getFullYear().toString());
             </script>
             Centro Amaï<br/>
@@ -1083,7 +1133,7 @@ header('Accept-Encoding: gzip, compress, br');
 
 
 <!-- MDB -->
-<script src="js/mdb.min.js" type="text/javascript"></script>
+<script src="js/mdb.min.js" type="text/javascript" async></script>
 
 <script src="js/modernizr-custom.js"></script>
 <script>
