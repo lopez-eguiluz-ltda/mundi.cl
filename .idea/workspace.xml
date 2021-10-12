@@ -5,29 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d6a23b3-b13d-41a0-bd66-7c0d1b3d0792" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/centroamai.cl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/centroamai.cl.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/custom/_carousel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/custom/_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/custom/_styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/mdb.free.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/mdb.free.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/mdb.free.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/mdb.free.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/mdb.free.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/mdb.free.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable path="composer" />
     </execution>
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="20304" />
+    <option name="totalTimeSeconds" value="20540" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -96,10 +90,6 @@
     </key>
   </component>
   <component name="RunManager" selected="PHP Built-in Web Server.Localhost">
-    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
-      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
-      <method v="2" />
-    </configuration>
     <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://ftp.progresscap.cl/index.php">
       <method v="2" />
     </configuration>
@@ -135,7 +125,9 @@
       <workItem from="1633553124595" duration="6000" />
       <workItem from="1633554584025" duration="6375000" />
       <workItem from="1633577292228" duration="55000" />
-      <workItem from="1633898402993" duration="8223000" />
+      <workItem from="1633898402993" duration="8311000" />
+      <workItem from="1633912093655" duration="26000" />
+      <workItem from="1634046762876" duration="836000" />
     </task>
     <task id="LOCAL-00001" summary="CentroAmai.cl con rediseñado">
       <created>1633455188608</created>
@@ -200,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633564656574</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Preload, mejora de blocking time y first contentful paint">
+      <created>1633911764513</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1633911764513</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +230,8 @@
     <MESSAGE value="Funcionarios con imagenes webp" />
     <MESSAGE value="Carousel con imagenes webp" />
     <MESSAGE value="Fotos en webp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fotos en webp" />
+    <MESSAGE value="Preload, mejora de blocking time y first contentful paint" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preload, mejora de blocking time y first contentful paint" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

@@ -138,11 +138,11 @@ header('Accept-Encoding: gzip, compress, br');
                 <!-- Left Icons -->
                 <ul class="navbar-nav d-flex flex-row ms-auto">
                     <li class="nav-item me-lg-1 me-3"><a class="nav-link" href="https://www.facebook.com/centroamai"
-                                                         rel="noopener noreferrer" target="_blank"><i
+                                                         rel="noopener noreferrer nofollow" target="_blank"><i
                                     class="fab fa-facebook-f"></i></a>
                     </li>
                     <li class="nav-item me-3"><a class="nav-link" href="https://www.instagram.com/centroamai/"
-                                                 rel="noopener noreferrer" target="_blank"><i
+                                                 rel="noopener noreferrer nofollow" target="_blank"><i
                                     class="fab fa-instagram"></i></a>
                     </li>
                 </ul>
@@ -179,7 +179,7 @@ header('Accept-Encoding: gzip, compress, br');
                             <p class="mb-3">Solicita tu hora con nuestros especialistas</p>
 
                             <a class="btn btn-outline-primary btn-lg"
-                               rel="noopener noreferrer"
+                               rel="noopener noreferrer nofollow"
                                href="https://www.reservo.cl/makereserva/selecttratamientodisponibilidad/1645/1641/2/0/"
                                target="_blank">Reserva
                                 aquí</a>
@@ -372,6 +372,7 @@ header('Accept-Encoding: gzip, compress, br');
                                 alt=""
                                 class="w-100 shadow-1-strong rounded mb-2"
                                 src="img/galeria/fotos_amai.jpeg"
+                                loading="lazy"
                         />
                     </picture>
 
@@ -382,6 +383,7 @@ header('Accept-Encoding: gzip, compress, br');
                                 alt=""
                                 class="w-100 shadow-1-strong rounded mb-2"
                                 src="img/carousel/fotos_portada3.jpeg"
+                                loading="lazy"
                         />
                     </picture>
                 </div>
@@ -394,6 +396,7 @@ header('Accept-Encoding: gzip, compress, br');
                                 alt=""
                                 class="w-100 shadow-1-strong rounded mb-2"
                                 src="img/carousel/fotos_portada1.jpeg"
+                                loading="lazy"
                         />
                     </picture>
 
@@ -404,6 +407,7 @@ header('Accept-Encoding: gzip, compress, br');
                                 alt=""
                                 class="w-100 shadow-1-strong rounded mb-2"
                                 src="img/galeria/fotos_amai4.jpeg"
+                                loading="lazy"
                         />
                     </picture>
 
@@ -419,6 +423,7 @@ header('Accept-Encoding: gzip, compress, br');
                                 alt=""
                                 class="w-100 shadow-1-strong rounded mb-2"
                                 src="img/galeria/amai_logo_simplificado.jpg"
+                                loading="lazy"
                         />
                     </picture>
 
@@ -430,6 +435,7 @@ header('Accept-Encoding: gzip, compress, br');
                                 alt=""
                                 class="w-100 shadow-1-strong rounded mb-2"
                                 src="img/carousel/fotos_portada2.jpeg"
+                                loading="lazy"
                         />
                     </picture>
                 </div>
@@ -443,6 +449,7 @@ header('Accept-Encoding: gzip, compress, br');
                                 alt=""
                                 class="w-100 shadow-1-strong rounded mb-2"
                                 src="img/galeria/fotos_amai3.jpeg"
+                                loading="lazy"
                         />
                     </picture>
 
@@ -454,6 +461,7 @@ header('Accept-Encoding: gzip, compress, br');
                                 alt=""
                                 class="w-100 shadow-1-strong rounded mb-2"
                                 src="img/galeria/fotos_amai1.jpeg"
+                                loading="lazy"
                         />
                     </picture>
 
@@ -486,7 +494,8 @@ header('Accept-Encoding: gzip, compress, br');
                                 <source srcset="img/funcionarios/mauro_rivera.jpg" type="image/jpeg">
 
                                 <img alt="Mauro Rivera" class="img-fluid rounded-5 w-100"
-                                     src="img/funcionarios/mauro_rivera.jpg">
+                                     src="img/funcionarios/mauro_rivera.jpg"
+                                     loading="lazy">
                             </picture>
                             <div class="mask"></div>
 
@@ -511,7 +520,8 @@ header('Accept-Encoding: gzip, compress, br');
                                 <source srcset="img/funcionarios/carmina_nicolai.webp" type="image/webp">
                                 <source srcset="img/funcionarios/carmina_nicolai.jpg" type="image/jpeg">
                                 <img alt="Carmina Nicolai" class="img-fluid rounded-5 w-100"
-                                     src="img/funcionarios/carmina_nicolai.jpg">
+                                     src="img/funcionarios/carmina_nicolai.jpg"
+                                     loading="lazy">
                             </picture>
                             <div class="mask"></div>
                         </div>
@@ -535,7 +545,8 @@ header('Accept-Encoding: gzip, compress, br');
                                 <source srcset="img/funcionarios/daniel_oliva.webp" type="image/webp">
                                 <source srcset="img/funcionarios/daniel_oliva.jpg" type="image/jpeg">
                                 <img alt="Daniel Oliva" class="img-fluid rounded-5 w-100"
-                                     src="img/funcionarios/daniel_oliva.jpg">
+                                     src="img/funcionarios/daniel_oliva.jpg"
+                                     loading="lazy">
                             </picture>
                             <div class="mask"></div>
                         </div>
@@ -559,7 +570,8 @@ header('Accept-Encoding: gzip, compress, br');
                                 <source srcset="img/funcionarios/pia_espejo.webp" type="image/webp">
                                 <source srcset="img/funcionarios/pia_espejo.jpg" type="image/jpeg">
                                 <img alt="Daniel Oliva" class="img-fluid rounded-5 w-100"
-                                     src="img/funcionarios/pia_espejo.jpg">
+                                     src="img/funcionarios/pia_espejo.jpg"
+                                     loading="lazy">
                             </picture>
 
                             <div class="mask"></div>
@@ -586,7 +598,8 @@ header('Accept-Encoding: gzip, compress, br');
                                 <source srcset="img/funcionarios/paulette_toha.webp" type="image/webp">
                                 <source srcset="img/funcionarios/paulette_toha.jpeg" type="image/jpeg">
                                 <img alt="Paulette Tohá" class="img-fluid rounded-5 w-100"
-                                     src="img/funcionarios/paulette_toha.jpeg">
+                                     src="img/funcionarios/paulette_toha.jpeg"
+                                     loading="lazy">
                             </picture>
 
                             <div class="mask"></div>
@@ -611,7 +624,8 @@ header('Accept-Encoding: gzip, compress, br');
                                 <source srcset="img/funcionarios/karla_lopez.webp" type="image/webp">
                                 <source srcset="img/funcionarios/karla_lopez.jpg" type="image/jpeg">
                                 <img alt="Karla López" class="img-fluid rounded-5 w-100"
-                                     src="img/funcionarios/karla_lopez.jpg">
+                                     src="img/funcionarios/karla_lopez.jpg"
+                                     loading="lazy">
                             </picture>
 
                             <div class="mask"></div>
@@ -636,7 +650,8 @@ header('Accept-Encoding: gzip, compress, br');
                                 <source srcset="img/funcionarios/claudia_salas.webp" type="image/webp">
                                 <source srcset="img/funcionarios/claudia_salas.jpeg" type="image/jpeg">
                                 <img alt="Claudia Salas" class="img-fluid rounded-5 w-100"
-                                     src="img/funcionarios/claudia_salas.jpeg">
+                                     src="img/funcionarios/claudia_salas.jpeg"
+                                     loading="lazy">
                             </picture>
 
                             <div class="mask"></div>
@@ -662,7 +677,8 @@ header('Accept-Encoding: gzip, compress, br');
                                 <source srcset="img/funcionarios/scarlett_orellana.webp" type="image/webp">
                                 <source srcset="img/funcionarios/scarlett_orellana.jpeg" type="image/jpeg">
                                 <img alt="Scarlett Orellana" class="img-fluid rounded-5 w-100"
-                                     src="img/funcionarios/scarlett_orellana.jpeg">
+                                     src="img/funcionarios/scarlett_orellana.jpeg"
+                                     loading="lazy">
                             </picture>
 
                             <div class="mask"></div>
@@ -691,7 +707,8 @@ header('Accept-Encoding: gzip, compress, br');
                                 <source srcset="img/funcionarios/fran_gutierrez.webp" type="image/webp">
                                 <source srcset="img/funcionarios/fran_gutierrez.jpeg" type="image/jpeg">
                                 <img alt="Francisca Gutiérrez" class="img-fluid rounded-5 w-100"
-                                     src="img/funcionarios/fran_gutierrez.jpeg">
+                                     src="img/funcionarios/fran_gutierrez.jpeg"
+                                     loading="lazy">
                             </picture>
                             <div class="mask"></div>
                         </div>
@@ -716,7 +733,8 @@ header('Accept-Encoding: gzip, compress, br');
                                 <source srcset="img/funcionarios/stefania_rigotti.webp" type="image/webp">
                                 <source srcset="img/funcionarios/stefania_rigotti.jpeg" type="image/jpeg">
                                 <img alt="Stefania Rigotti" class="img-fluid rounded-5 w-100"
-                                     src="img/funcionarios/stefania_rigotti.jpeg">
+                                     src="img/funcionarios/stefania_rigotti.jpeg"
+                                     loading="lazy">
                             </picture>
 
                             <div class="mask"></div>
@@ -741,7 +759,8 @@ header('Accept-Encoding: gzip, compress, br');
                                 <source srcset="img/funcionarios/fran_munoz.webp" type="image/webp">
                                 <source srcset="img/funcionarios/fran_munoz.jpeg" type="image/jpeg">
                                 <img alt="Francisca Muñoz" class="img-fluid rounded-5 w-100"
-                                     src="img/funcionarios/fran_munoz.jpeg">
+                                     src="img/funcionarios/fran_munoz.jpeg"
+                                     loading="lazy">
                             </picture>
 
                             <div class="mask"></div>
@@ -766,7 +785,8 @@ header('Accept-Encoding: gzip, compress, br');
                                 <source srcset="img/funcionarios/m_valentina_olivier.webp" type="image/webp">
                                 <source srcset="img/funcionarios/m_valentina_olivier.jpeg" type="image/jpeg">
                                 <img alt="Mª Valentina Olivier" class="img-fluid rounded-5 w-100"
-                                     src="img/funcionarios/m_valentina_olivier.jpeg">
+                                     src="img/funcionarios/m_valentina_olivier.jpeg"
+                                     loading="lazy">
                             </picture>
 
                             <div class="mask"></div>
@@ -795,7 +815,8 @@ header('Accept-Encoding: gzip, compress, br');
                                 <source srcset="img/funcionarios/charnelle_galleguillos.webp" type="image/webp">
                                 <source srcset="img/funcionarios/charnelle_galleguillos.jpg" type="image/jpeg">
                                 <img alt="Francisca Gutiérrez" class="img-fluid rounded-5 w-100"
-                                     src="img/funcionarios/charnelle_galleguillos.jpg">
+                                     src="img/funcionarios/charnelle_galleguillos.jpg"
+                                     loading="lazy">
                             </picture>
 
                             <div class="mask"></div>
@@ -820,7 +841,8 @@ header('Accept-Encoding: gzip, compress, br');
                                 <source srcset="img/funcionarios/constanza_retamal.webp" type="image/webp">
                                 <source srcset="img/funcionarios/constanza_retamal.jpg" type="image/jpeg">
                                 <img alt="Constanza Retamal" class="img-fluid rounded-5 w-100"
-                                     src="img/funcionarios/constanza_retamal.jpg">
+                                     src="img/funcionarios/constanza_retamal.jpg"
+                                     loading="lazy">
                             </picture>
                             <div class="mask"></div>
                         </div>
@@ -845,7 +867,8 @@ header('Accept-Encoding: gzip, compress, br');
                                 <source srcset="img/funcionarios/mariflor_martinez.webp" type="image/webp">
                                 <source srcset="img/funcionarios/mariflor_martinez.jpg" type="image/jpeg">
                                 <img alt="Mariflor Martínez" class="img-fluid rounded-5 w-100"
-                                     src="img/funcionarios/mariflor_martinez.jpg">
+                                     src="img/funcionarios/mariflor_martinez.jpg"
+                                     loading="lazy">
                             </picture>
 
                             <div class="mask"></div>
@@ -871,7 +894,8 @@ header('Accept-Encoding: gzip, compress, br');
                                 <source srcset="img/funcionarios/gabriela_araya.webp" type="image/webp">
                                 <source srcset="img/funcionarios/gabriela_araya.jpg" type="image/jpeg">
                                 <img alt="Gabriela Araya" class="img-fluid rounded-5 w-100"
-                                     src="img/funcionarios/gabriela_araya.jpg">
+                                     src="img/funcionarios/gabriela_araya.jpg"
+                                     loading="lazy">
                             </picture>
 
                             <div class="mask"></div>
@@ -901,7 +925,8 @@ header('Accept-Encoding: gzip, compress, br');
                                 <source srcset="img/funcionarios/felipe_contreras.webp" type="image/webp">
                                 <source srcset="img/funcionarios/felipe_contreras.jpeg" type="image/jpeg">
                                 <img alt="Felipe Contreras" class="img-fluid rounded-5 w-100"
-                                     src="img/funcionarios/felipe_contreras.jpeg">
+                                     src="img/funcionarios/felipe_contreras.jpeg"
+                                     loading="lazy">
                             </picture>
                             <div class="mask"></div>
                         </div>
@@ -926,7 +951,8 @@ header('Accept-Encoding: gzip, compress, br');
                                 <source srcset="img/funcionarios/valentina_collao.webp" type="image/webp">
                                 <source srcset="img/funcionarios/valentina_collao.jpeg" type="image/jpeg">
                                 <img alt="Valentina Collao" class="img-fluid rounded-5 w-100"
-                                     src="img/funcionarios/valentina_collao.jpeg">
+                                     src="img/funcionarios/valentina_collao.jpeg"
+                                     loading="lazy">
                             </picture>
 
                             <div class="mask"></div>
@@ -953,7 +979,7 @@ header('Accept-Encoding: gzip, compress, br');
             <picture>
                 <source srcset="img/foto_mision_vision.webp" type="image/webp">
                 <source srcset="img/foto_mision_vision.jpg" type="image/jpeg">
-                <img alt="Mision - Vision" class="img-fluid w-100" src="img/foto_mision_vision.jpg">
+                <img alt="Mision - Vision" class="img-fluid w-100" src="img/foto_mision_vision.jpg" loading="lazy">
             </picture>
 
 
@@ -1081,7 +1107,7 @@ header('Accept-Encoding: gzip, compress, br');
                         <a
                                 class="btn btn-floating btn-lg m-1 text-white me-3 shadow-1-strong"
                                 href="https://www.facebook.com/centroamai"
-                                rel="noopener noreferrer"
+                                rel="noopener noreferrer nofollow"
                                 role="button"
                                 style="background-color: #3b5998"
                                 target="_blank"
@@ -1093,7 +1119,7 @@ header('Accept-Encoding: gzip, compress, br');
                         <a
                                 class="btn btn-floating btn-lg m-1 text-white shadow-1-strong"
                                 href="https://www.instagram.com/centroamai"
-                                rel="noopener noreferrer"
+                                rel="noopener noreferrer nofollow"
                                 role="button"
                                 style="background-color: #E1306C"
                                 target="_blank"
@@ -1125,7 +1151,8 @@ header('Accept-Encoding: gzip, compress, br');
                 document.write(new Date().getFullYear().toString());
             </script>
             Centro Amaï<br/>
-            <p class="my-0">Diseñado por <a class="fw-bold" href="https://www.figonzal.cl" rel="noopener noreferrer"
+            <p class="my-0">Diseñado por <a class="fw-bold" href="https://www.figonzal.cl"
+                                            rel="noopener noreferrer nofollow"
                                             target="_blank">figonzal.cl</a></p>
         </div>
     </section>
