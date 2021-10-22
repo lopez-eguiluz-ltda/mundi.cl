@@ -247,7 +247,7 @@ header('Accept-Encoding: gzip, compress, br');
                         <div class="ms-3">
                             <h5 class="h5">Consejería en Lactancia Materna</h5>
                             <ul>
-                                <li class="text-muted">Profesionales de la salud certificados en lactancia materna</li>
+                                <li class="text-muted">Profesionales certificados en lactancia materna</li>
                                 <li class="text-muted">Consejerías pre y post natales</li>
                                 <li class="text-muted">Consejería post natales</li>
                                 <li class="text-muted">Asesoría en destete repetuoso</li>
@@ -481,7 +481,7 @@ header('Accept-Encoding: gzip, compress, br');
             </div>
 
             <!-- FILA 1 -->
-            <div class="row mb-lg-5 gy-md-4 mb-md-4 gy-sm-4 mb-sm-4">
+            <div class="row mb-lg-5 mb-4 gy-4">
 
                 <div class="col-lg-3 col-md-6">
 
@@ -587,7 +587,7 @@ header('Accept-Encoding: gzip, compress, br');
             </div>
 
             <!-- Fila 2 -->
-            <div class="row mb-lg-5 gy-md-4 mb-md-4 gy-sm-4 mb-sm-4">
+            <div class="row mb-lg-5 mb-4 gy-4">
                 <div class="col-lg-3 col-md-6">
 
                     <div class="staff">
@@ -695,7 +695,7 @@ header('Accept-Encoding: gzip, compress, br');
             </div>
 
             <!-- FIla 3 -->
-            <div class="row mb-lg-5 gy-md-4 mb-md-4 gy-sm-4 mb-sm-4">
+            <div class="row mb-lg-5 mb-4 gy-4">
 
                 <div class="col-lg-3 col-md-6">
 
@@ -803,7 +803,7 @@ header('Accept-Encoding: gzip, compress, br');
             </div>
 
             <!-- Fila 4 -->
-            <div class="row mb-lg-5 gy-md-4 mb-md-4 gy-sm-4 mb-sm-4">
+            <div class="row mb-lg-5 mb-4 gy-4">
 
                 <div class="col-lg-3 col-md-6">
 
@@ -914,7 +914,7 @@ header('Accept-Encoding: gzip, compress, br');
             </div>
 
             <!-- Fila 5  (CENTRADA) -->
-            <div class="row mb-5 d-flex justify-content-center">
+            <div class="row mb-lg-5 mb-4 gy-4 d-flex justify-content-center">
                 <div class="col-lg-3 col-md-6">
 
                     <div class="staff">
@@ -983,26 +983,29 @@ header('Accept-Encoding: gzip, compress, br');
             </picture>
 
 
-            <div class="mask dark-bg">
+            <div class="mask dark-bg container-fluid w-100">
 
-                <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="row d-flex justify-content-center align-items-center h-100">
 
-                    <div class="d-row text-center">
-                        <h3 class="h1 text-white px-5 fw-bold">Nuestra <span>Visión</span></h3>
-                        <p class="px-5 text-white fw-light">"Ser el primer y mejor centro
-                            integral de apoyo <br>
-                            a la maternidad y la alimentación infantil de la región de Coquimbo".
-                        </p>
+                    <div class="col-lg-6">
+                        <div class="d-row text-center">
+                            <h3 class="h1 text-white px-5 fw-bold">Nuestra <span>Visión</span></h3>
+                            <p class="px-5 text-white fw-light">"Ser el primer y mejor centro
+                                integral de apoyo a la maternidad y la alimentación infantil de la región de Coquimbo".
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="d-row text-center">
-                        <h3 class="h1 text-white px-5 fw-bold">Nuestra <span>Misión</span></h3>
-                        <p class="text-white px-5 fw-light">"Acompañar a las familias en el
-                            proceso de maternidad,
-                            desarrollo infantil,<br> establecimiento de vínculo afectivo seguro y alimentación,<br>
-                            siendo la
-                            red de apoyo multidisciplinaria de la región".
-                        </p>
+                    <div class="col-lg-6">
+                        <div class="d-row text-center">
+                            <h3 class="h1 text-white px-5 fw-bold">Nuestra <span>Misión</span></h3>
+                            <p class="text-white px-5 fw-light">"Acompañar a las familias en el
+                                proceso de maternidad,
+                                desarrollo infantil, establecimiento de vínculo afectivo seguro y alimentación,
+                                siendo la
+                                red de apoyo multidisciplinaria de la región".
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1011,10 +1014,11 @@ header('Accept-Encoding: gzip, compress, br');
 </main>
 
 <footer class="footer pt-3 text-white">
+
     <section id="contacto">
 
         <div class="container">
-            <div class="row mt-5 mb-4">
+            <div class="row mt-5 mb-4 p-4">
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <h5 class="h5 fw-normal mb-3 text-uppercase">Contacto</h5>
@@ -1102,7 +1106,7 @@ header('Accept-Encoding: gzip, compress, br');
                         Sociales</h5>
                     <hr class="hr-light mb-lg-5 mb-4 d-none d-lg-block">
 
-                    <div class="d-flex justify-content-lg-start justify-content-sm-center justify-content-xs-center align-items-center">
+                    <div class="d-flex justify-content-lg-start justify-content-xl-start justify-content-center justify-content-xs-center align-items-center">
                         <!-- Facebook -->
                         <a
                                 class="btn btn-floating btn-lg m-1 text-white me-3 shadow-1-strong"

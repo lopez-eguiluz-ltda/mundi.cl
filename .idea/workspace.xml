@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d6a23b3-b13d-41a0-bd66-7c0d1b3d0792" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
@@ -21,7 +22,7 @@
     </execution>
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="20540" />
+    <option name="totalTimeSeconds" value="24077" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -53,6 +54,9 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
   <component name="ProjectId" id="1z5vIyJ5kRZp9axZLiUMtaYKRT1" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -80,7 +84,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -89,22 +93,10 @@
       <recent name="D:\figon\GithubProjects\centroamai.cl\font" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Built-in Web Server.Localhost">
-    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://ftp.progresscap.cl/index.php">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="Localhost" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="JavaScript Debug.index.php" />
-      <item itemvalue="PHP Built-in Web Server.Localhost" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.index.php" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -127,7 +119,11 @@
       <workItem from="1633577292228" duration="55000" />
       <workItem from="1633898402993" duration="8311000" />
       <workItem from="1633912093655" duration="26000" />
-      <workItem from="1634046762876" duration="836000" />
+      <workItem from="1634046762876" duration="1866000" />
+      <workItem from="1634851992083" duration="21000" />
+      <workItem from="1634853485111" duration="1522000" />
+      <workItem from="1634916113378" duration="596000" />
+      <workItem from="1634917262780" duration="10989000" />
     </task>
     <task id="LOCAL-00001" summary="CentroAmai.cl con rediseñado">
       <created>1633455188608</created>
@@ -199,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633911764513</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Loading lazy en imagenes y no follow en links">
+      <created>1634047949160</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1634047949160</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +234,8 @@
     <MESSAGE value="Carousel con imagenes webp" />
     <MESSAGE value="Fotos en webp" />
     <MESSAGE value="Preload, mejora de blocking time y first contentful paint" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preload, mejora de blocking time y first contentful paint" />
+    <MESSAGE value="Loading lazy en imagenes y no follow en links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loading lazy en imagenes y no follow en links" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
