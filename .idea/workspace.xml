@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d6a23b3-b13d-41a0-bd66-7c0d1b3d0792" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +19,7 @@
     </execution>
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="24077" />
+    <option name="totalTimeSeconds" value="26277" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -76,7 +73,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -84,7 +81,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -123,7 +120,17 @@
       <workItem from="1634851992083" duration="21000" />
       <workItem from="1634853485111" duration="1522000" />
       <workItem from="1634916113378" duration="596000" />
-      <workItem from="1634917262780" duration="10989000" />
+      <workItem from="1634917262780" duration="11677000" />
+      <workItem from="1635008405530" duration="29000" />
+      <workItem from="1635023343243" duration="110000" />
+      <workItem from="1635040474384" duration="633000" />
+      <workItem from="1635216293204" duration="2300000" />
+      <workItem from="1635254170153" duration="1087000" />
+      <workItem from="1635262438942" duration="4348000" />
+      <workItem from="1635288993355" duration="654000" />
+      <workItem from="1635308972575" duration="1215000" />
+      <workItem from="1635624965370" duration="44000" />
+      <workItem from="1637011274292" duration="1272000" />
     </task>
     <task id="LOCAL-00001" summary="CentroAmai.cl con rediseñado">
       <created>1633455188608</created>
@@ -202,7 +209,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634047949160</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Correcciones para pantallas XS">
+      <created>1634933980231</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1634933980232</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Se agrega etiqueta de google analytics">
+      <created>1637012273676</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1637012273676</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +256,9 @@
     <MESSAGE value="Fotos en webp" />
     <MESSAGE value="Preload, mejora de blocking time y first contentful paint" />
     <MESSAGE value="Loading lazy en imagenes y no follow en links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Loading lazy en imagenes y no follow en links" />
+    <MESSAGE value="Correcciones para pantallas XS" />
+    <MESSAGE value="Se agrega etiqueta de google analytics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega etiqueta de google analytics" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

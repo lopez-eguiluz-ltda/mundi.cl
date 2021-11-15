@@ -3,7 +3,7 @@ header('X-Content-Type-Options: nosniff');
 header('X-Frame-Options: DENY');
 header("X-XSS-Protection: 1; mode=block");
 header("Referrer-Policy: strict-origin-when-cross-origin");
-header("Content-Security-Policy: default-src 'self' https://*.google.com/ ;img-src 'self' data:;frame-src 'self' https://*.google.com/  ;font-src 'self' https://use.fontawesome.com https://fonts.googleapis.com ;script-src 'self' 'unsafe-inline' 'sha256-dT5xHKPAHq7TFap2W0i4iHFTbagTLacDDqTR9ciU+Sw=' 'sha256-pcSfKeb5ISc7eSOGHdx8sh+pLkI3fGb8H3Lsz7J45MA=' ;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://use.fontawesome.com");
+header("Content-Security-Policy: default-src 'self' https://*.google.com/ https://www.googletagmanager.com/ ;img-src 'self' data:;frame-src 'self' https://*.google.com/  ;font-src 'self' https://use.fontawesome.com https://fonts.googleapis.com ;script-src 'unsafe-inline' 'self' https://tagmanager.google.com/ https://www.googletagmanager.com/;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://use.fontawesome.com");
 header("Permissions-Policy: fullscreen=(), geolocation=(), camera=(), microphone=()");
 header('Accept-Encoding: gzip, compress, br');
 ?>
@@ -11,6 +11,22 @@ header('Accept-Encoding: gzip, compress, br');
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NC2KH9G');</script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="UTF-8"/>
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
     <meta content="ie=edge" http-equiv="x-ua-compatible"/>
@@ -94,6 +110,13 @@ header('Accept-Encoding: gzip, compress, br');
     <link rel="preload stylesheet" href="src/scss/mdb.free.min.css" as="style" type="text/css" crossorigin>
 </head>
 <body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC2KH9G"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <header>
     <!-- Navigation bar -->
