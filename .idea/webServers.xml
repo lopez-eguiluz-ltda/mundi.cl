@@ -9,6 +9,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="4e468938-4f6f-412b-9bf8-1b4a2c5c2faa" name="ftp.centroamai.cl" url="http://ftp.progresscap.cl">
+        <fileTransfer host="ftp.progresscap.cl" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

@@ -1,2 +1,5 @@
-composer.phar
-/vendor/
+
+vendor/*
+/.idea/*
+/.ftpquota
+/BingSiteAuth.xml
