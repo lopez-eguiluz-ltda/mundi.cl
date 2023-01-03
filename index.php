@@ -945,7 +945,7 @@ header('Accept-Encoding: gzip, compress, br');
                                 <div class="col-1 text-center">
                                     <i class="fas fa-map-marker-alt"></i>
                                 </div>
-                                <div class="col-11 ">Las Rojas Poniente #236, La Serena, Chile.
+                                <div class="col-11 ">Las Rojas Poniente #1489, La Serena, Chile.
                                 </div>
                             </div>
 
@@ -957,24 +957,31 @@ header('Accept-Encoding: gzip, compress, br');
                                     <p>Lunes a Viernes<br>
                                         9:00 a 13:00 hrs<br>
                                         14:00 a 19:00 hrs</p>
+                                    <p>Sábado y Domingo<br>
+                                        9:00 a 14:00 hrs</p>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col-1 text-center">
-                                    <i class="fab fa-whatsapp fa-lg"></i>
+                                    <p>
+                                        <a href="https://api.whatsapp.com/send?phone=56959905385" target="_blank" rel="noopener noreferrer nofollow" style="color: rgba(255,255,255,0.7);"><i class="fab fa-whatsapp fa-lg"></i></a>
+                                    </p>
+                                    
                                 </div>
                                 <div class="col-11 ">
-                                    <p>+56 9 5990 5385</p>
+                                    <p>
+                                        <a href="https://api.whatsapp.com/send?phone=56959905385" target="_blank" rel="noopener noreferrer nofollow" style="color: rgba(255,255,255,0.7);">+56 9 5990 5385</a>
+                                    </p>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col-1 text-center">
-                                    <i class="fas fa-envelope"></i>
+                                    <p><a href="mailto:amaicentro@gmail.com" style="color: rgba(255,255,255,0.7);"><i class="fas fa-envelope"></i></a></p>
                                 </div>
                                 <div class="col-11 ">
-                                    <p>amaicentro@gmail.com</p>
+                                    <p><a href="mailto:amaicentro@gmail.com" style="color: rgba(255,255,255,0.7);">amaicentro@gmail.com</a></p>
                                 </div>
                             </div>
                         </div>
