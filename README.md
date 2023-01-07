@@ -25,10 +25,10 @@
   <a href="https://securityheaders.com/?q=centroamai.cl&hide=on&followRedirects=on">
   <img alt="Security Headers" src="https://img.shields.io/security-headers?url=https%3A%2F%2Fcentroamai.cl">
   </a>
-
-  <a href="https://img.shields.io/badge/HH-17.69%20[hr]-blueviolet" alt="Hours Spent">
-  <img alt="Hours Spent" src="https://img.shields.io/badge/HH-17.69%20[hr]-blueviolet">
+  
+  <a href="https://wakatime.com/badge/github/figonzal1/centroamai.cl">
+    <img src="https://wakatime.com/badge/github/figonzal1/centroamai.cl.svg" alt="wakatime">
   </a>
 </p>
 
-Repositorio con el código fuente de la página web del Centro de Apoyo a la Maternidad y Alimentación Infantil (AMAI)
+Source code from [centroamai.cl](https://centroamai.cl)
