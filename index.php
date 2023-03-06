@@ -78,7 +78,7 @@ header('Accept-Encoding: gzip, compress, br');
         }
 
         .no-webp .carousel-item:nth-child(1) {
-            background-image: url('img/carousel/fotos_portada2.jpeg');
+            background-image: url('img/carousel/fotos_portada2.jpg');
         }
 
         .webp .carousel-item:nth-child(2) {
@@ -86,7 +86,7 @@ header('Accept-Encoding: gzip, compress, br');
         }
 
         .no-webp .carousel-item:nth-child(2) {
-            background-image: url('img/carousel/fotos_portada1.jpeg');
+            background-image: url('img/carousel/fotos_portada1.jpg');
         }
 
         .webp .carousel-item:nth-child(3) {
@@ -94,7 +94,7 @@ header('Accept-Encoding: gzip, compress, br');
         }
 
         .no-webp .carousel-item:nth-child(3) {
-            background-image: url('img/carousel/fotos_portada3.jpeg');
+            background-image: url('img/carousel/fotos_portada3.jpg');
         }
     </style>
 
@@ -123,7 +123,7 @@ header('Accept-Encoding: gzip, compress, br');
 
                     <picture>
                         <source srcset="img/amai_logo_navbar.webp" type="image/webp">
-                        <source srcset="img/amai_logo_navbar.png" type="image/jpeg">
+                        <source srcset="img/amai_logo_navbar.png" type="image/jpg">
                         <img alt="Centro Amai Logo" height="45" loading="lazy" src="img/amai_logo_navbar.png" />
                     </picture>
 
@@ -359,28 +359,28 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <picture>
                             <source srcset="img/galeria/fotos_amai.webp" type="image/webp">
-                            <source srcset="img/galeria/fotos_amai.jpeg" type="image/jpeg">
-                            <img alt="" class="w-100 shadow-1-strong rounded mb-2" src="img/galeria/fotos_amai.jpeg" loading="lazy" />
+                            <source srcset="img/galeria/fotos_amai.jpg" type="image/jpg">
+                            <img alt="" class="w-100 shadow-1-strong rounded mb-2" src="img/galeria/fotos_amai.jpg" loading="lazy" />
                         </picture>
 
                         <picture>
                             <source srcset="img/carousel/fotos_portada3.webp" type="image/webp">
-                            <source srcset="img/carousel/fotos_portada3.jpeg" type="image/jpeg">
-                            <img alt="" class="w-100 shadow-1-strong rounded mb-2" src="img/carousel/fotos_portada3.jpeg" loading="lazy" />
+                            <source srcset="img/carousel/fotos_portada3.jpg" type="image/jpg">
+                            <img alt="" class="w-100 shadow-1-strong rounded mb-2" src="img/carousel/fotos_portada3.jpg" loading="lazy" />
                         </picture>
                     </div>
 
                     <div class="col-lg-3 col-md-6 galeria">
                         <picture>
                             <source srcset="img/carousel/fotos_portada1.webp" type="image/webp">
-                            <source srcset="img/carousel/fotos_portada1.jpeg" type="image/jpeg">
-                            <img alt="" class="w-100 shadow-1-strong rounded mb-2" src="img/carousel/fotos_portada1.jpeg" loading="lazy" />
+                            <source srcset="img/carousel/fotos_portada1.jpg" type="image/jpg">
+                            <img alt="" class="w-100 shadow-1-strong rounded mb-2" src="img/carousel/fotos_portada1.jpg" loading="lazy" />
                         </picture>
 
                         <picture>
                             <source srcset="img/galeria/fotos_amai4.webp" type="image/webp">
-                            <source srcset="img/galeria/fotos_amai4.jpeg" type="image/jpeg">
-                            <img alt="" class="w-100 shadow-1-strong rounded mb-2" src="img/galeria/fotos_amai4.jpeg" loading="lazy" />
+                            <source srcset="img/galeria/fotos_amai4.jpg" type="image/jpg">
+                            <img alt="" class="w-100 shadow-1-strong rounded mb-2" src="img/galeria/fotos_amai4.jpg" loading="lazy" />
                         </picture>
 
                     </div>
@@ -390,15 +390,15 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <picture>
                             <source srcset="img/galeria/amai_logo_simplificado.webp" type="image/webp">
-                            <source srcset="img/galeria/amai_logo_simplificado.jpg" type="image/jpeg">
+                            <source srcset="img/galeria/amai_logo_simplificado.jpg" type="image/jpg">
                             <img alt="" class="w-100 shadow-1-strong rounded mb-2" src="img/galeria/amai_logo_simplificado.jpg" loading="lazy" />
                         </picture>
 
 
                         <picture>
                             <source srcset="img/carousel/fotos_portada2.webp" type="image/webp">
-                            <source srcset="img/carousel/fotos_portada2.jpeg" type="image/jpeg">
-                            <img alt="" class="w-100 shadow-1-strong rounded mb-2" src="img/carousel/fotos_portada2.jpeg" loading="lazy" />
+                            <source srcset="img/carousel/fotos_portada2.jpg" type="image/jpg">
+                            <img alt="" class="w-100 shadow-1-strong rounded mb-2" src="img/carousel/fotos_portada2.jpg" loading="lazy" />
                         </picture>
                     </div>
 
@@ -406,15 +406,15 @@ header('Accept-Encoding: gzip, compress, br');
 
                         <picture>
                             <source srcset="img/galeria/fotos_amai3.webp" type="image/webp">
-                            <source srcset="img/galeria/fotos_amai3.jpeg" type="image/jpeg">
-                            <img alt="" class="w-100 shadow-1-strong rounded mb-2" src="img/galeria/fotos_amai3.jpeg" loading="lazy" />
+                            <source srcset="img/galeria/fotos_amai3.jpg" type="image/jpg">
+                            <img alt="" class="w-100 shadow-1-strong rounded mb-2" src="img/galeria/fotos_amai3.jpg" loading="lazy" />
                         </picture>
 
 
                         <picture>
                             <source srcset="img/galeria/fotos_amai1.webp" type="image/webp">
-                            <source srcset="img/galeria/fotos_amai1.jpeg" type="image/jpeg">
-                            <img alt="" class="w-100 shadow-1-strong rounded mb-2" src="img/galeria/fotos_amai1.jpeg" loading="lazy" />
+                            <source srcset="img/galeria/fotos_amai1.jpg" type="image/jpg">
+                            <img alt="" class="w-100 shadow-1-strong rounded mb-2" src="img/galeria/fotos_amai1.jpg" loading="lazy" />
                         </picture>
 
                     </div>
@@ -442,115 +442,17 @@ header('Accept-Encoding: gzip, compress, br');
                             <!-- FOTO -->
                             <div class="bg-image hover-overlay hover-zoom mb-4">
                                 <picture>
-                                    <source srcset="img/funcionarios/mauro_rivera.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/mauro_rivera.jpg" type="image/jpeg">
-
-                                    <img alt="Mauro Rivera" class="img-fluid rounded-5 w-100" src="img/funcionarios/mauro_rivera.jpg" loading="lazy">
-                                </picture>
-                                <div class="mask"></div>
-
-                            </div>
-
-                            <!-- Profesion -->
-                            <div class="oficio">
-                                <h4 class="text-center">Mauro Rivera</h4>
-                                <span class="text-center oficio">MÉDICO CIRUJANO</span>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="staff">
-
-                            <!-- FOTO -->
-                            <div class="bg-image hover-overlay hover-zoom mb-4">
-                                <picture>
-                                    <source srcset="img/funcionarios/carmina_nicolai.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/carmina_nicolai.jpg" type="image/jpeg">
-                                    <img alt="Carmina Nicolai" class="img-fluid rounded-5 w-100" src="img/funcionarios/carmina_nicolai.jpg" loading="lazy">
+                                    <source srcset="img/funcionarios/camila_eguiluz.webp" type="image/webp">
+                                    <source srcset="img/funcionarios/camila_eguiluz.jpg" type="image/jpg">
+                                    <img alt="Camila Eguiluz" class="img-fluid rounded-5 w-100" src="img/funcionarios/camila_eguiluz.jpg" loading="lazy">
                                 </picture>
                                 <div class="mask"></div>
                             </div>
 
                             <!-- Profesion -->
                             <div class="oficio">
-                                <h4 class="text-center">Carmina Nicolai</h4>
-                                <span class="text-center oficio">matrona proparto</span>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="staff">
-
-                            <!-- FOTO -->
-                            <div class="bg-image hover-overlay hover-zoom mb-4">
-                                <picture>
-                                    <source srcset="img/funcionarios/daniel_oliva.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/daniel_oliva.jpg" type="image/jpeg">
-                                    <img alt="Daniel Oliva" class="img-fluid rounded-5 w-100" src="img/funcionarios/daniel_oliva.jpg" loading="lazy">
-                                </picture>
-                                <div class="mask"></div>
-                            </div>
-
-                            <!-- Profesion -->
-                            <div class="oficio">
-                                <h4 class="text-center">Daniel Oliva</h4>
-                                <span class="text-center oficio">nutricionista</span>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="staff">
-
-                            <!-- FOTO -->
-                            <div class="bg-image hover-overlay hover-zoom mb-4">
-                                <picture>
-                                    <source srcset="img/funcionarios/pia_espejo.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/pia_espejo.jpg" type="image/jpeg">
-                                    <img alt="Daniel Oliva" class="img-fluid rounded-5 w-100" src="img/funcionarios/pia_espejo.jpg" loading="lazy">
-                                </picture>
-
-                                <div class="mask"></div>
-                            </div>
-
-                            <!-- Profesion -->
-                            <div class="oficio">
-                                <h4 class="text-center">Pía Espejo</h4>
-                                <span class="text-center oficio">psicóloga</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Fila 2 -->
-                <div class="row mb-lg-5 mb-4 gy-4">
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="staff">
-
-                            <!-- FOTO -->
-                            <div class="bg-image hover-overlay hover-zoom mb-4">
-                                <picture>
-                                    <source srcset="img/funcionarios/paulette_toha.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/paulette_toha.jpeg" type="image/jpeg">
-                                    <img alt="Paulette Tohá" class="img-fluid rounded-5 w-100" src="img/funcionarios/paulette_toha.jpeg" loading="lazy">
-                                </picture>
-
-                                <div class="mask"></div>
-                            </div>
-
-                            <!-- Profesion -->
-                            <div class="oficio">
-                                <h4 class="text-center">Paulette Tohá</h4>
-                                <span class="text-center oficio">PSICÓLOGA INFANTIL</span>
+                                <h4 class="text-center">Camila Eguiluz</h4>
+                                <span class="text-center oficio">Fonoaudióloga</span>
                             </div>
                         </div>
 
@@ -564,7 +466,7 @@ header('Accept-Encoding: gzip, compress, br');
                             <div class="bg-image hover-overlay hover-zoom mb-4">
                                 <picture>
                                     <source srcset="img/funcionarios/karla_lopez.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/karla_lopez.jpg" type="image/jpeg">
+                                    <source srcset="img/funcionarios/karla_lopez.jpg" type="image/jpg">
                                     <img alt="Karla López" class="img-fluid rounded-5 w-100" src="img/funcionarios/karla_lopez.jpg" loading="lazy">
                                 </picture>
 
@@ -580,6 +482,85 @@ header('Accept-Encoding: gzip, compress, br');
 
                     </div>
 
+
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="staff">
+
+                            <!-- FOTO -->
+                            <div class="bg-image hover-overlay hover-zoom mb-4">
+                                <picture>
+                                    <source srcset="img/funcionarios/mauro_rivera.webp" type="image/webp">
+                                    <source srcset="img/funcionarios/mauro_rivera.jpg" type="image/jpg">
+
+                                    <img alt="Mauro Rivera" class="img-fluid rounded-5 w-100" src="img/funcionarios/mauro_rivera.jpg" loading="lazy">
+                                </picture>
+                                <div class="mask"></div>
+
+                            </div>
+
+                            <!-- Profesion -->
+                            <div class="oficio">
+                                <h4 class="text-center">Mauro Rivera</h4>
+                                <span class="text-center oficio">Médico Biorregulador</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="staff">
+
+                            <!-- FOTO -->
+                            <div class="bg-image hover-overlay hover-zoom mb-4">
+                                <picture>
+                                    <source srcset="img/funcionarios/carmina_nicolai.webp" type="image/webp">
+                                    <source srcset="img/funcionarios/carmina_nicolai.jpg" type="image/jpg">
+                                    <img alt="Carmina Nicolai" class="img-fluid rounded-5 w-100" src="img/funcionarios/carmina_nicolai.jpg" loading="lazy">
+                                </picture>
+                                <div class="mask"></div>
+                            </div>
+
+                            <!-- Profesion -->
+                            <div class="oficio">
+                                <h4 class="text-center">Carmina Nicolai</h4>
+                                <span class="text-center oficio">matrona proparto</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    
+                </div>
+
+                <!-- Fila 2 -->
+                <div class="row mb-lg-5 mb-4 gy-4">
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="staff">
+
+                            <!-- FOTO -->
+                            <div class="bg-image hover-overlay hover-zoom mb-4">
+                                <picture>
+                                    <source srcset="img/funcionarios/paulette_toha.webp" type="image/webp">
+                                    <source srcset="img/funcionarios/paulette_toha.jpg" type="image/jpg">
+                                    <img alt="Paulette Tohá" class="img-fluid rounded-5 w-100" src="img/funcionarios/paulette_toha.jpg" loading="lazy">
+                                </picture>
+
+                                <div class="mask"></div>
+                            </div>
+
+                            <!-- Profesion -->
+                            <div class="oficio">
+                                <h4 class="text-center">Paulette Tohá</h4>
+                                <span class="text-center oficio">PSICÓLOGA INFANTIL</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+
                     <div class="col-lg-3 col-md-6">
 
                         <div class="staff">
@@ -588,8 +569,8 @@ header('Accept-Encoding: gzip, compress, br');
                             <div class="bg-image hover-overlay hover-zoom mb-4">
                                 <picture>
                                     <source srcset="img/funcionarios/claudia_salas.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/claudia_salas.jpeg" type="image/jpeg">
-                                    <img alt="Claudia Salas" class="img-fluid rounded-5 w-100" src="img/funcionarios/claudia_salas.jpeg" loading="lazy">
+                                    <source srcset="img/funcionarios/claudia_salas.jpg" type="image/jpg">
+                                    <img alt="Claudia Salas" class="img-fluid rounded-5 w-100" src="img/funcionarios/claudia_salas.jpg" loading="lazy">
                                 </picture>
 
                                 <div class="mask"></div>
@@ -613,8 +594,8 @@ header('Accept-Encoding: gzip, compress, br');
                             <div class="bg-image hover-overlay hover-zoom mb-4">
                                 <picture>
                                     <source srcset="img/funcionarios/scarlett_orellana.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/scarlett_orellana.jpeg" type="image/jpeg">
-                                    <img alt="Scarlett Orellana" class="img-fluid rounded-5 w-100" src="img/funcionarios/scarlett_orellana.jpeg" loading="lazy">
+                                    <source srcset="img/funcionarios/scarlett_orellana.jpg" type="image/jpg">
+                                    <img alt="Scarlett Orellana" class="img-fluid rounded-5 w-100" src="img/funcionarios/scarlett_orellana.jpg" loading="lazy">
                                 </picture>
 
                                 <div class="mask"></div>
@@ -628,6 +609,29 @@ header('Accept-Encoding: gzip, compress, br');
                         </div>
 
                     </div>
+
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="staff">
+
+                            <!-- FOTO -->
+                            <div class="bg-image hover-overlay hover-zoom mb-4">
+                                <picture>
+                                    <source srcset="img/funcionarios/pia_espejo.webp" type="image/webp">
+                                    <source srcset="img/funcionarios/pia_espejo.jpg" type="image/jpg">
+                                    <img alt="Daniel Oliva" class="img-fluid rounded-5 w-100" src="img/funcionarios/pia_espejo.jpg" loading="lazy">
+                                </picture>
+
+                                <div class="mask"></div>
+                            </div>
+
+                            <!-- Profesion -->
+                            <div class="oficio">
+                                <h4 class="text-center">Pía Espejo</h4>
+                                <span class="text-center oficio">psicóloga</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- FIla 3 -->
@@ -640,57 +644,9 @@ header('Accept-Encoding: gzip, compress, br');
                             <!-- FOTO -->
                             <div class="bg-image hover-overlay hover-zoom mb-4">
                                 <picture>
-                                    <source srcset="img/funcionarios/fran_gutierrez.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/fran_gutierrez.jpeg" type="image/jpeg">
-                                    <img alt="Francisca Gutiérrez" class="img-fluid rounded-5 w-100" src="img/funcionarios/fran_gutierrez.jpeg" loading="lazy">
-                                </picture>
-                                <div class="mask"></div>
-                            </div>
-
-                            <!-- Profesion -->
-                            <div class="oficio">
-                                <h4 class="text-center">Francisca Gutiérrez</h4>
-                                <span class="text-center oficio">terapeuta ocupacional</span>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="staff">
-
-                            <!-- FOTO -->
-                            <div class="bg-image hover-overlay hover-zoom mb-4">
-                                <picture>
-                                    <source srcset="img/funcionarios/stefania_rigotti.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/stefania_rigotti.jpeg" type="image/jpeg">
-                                    <img alt="Stefania Rigotti" class="img-fluid rounded-5 w-100" src="img/funcionarios/stefania_rigotti.jpeg" loading="lazy">
-                                </picture>
-
-                                <div class="mask"></div>
-                            </div>
-
-                            <!-- Profesion -->
-                            <div class="oficio">
-                                <h4 class="text-center">Stefania Rigotti</h4>
-                                <span class="text-center oficio">Nutricionista infantil</span>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="staff">
-
-                            <!-- FOTO -->
-                            <div class="bg-image hover-overlay hover-zoom mb-4">
-                                <picture>
                                     <source srcset="img/funcionarios/fran_munoz.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/fran_munoz.jpeg" type="image/jpeg">
-                                    <img alt="Francisca Muñoz" class="img-fluid rounded-5 w-100" src="img/funcionarios/fran_munoz.jpeg" loading="lazy">
+                                    <source srcset="img/funcionarios/fran_munoz.jpg" type="image/jpg">
+                                    <img alt="Francisca Muñoz" class="img-fluid rounded-5 w-100" src="img/funcionarios/fran_munoz.jpg" loading="lazy">
                                 </picture>
 
                                 <div class="mask"></div>
@@ -712,36 +668,8 @@ header('Accept-Encoding: gzip, compress, br');
                             <!-- FOTO -->
                             <div class="bg-image hover-overlay hover-zoom mb-4">
                                 <picture>
-                                    <source srcset="img/funcionarios/m_valentina_olivier.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/m_valentina_olivier.jpeg" type="image/jpeg">
-                                    <img alt="Mª Valentina Olivier" class="img-fluid rounded-5 w-100" src="img/funcionarios/m_valentina_olivier.jpeg" loading="lazy">
-                                </picture>
-
-                                <div class="mask"></div>
-                            </div>
-
-                            <!-- Profesion -->
-                            <div class="oficio">
-                                <h4 class="text-center">Mª Valentina Olivier</h4>
-                                <span class="text-center oficio">psicóloga infantil</span>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- Fila 4 -->
-                <div class="row mb-lg-5 mb-4 gy-4">
-
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="staff">
-
-                            <!-- FOTO -->
-                            <div class="bg-image hover-overlay hover-zoom mb-4">
-                                <picture>
                                     <source srcset="img/funcionarios/charnelle_galleguillos.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/charnelle_galleguillos.jpg" type="image/jpeg">
+                                    <source srcset="img/funcionarios/charnelle_galleguillos.jpg" type="image/jpg">
                                     <img alt="Francisca Gutiérrez" class="img-fluid rounded-5 w-100" src="img/funcionarios/charnelle_galleguillos.jpg" loading="lazy">
                                 </picture>
 
@@ -764,32 +692,8 @@ header('Accept-Encoding: gzip, compress, br');
                             <!-- FOTO -->
                             <div class="bg-image hover-overlay hover-zoom mb-4">
                                 <picture>
-                                    <source srcset="img/funcionarios/constanza_retamal.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/constanza_retamal.jpg" type="image/jpeg">
-                                    <img alt="Constanza Retamal" class="img-fluid rounded-5 w-100" src="img/funcionarios/constanza_retamal.jpg" loading="lazy">
-                                </picture>
-                                <div class="mask"></div>
-                            </div>
-
-                            <!-- Profesion -->
-                            <div class="oficio">
-                                <h4 class="text-center">Constanza Retamal</h4>
-                                <span class="text-center oficio">Terapeuta ocupacional</span>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                    <div class="col-lg-3 col-md-6">
-
-                        <div class="staff">
-
-                            <!-- FOTO -->
-                            <div class="bg-image hover-overlay hover-zoom mb-4">
-                                <picture>
                                     <source srcset="img/funcionarios/mariflor_martinez.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/mariflor_martinez.jpg" type="image/jpeg">
+                                    <source srcset="img/funcionarios/mariflor_martinez.jpg" type="image/jpg">
                                     <img alt="Mariflor Martínez" class="img-fluid rounded-5 w-100" src="img/funcionarios/mariflor_martinez.jpg" loading="lazy">
                                 </picture>
 
@@ -814,7 +718,7 @@ header('Accept-Encoding: gzip, compress, br');
 
                                 <picture>
                                     <source srcset="img/funcionarios/gabriela_araya.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/gabriela_araya.jpg" type="image/jpeg">
+                                    <source srcset="img/funcionarios/gabriela_araya.jpg" type="image/jpg">
                                     <img alt="Gabriela Araya" class="img-fluid rounded-5 w-100" src="img/funcionarios/gabriela_araya.jpg" loading="lazy">
                                 </picture>
 
@@ -830,11 +734,11 @@ header('Accept-Encoding: gzip, compress, br');
 
                     </div>
 
-
                 </div>
 
-                <!-- Fila 5  (CENTRADA) -->
-                <div class="row mb-lg-5 mb-4 gy-4 d-flex justify-content-center">
+                <!-- Fila 4 -->
+                <div class="row mb-lg-5 mb-4 gy-4">
+
                     <div class="col-lg-3 col-md-6">
 
                         <div class="staff">
@@ -843,8 +747,8 @@ header('Accept-Encoding: gzip, compress, br');
                             <div class="bg-image hover-overlay hover-zoom mb-4">
                                 <picture>
                                     <source srcset="img/funcionarios/felipe_contreras.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/felipe_contreras.jpeg" type="image/jpeg">
-                                    <img alt="Felipe Contreras" class="img-fluid rounded-5 w-100" src="img/funcionarios/felipe_contreras.jpeg" loading="lazy">
+                                    <source srcset="img/funcionarios/felipe_contreras.jpg" type="image/jpg">
+                                    <img alt="Felipe Contreras" class="img-fluid rounded-5 w-100" src="img/funcionarios/felipe_contreras.jpg" loading="lazy">
                                 </picture>
                                 <div class="mask"></div>
                             </div>
@@ -864,24 +768,288 @@ header('Accept-Encoding: gzip, compress, br');
 
                             <!-- FOTO -->
                             <div class="bg-image hover-overlay hover-zoom mb-4">
-
                                 <picture>
-                                    <source srcset="img/funcionarios/valentina_collao.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/valentina_collao.jpeg" type="image/jpeg">
-                                    <img alt="Valentina Collao" class="img-fluid rounded-5 w-100" src="img/funcionarios/valentina_collao.jpeg" loading="lazy">
+                                    <source srcset="img/funcionarios/ma_malebran.webp" type="image/webp">
+                                    <source srcset="img/funcionarios/ma_malebran.jpg" type="image/jpg">
+                                    <img alt="Felipe Contreras" class="img-fluid rounded-5 w-100" src="img/funcionarios/ma_malebran.jpg" loading="lazy">
                                 </picture>
-
                                 <div class="mask"></div>
                             </div>
 
                             <!-- Profesion -->
                             <div class="oficio">
-                                <h4 class="text-center">Valentina Collao</h4>
-                                <span class="text-center oficio">Nutricionista</span>
+                                <h4 class="text-center">María Rosa Malebrán</h4>
+                                <span class="text-center oficio">Fonoaudióloga Infantil</span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="staff">
+
+                            <!-- FOTO -->
+                            <div class="bg-image hover-overlay hover-zoom mb-4">
+                                <picture>
+                                    <source srcset="img/funcionarios/isabel_muñoz.webp" type="image/webp">
+                                    <source srcset="img/funcionarios/isabel_muñoz.jpg" type="image/jpg">
+                                    <img alt="Isabel Muñoz" class="img-fluid rounded-5 w-100" src="img/funcionarios/isabel_muñoz.jpg" loading="lazy">
+                                </picture>
+                                <div class="mask"></div>
+                            </div>
+
+                            <!-- Profesion -->
+                            <div class="oficio">
+                                <h4 class="text-center">Isabel Muñoz</h4>
+                                <span class="text-center oficio">Fonoaudióloga Estética</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="staff">
+
+                            <!-- FOTO -->
+                            <div class="bg-image hover-overlay hover-zoom mb-4">
+                                <picture>
+                                    <source srcset="img/funcionarios/seba_vilchez.webp" type="image/webp">
+                                    <source srcset="img/funcionarios/seba_vilchez.jpg" type="image/jpg">
+                                    <img alt="Sebastián Vilchez" class="img-fluid rounded-5 w-100" src="img/funcionarios/seba_vilchez.jpg" loading="lazy">
+                                </picture>
+                                <div class="mask"></div>
+                            </div>
+
+                            <!-- Profesion -->
+                            <div class="oficio">
+                                <h4 class="text-center">Sebastián Vilchez</h4>
+                                <span class="text-center oficio">Kinesiólogo</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Fila 5 -->
+                <div class="row mb-lg-5 mb-4 gy-4">
+
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="staff">
+
+                            <!-- FOTO -->
+                            <div class="bg-image hover-overlay hover-zoom mb-4">
+                                <picture>
+                                    <source srcset="img/funcionarios/fer_carmona.webp" type="image/webp">
+                                    <source srcset="img/funcionarios/fer_carmona.jpg" type="image/jpg">
+                                    <img alt="Fernanda Carmona" class="img-fluid rounded-5 w-100" src="img/funcionarios/fer_carmona.jpg" loading="lazy">
+                                </picture>
+                                <div class="mask"></div>
+                            </div>
+
+                            <!-- Profesion -->
+                            <div class="oficio">
+                                <h4 class="text-center">Fernanda Carmona</h4>
+                                <span class="text-center oficio">Terapeuta Ocupacional</span>
                             </div>
                         </div>
 
                     </div>
+
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="staff">
+
+                            <!-- FOTO -->
+                            <div class="bg-image hover-overlay hover-zoom mb-4">
+                                <picture>
+                                    <source srcset="img/funcionarios/estrella_daque.webp" type="image/webp">
+                                    <source srcset="img/funcionarios/estrella_daque.jpg" type="image/jpg">
+                                    <img alt="Estrella Daque" class="img-fluid rounded-5 w-100" src="img/funcionarios/estrella_daque.jpg" loading="lazy">
+                                </picture>
+                                <div class="mask"></div>
+                            </div>
+
+                            <!-- Profesion -->
+                            <div class="oficio">
+                                <h4 class="text-center">Estrella Daque</h4>
+                                <span class="text-center oficio">Terapeuta Ocupacional infanto-juvenil</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="staff">
+
+                            <!-- FOTO -->
+                            <div class="bg-image hover-overlay hover-zoom mb-4">
+                                <picture>
+                                    <source srcset="img/funcionarios/sofia_bahamondes.webp" type="image/webp">
+                                    <source srcset="img/funcionarios/sofia_bahamondes.jpg" type="image/jpg">
+                                    <img alt="Sofía Bahamondes" class="img-fluid rounded-5 w-100" src="img/funcionarios/sofia_bahamondes.jpg" loading="lazy">
+                                </picture>
+                                <div class="mask"></div>
+                            </div>
+
+                            <!-- Profesion -->
+                            <div class="oficio">
+                                <h4 class="text-center">Sofía Bahamondes</h4>
+                                <span class="text-center oficio">Terapeuta Ocupacional Infanto-juvenil</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="staff">
+
+                            <!-- FOTO -->
+                            <div class="bg-image hover-overlay hover-zoom mb-4">
+                                <picture>
+                                    <source srcset="img/funcionarios/claudia_tapia.webp" type="image/webp">
+                                    <source srcset="img/funcionarios/claudia_tapia.jpg" type="image/jpg">
+                                    <img alt="Claudia Tapia" class="img-fluid rounded-5 w-100" src="img/funcionarios/claudia_tapia.jpg" loading="lazy">
+                                </picture>
+                                <div class="mask"></div>
+                            </div>
+
+                            <!-- Profesion -->
+                            <div class="oficio">
+                                <h4 class="text-center">Claudia Tapia</h4>
+                                <span class="text-center oficio">Terapeuta Ocupacional Primera Infancia</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Fila 6 -->
+                <div class="row mb-lg-5 mb-4 gy-4">
+
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="staff">
+
+                            <!-- FOTO -->
+                            <div class="bg-image hover-overlay hover-zoom mb-4">
+                                <picture>
+                                    <source srcset="img/funcionarios/roberto_lobos.webp" type="image/webp">
+                                    <source srcset="img/funcionarios/roberto_lobos.jpg" type="image/jpg">
+                                    <img alt="Roberto Lobos" class="img-fluid rounded-5 w-100" src="img/funcionarios/roberto_lobos.jpg" loading="lazy">
+                                </picture>
+                                <div class="mask"></div>
+                            </div>
+
+                            <!-- Profesion -->
+                            <div class="oficio">
+                                <h4 class="text-center">Roberto Lobos</h4>
+                                <span class="text-center oficio">Psicólogo clínico adulto</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="staff">
+
+                            <!-- FOTO -->
+                            <div class="bg-image hover-overlay hover-zoom mb-4">
+                                <picture>
+                                    <source srcset="img/funcionarios/makarena_finster.webp" type="image/webp">
+                                    <source srcset="img/funcionarios/makarena_finster.jpg" type="image/jpg">
+                                    <img alt="Makarena Finsterbuch" class="img-fluid rounded-5 w-100" src="img/funcionarios/makarena_finster.jpg" loading="lazy">
+                                </picture>
+                                <div class="mask"></div>
+                            </div>
+
+                            <!-- Profesion -->
+                            <div class="oficio">
+                                <h4 class="text-center">Makarena Finsterbuch</h4>
+                                <span class="text-center oficio">Educadora Diferencial</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="staff">
+
+                            <!-- FOTO -->
+                            <div class="bg-image hover-overlay hover-zoom mb-4">
+                                <picture>
+                                    <source srcset="img/funcionarios/dolores_galvez.webp" type="image/webp">
+                                    <source srcset="img/funcionarios/dolores_galvez.jpg" type="image/jpg">
+                                    <img alt="Dolores Gálvez" class="img-fluid rounded-5 w-100" src="img/funcionarios/dolores_galvez.jpg" loading="lazy">
+                                </picture>
+                                <div class="mask"></div>
+                            </div>
+
+                            <!-- Profesion -->
+                            <div class="oficio">
+                                <h4 class="text-center">Dolores Gálvez</h4>
+                                <span class="text-center oficio">Terapeuta Sexual</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="staff">
+
+                            <!-- FOTO -->
+                            <div class="bg-image hover-overlay hover-zoom mb-4">
+                                <picture>
+                                    <source srcset="img/funcionarios/jenifer_meneses.webp" type="image/webp">
+                                    <source srcset="img/funcionarios/jenifer_meneses.jpg" type="image/jpg">
+                                    <img alt="Jenifer Meneses" class="img-fluid rounded-5 w-100" src="img/funcionarios/jenifer_meneses.jpg" loading="lazy">
+                                </picture>
+                                <div class="mask"></div>
+                            </div>
+
+                            <!-- Profesion -->
+                            <div class="oficio">
+                                <h4 class="text-center">Jenifer Meneses</h4>
+                                <span class="text-center oficio">Psicóloga Clínica</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Fila 7  (CENTRADA) -->
+                <div class="row mb-lg-5 mb-4 gy-4 d-flex justify-content-center">
+
+                    <div class="col-lg-3 col-md-6">
+
+                        <div class="staff">
+
+                            <!-- FOTO -->
+                            <div class="bg-image hover-overlay hover-zoom mb-4">
+                                <picture>
+                                    <source srcset="img/funcionarios/daniel_oliva.webp" type="image/webp">
+                                    <source srcset="img/funcionarios/daniel_oliva.jpg" type="image/jpg">
+                                    <img alt="Daniel Oliva" class="img-fluid rounded-5 w-100" src="img/funcionarios/daniel_oliva.jpg" loading="lazy">
+                                </picture>
+                                <div class="mask"></div>
+                            </div>
+
+                            <!-- Profesion -->
+                            <div class="oficio">
+                                <h4 class="text-center">Daniel Oliva</h4>
+                                <span class="text-center oficio">nutricionista</span>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
 
@@ -894,7 +1062,7 @@ header('Accept-Encoding: gzip, compress, br');
 
                 <picture>
                     <source srcset="img/foto_mision_vision.webp" type="image/webp">
-                    <source srcset="img/foto_mision_vision.jpg" type="image/jpeg">
+                    <source srcset="img/foto_mision_vision.jpg" type="image/jpg">
                     <img alt="Mision - Vision" class="img-fluid w-100" src="img/foto_mision_vision.jpg" loading="lazy">
                 </picture>
 
@@ -967,7 +1135,7 @@ header('Accept-Encoding: gzip, compress, br');
                                     <p>
                                         <a href="https://api.whatsapp.com/send?phone=56959905385" target="_blank" rel="noopener noreferrer nofollow" style="color: rgba(255,255,255,0.7);"><i class="fab fa-whatsapp fa-lg"></i></a>
                                     </p>
-                                    
+
                                 </div>
                                 <div class="col-11 ">
                                     <p>
