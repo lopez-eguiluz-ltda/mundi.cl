@@ -18,14 +18,10 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/figonzal1/centroamai.cl?color=yellow">
   </a>
 
-  <a href="https://img.shields.io/uptimerobot/status/m785552708-deaa061db015f26ff6b47b72?label=website%20status">
-    <img alt="Uptime Robot status" src="https://img.shields.io/uptimerobot/status/m785552708-deaa061db015f26ff6b47b72?label=website%20status">
+  <a href="https://img.shields.io/uptimerobot/status/m794664525-070d096a44353c240f25c65e?label=website%20status">
+    <img alt="Uptime Robot status" src="https://img.shields.io/uptimerobot/status/m794664525-070d096a44353c240f25c65e?label=website%20status">
 </a>
 
-  <a href="https://securityheaders.com/?q=centroamai.cl&hide=on&followRedirects=on">
-  <img alt="Security Headers" src="https://img.shields.io/security-headers?url=https%3A%2F%2Fcentroamai.cl">
-  </a>
-  
   <a href="https://wakatime.com/badge/github/figonzal1/centroamai.cl">
     <img src="https://wakatime.com/badge/github/figonzal1/centroamai.cl.svg" alt="wakatime">
   </a>
