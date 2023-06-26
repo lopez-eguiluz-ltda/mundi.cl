@@ -813,9 +813,9 @@ header('Accept-Encoding: gzip, compress, br');
                             <!-- FOTO -->
                             <div class="bg-image hover-overlay hover-zoom mb-4">
                                 <picture>
-                                    <source srcset="img/funcionarios/seba_vilchez.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/seba_vilchez.jpg" type="image/jpg">
-                                    <img alt="Sebastián Vilchez" class="img-fluid rounded-5 w-100" src="img/funcionarios/seba_vilchez.jpg" loading="lazy">
+                                    <source srcset="img/funcionarios/sebastian_vilchez.webp" type="image/webp">
+                                    <source srcset="img/funcionarios/sebastian_vilchez.jpg" type="image/jpg">
+                                    <img alt="Sebastián Vilchez" class="img-fluid rounded-5 w-100" src="img/funcionarios/sebastian_vilchez.jpg" loading="lazy">
                                 </picture>
                                 <div class="mask"></div>
                             </div>
@@ -840,9 +840,9 @@ header('Accept-Encoding: gzip, compress, br');
                             <!-- FOTO -->
                             <div class="bg-image hover-overlay hover-zoom mb-4">
                                 <picture>
-                                    <source srcset="img/funcionarios/fer_carmona.webp" type="image/webp">
-                                    <source srcset="img/funcionarios/fer_carmona.jpg" type="image/jpg">
-                                    <img alt="Fernanda Carmona" class="img-fluid rounded-5 w-100" src="img/funcionarios/fer_carmona.jpg" loading="lazy">
+                                    <source srcset="img/funcionarios/fernanda_carmona.webp" type="image/webp">
+                                    <source srcset="img/funcionarios/fernanda_carmona.jpg" type="image/jpg">
+                                    <img alt="Fernanda Carmona" class="img-fluid rounded-5 w-100" src="img/funcionarios/fernanda_carmona.jpg" loading="lazy">
                                 </picture>
                                 <div class="mask"></div>
                             </div>
