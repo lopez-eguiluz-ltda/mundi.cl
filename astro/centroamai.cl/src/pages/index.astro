@@ -13,7 +13,7 @@ import { MdBabyChangingStation } from "react-icons/md";
     <nav class="fixed z-10">
       <h1 class="text-black text-lg">Felipe</h1>
     </nav>
-    <MyCarousel />
+    <MyCarousel client:load />
 
     <div class="flex flex-col items-center gap-10 p-24">
       <h1 class="text-4xl text-white">Nuestros Servicios</h1>
@@ -24,16 +24,16 @@ import { MdBabyChangingStation } from "react-icons/md";
           <p class="text-slate-400">Servicios de Pediatría</p>
           <ul class="list-inside">
             <li class="flex items-center gap-2">
-              <PiStarFourFill className="text-red-400" />Pro lactancia materna
+              <PiStarFourFill className="text-red-400 " /><p class="font-light">Pro lactancia materna</p>
             </li>
             <li class="flex items-center gap-2">
-              <PiStarFourFill className="text-red-400" />Pro lactancia materna
+              <PiStarFourFill className="text-red-400 font-medium" /><p class="font-medium">Pro lactancia materna</p>
             </li>
             <li class="flex items-center gap-2">
-              <PiStarFourFill className="text-red-400" />Pro lactancia materna
+              <PiStarFourFill className="text-red-400 font-bold" /><p class="font-semibold">Pro lactancia materna</p>
             </li>
             <li class="flex items-center gap-2">
-              <PiStarFourFill className="text-red-400" />Pro lactancia materna
+              <PiStarFourFill className="text-red-400" /><p class="font-bold">Pro lactancia materna</p>
             </li>
           </ul>
         </div>

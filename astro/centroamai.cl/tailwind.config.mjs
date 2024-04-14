@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+const defaultTheme = require("tailwindcss/defaultTheme");
+
+export default {
   darkMode: ["class"],
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   prefix: "",
@@ -12,6 +14,9 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["Quicksand Variable", ...defaultTheme.fontFamily.sans], // Agrega 'Quicksand' al principio de la lista
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
