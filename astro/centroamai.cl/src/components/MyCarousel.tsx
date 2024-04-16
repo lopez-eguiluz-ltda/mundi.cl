@@ -19,12 +19,13 @@ const MyCarousel = () => {
       ]}
     >
       <CarouselContent>
-        <CarouselItem>
+        <CarouselItem className="relative">
           <img
             src={p1.src}
-            className="object-cover w-full h-[80vh]"
             alt="Home"
+            className="object-cover w-full h-[80vh] opacity-90 brightness-50 blur-sm"
           />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#7FAEB5] to-transparent"></div>
         </CarouselItem>
         <CarouselItem>
           <img

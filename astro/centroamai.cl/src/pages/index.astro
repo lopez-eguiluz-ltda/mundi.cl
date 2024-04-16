@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import MyCarousel from "@/components/MyCarousel";
 import "../../css/global.css";
 
-import { FaBaby,FaAppleWhole } from "react-icons/fa6";
+import { FaBaby, FaAppleWhole } from "react-icons/fa6";
 import { PiStarFourFill } from "react-icons/pi";
 import { MdBabyChangingStation } from "react-icons/md";
 ---
@@ -16,24 +16,40 @@ import { MdBabyChangingStation } from "react-icons/md";
     <MyCarousel client:load />
 
     <div class="flex flex-col items-center gap-10 p-24">
-      <h1 class="text-4xl text-white">Nuestros Servicios</h1>
+      <h1 class="text-5xl text-white font-bold">
+        Servicios disponibles
+      </h1>
       <div class="grid grid-cols-3 gap-10 w-full">
-        <div class="flex flex-col justify-start bg-white rounded-lg p-8 gap-4">
-          <FaBaby size={64} className=" transform -translate-x-2" />
+        <div
+          class="flex flex-col justify-start bg-white rounded-2xl shadow-lg shadow-gray-600 p-8 gap-4"
+        >
+          <FaBaby size={64} className="transform -translate-x-2 text-[#42A299]" />
           <h1 class="font-bold text-2xl antialiased">300+ UI Components</h1>
           <p class="text-slate-400">Servicios de Pediatría</p>
           <ul class="list-inside">
             <li class="flex items-center gap-2">
-              <PiStarFourFill className="text-red-400 " /><p class="font-light">Pro lactancia materna</p>
+              <PiStarFourFill className="text-[#42A299]" /><p class="font-light">
+                Pro lactancia materna
+              </p>
             </li>
             <li class="flex items-center gap-2">
-              <PiStarFourFill className="text-red-400 font-medium" /><p class="font-medium">Pro lactancia materna</p>
+              <PiStarFourFill className="text-red-400 font-medium" /><p
+                class="font-medium"
+              >
+                Pro lactancia materna
+              </p>
             </li>
             <li class="flex items-center gap-2">
-              <PiStarFourFill className="text-red-400 font-bold" /><p class="font-semibold">Pro lactancia materna</p>
+              <PiStarFourFill className="text-red-400 font-bold" /><p
+                class="font-semibold"
+              >
+                Pro lactancia materna
+              </p>
             </li>
             <li class="flex items-center gap-2">
-              <PiStarFourFill className="text-red-400" /><p class="font-bold">Pro lactancia materna</p>
+              <PiStarFourFill className="text-red-400" /><p class="font-bold">
+                Pro lactancia materna
+              </p>
             </li>
           </ul>
         </div>
@@ -66,20 +82,13 @@ import { MdBabyChangingStation } from "react-icons/md";
         </div>
 
         <div class="flex flex-col justify-start bg-white rounded-lg p-8 gap-4">
-          <FaAppleWhole
-            size={64}
-            className=" transform -translate-x-2"
-          />
-          <h1 class="font-bold text-2xl antialiased">
-            Nutrición
-          </h1>
+          <FaAppleWhole size={64} className=" transform -translate-x-2" />
+          <h1 class="font-bold text-2xl antialiased">Nutrición</h1>
           <p class="text-slate-400">Servicios de nutrición y dietética</p>
           <ul class="list-inside">
             <li class="flex items-center gap-2">
               <PiStarFourFill className="text-red-400 flex-shrink-0" />
-              <p class="truncate">
-                Materno infantil
-              </p>
+              <p class="truncate">Materno infantil</p>
             </li>
             <li class="flex items-center gap-2">
               <PiStarFourFill className="text-red-400 flex-shrink-0" />
