@@ -19,10 +19,11 @@ export default {
       },
       colors: {
         cgreen: "#42A299",
-        caqua: "##3FAEBD",
+        caqua: "#3FAEBD",
         cgray: "#545454",
         cpurple: "#6A4A90",
-        cbackground: "#7FAEB5"
+        corange: "#D34F4D",
+        cbackground: "#7FAEB5",
       },
       keyframes: {
         "accordion-down": {

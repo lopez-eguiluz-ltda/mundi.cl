@@ -1,10 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import MyCarousel from "@/components/MyCarousel";
 
 import { FaBaby, FaAppleWhole } from "react-icons/fa6";
 import { PiStarFourFill } from "react-icons/pi";
 import { MdBabyChangingStation } from "react-icons/md";
+import FrontCarousel from "@/components/FrontCarousel";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -12,7 +12,7 @@ import { MdBabyChangingStation } from "react-icons/md";
     <nav class="fixed z-10">
       <h1 class="text-black text-lg">Felipe</h1>
     </nav>
-    <MyCarousel client:load />
+    <FrontCarousel client:load />
 
     <div class="flex flex-col items-center gap-10 p-24">
       <h1 class="text-5xl text-white font-bold">
