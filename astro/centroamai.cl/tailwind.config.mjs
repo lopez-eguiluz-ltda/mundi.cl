@@ -17,6 +17,13 @@ export default {
       fontFamily: {
         sans: ["Quicksand Variable", ...defaultTheme.fontFamily.sans], // Agrega 'Quicksand' al principio de la lista
       },
+      colors: {
+        cgreen: "#42A299",
+        caqua: "##3FAEBD",
+        cgray: "#545454",
+        cpurple: "#6A4A90",
+        cbackground: "#7FAEB5"
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
