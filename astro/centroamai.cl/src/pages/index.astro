@@ -5,6 +5,8 @@ import { FaBaby, FaAppleWhole } from "react-icons/fa6";
 import { PiStarFourFill } from "react-icons/pi";
 import { MdBabyChangingStation } from "react-icons/md";
 import FrontCarousel from "@/components/FrontCarousel";
+import ServicesCarousel from "@/components/ServicesCarousel";
+import { FaWhatsapp } from "react-icons/fa";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -14,92 +16,151 @@ import FrontCarousel from "@/components/FrontCarousel";
     </nav>
     <FrontCarousel client:load />
 
-    <div class="flex flex-col items-center gap-10 p-24">
-      <h1 class="text-5xl text-white font-bold">
-        Servicios disponibles
-      </h1>
-      <div class="grid grid-cols-3 gap-10 w-full">
-        <div
-          class="flex flex-col justify-start bg-white rounded-2xl shadow-lg shadow-gray-600 p-8 gap-4"
-        >
-          <FaBaby size={64} className="transform -translate-x-2 text-[#42A299]" />
-          <h1 class="font-bold text-2xl antialiased">300+ UI Components</h1>
-          <p class="text-slate-400">Servicios de Pediatría</p>
-          <ul class="list-inside">
-            <li class="flex items-center gap-2">
-              <PiStarFourFill className="text-[#42A299]" /><p class="font-light">
-                Pro lactancia materna
-              </p>
-            </li>
-            <li class="flex items-center gap-2">
-              <PiStarFourFill className="text-red-400 font-medium" /><p
-                class="font-medium"
-              >
-                Pro lactancia materna
-              </p>
-            </li>
-            <li class="flex items-center gap-2">
-              <PiStarFourFill className="text-red-400 font-bold" /><p
-                class="font-semibold"
-              >
-                Pro lactancia materna
-              </p>
-            </li>
-            <li class="flex items-center gap-2">
-              <PiStarFourFill className="text-red-400" /><p class="font-bold">
-                Pro lactancia materna
-              </p>
-            </li>
-          </ul>
-        </div>
+    <div class="flex justify-center">
+      <div
+        class="bg-white/95 rounded-b-3xl w-10/12 px-10 py-4 -translate-y-0 shadow-md opacity-65 hover:opacity-100 hover:rounded-3xl hover:-translate-y-5 transition-all duration-300 ease-in-out"
+      >
+        <div class="grid grid-cols-3 items-center">
+          <div class="text-center">
+            <div class="flex justify-start items-center">
+              <div class="flex">
+                <div
+                  class="w-11 h-11 overflow-hidden rounded-full border-2 border-caqua"
+                >
+                  <img
+                    src="camila_eguiluz.jpg"
+                    alt="Descripción de la imagen"
+                    class="object-cover w-full h-full"
+                  />
+                </div>
 
-        <div class="flex flex-col justify-start bg-white rounded-lg p-8 gap-4">
-          <MdBabyChangingStation
-            size={64}
-            className=" transform -translate-x-2"
-          />
-          <h1 class="font-bold text-2xl antialiased">
-            Consejería en Lactancia Materna
-          </h1>
-          <p class="text-slate-400">Servicios de consejería materna</p>
-          <ul class="list-inside">
-            <li class="flex items-center gap-2">
-              <PiStarFourFill className="text-red-400 flex-shrink-0" />
-              <p class="truncate">
-                Profesionales certificados en lactancia materna
-              </p>
-            </li>
-            <li class="flex items-center gap-2">
-              <PiStarFourFill className="text-red-400 flex-shrink-0" />
-              <p class="truncate">Consejería pre & post natales</p>
-            </li>
-            <li class="flex items-center gap-2">
-              <PiStarFourFill className="text-red-400 flex-shrink-0" />
-              <p class="truncate">Asesoría en destete respetuoso</p>
-            </li>
-          </ul>
-        </div>
+                <div
+                  class="w-11 h-11 overflow-hidden rounded-full border-2 border-caqua -translate-x-3"
+                >
+                  <img
+                    src="karla_lopez.jpg"
+                    alt="Descripción de la imagen"
+                    class="object-cover w-full h-full"
+                  />
+                </div>
+              </div>
+              <h1 class="font-semibold text-cgreen text-right">
+                Nuestro equipo
+              </h1>
+            </div>
+          </div>
 
-        <div class="flex flex-col justify-start bg-white rounded-lg p-8 gap-4">
-          <FaAppleWhole size={64} className=" transform -translate-x-2" />
-          <h1 class="font-bold text-2xl antialiased">Nutrición</h1>
-          <p class="text-slate-400">Servicios de nutrición y dietética</p>
-          <ul class="list-inside">
-            <li class="flex items-center gap-2">
-              <PiStarFourFill className="text-red-400 flex-shrink-0" />
-              <p class="truncate">Materno infantil</p>
-            </li>
-            <li class="flex items-center gap-2">
-              <PiStarFourFill className="text-red-400 flex-shrink-0" />
-              <p class="truncate">Nutrición vagana</p>
-            </li>
-            <li class="flex items-center gap-2">
-              <PiStarFourFill className="text-red-400 flex-shrink-0" />
-              <p class="truncate">Consejero de lactancia</p>
-            </li>
-          </ul>
+          <div class="text-center flex justify-center items-center">
+            <img
+              src="amai_logo_simplificado.jpg"
+              class="w-1/5 rounded"
+              alt=""
+            />
+          </div>
+
+          <div class="flex justify-end items-center gap-5">
+            <h1 class="font-semibold text-cgreen text-right">
+              Agenda tu asesoría de orientación gratis
+            </h1>
+            <a
+              class="hover:opacity-50 transition-opacity duration-300 ease-in-out animate-pop animate-duration-1000 animate-iteration-count-infinite"
+              href="https://api.whatsapp.com/send?phone=56959905385"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <FaWhatsapp size={42} className="text-[#25D366]" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </main>
+
+  <div class="flex flex-col items-center gap-10 p-24">
+    <h1 class="text-5xl text-white font-bold">Servicios disponibles</h1>
+    <div class="grid grid-cols-3 gap-10 w-full">
+      <div
+        class="flex flex-col justify-start bg-white rounded-2xl shadow-lg shadow-gray-600 p-8 gap-4"
+      >
+        <FaBaby size={64} className="transform -translate-x-2 text-[#42A299]" />
+        <h1 class="font-bold text-2xl antialiased">300+ UI Components</h1>
+        <p class="text-slate-400">Servicios de Pediatría</p>
+        <ul class="list-inside">
+          <li class="flex items-center gap-2">
+            <PiStarFourFill className="text-[#42A299]" /><p class="font-light">
+              Pro lactancia materna
+            </p>
+          </li>
+          <li class="flex items-center gap-2">
+            <PiStarFourFill className="text-red-400 font-medium" /><p
+              class="font-medium"
+            >
+              Pro lactancia materna
+            </p>
+          </li>
+          <li class="flex items-center gap-2">
+            <PiStarFourFill className="text-red-400 font-bold" /><p
+              class="font-semibold"
+            >
+              Pro lactancia materna
+            </p>
+          </li>
+          <li class="flex items-center gap-2">
+            <PiStarFourFill className="text-red-400" /><p class="font-bold">
+              Pro lactancia materna
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex flex-col justify-start bg-white rounded-lg p-8 gap-4">
+        <MdBabyChangingStation
+          size={64}
+          className=" transform -translate-x-2"
+        />
+        <h1 class="font-bold text-2xl antialiased">
+          Consejería en Lactancia Materna
+        </h1>
+        <p class="text-slate-400">Servicios de consejería materna</p>
+        <ul class="list-inside">
+          <li class="flex items-center gap-2">
+            <PiStarFourFill className="text-red-400 flex-shrink-0" />
+            <p class="truncate">
+              Profesionales certificados en lactancia materna
+            </p>
+          </li>
+          <li class="flex items-center gap-2">
+            <PiStarFourFill className="text-red-400 flex-shrink-0" />
+            <p class="truncate">Consejería pre & post natales</p>
+          </li>
+          <li class="flex items-center gap-2">
+            <PiStarFourFill className="text-red-400 flex-shrink-0" />
+            <p class="truncate">Asesoría en destete respetuoso</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex flex-col justify-start bg-white rounded-lg p-8 gap-4">
+        <FaAppleWhole size={64} className=" transform -translate-x-2" />
+        <h1 class="font-bold text-2xl antialiased">Nutrición</h1>
+        <p class="text-slate-400">Servicios de nutrición y dietética</p>
+        <ul class="list-inside">
+          <li class="flex items-center gap-2">
+            <PiStarFourFill className="text-red-400 flex-shrink-0" />
+            <p class="truncate">Materno infantil</p>
+          </li>
+          <li class="flex items-center gap-2">
+            <PiStarFourFill className="text-red-400 flex-shrink-0" />
+            <p class="truncate">Nutrición vagana</p>
+          </li>
+          <li class="flex items-center gap-2">
+            <PiStarFourFill className="text-red-400 flex-shrink-0" />
+            <p class="truncate">Consejero de lactancia</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <ServicesCarousel client:load />
 </Layout>

@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require("tailwindcss/defaultTheme");
+import animations from "@midudev/tailwind-animations";
 
 export default {
   darkMode: ["class"],
@@ -41,5 +42,5 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), animations],
 };
