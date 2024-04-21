@@ -4,6 +4,8 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
+    "format": "npx prettier --write . --plugin=prettier-plugin-astro",
+    "lint": "npx oxlint",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
@@ -33,5 +35,10 @@
     "tailwindcss": "^3.4.3",
     "tailwindcss-animate": "^1.0.7",
     "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "oxlint": "^0.2.18",
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0"
   }
 }
