@@ -181,7 +181,7 @@ header('Accept-Encoding: gzip, compress, br');
                                 <h1 class="px-5">Centro Amaï - La Serena</h1>
                                 <p class="mb-3">Solicita tu hora con nuestros especialistas</p>
 
-                                <a class="btn btn-outline-primary btn-lg" rel="noopener noreferrer nofollow" href="https://www.reservo.cl/makereserva/selecttratamientodisponibilidad/1645/1641/2/0/" target="_blank">Reserva
+                                <a class="btn btn-outline-primary btn-lg" rel="noopener noreferrer nofollow" href="https://agendamiento.reservo.cl/makereserva/agenda/f0Jn8dB0F0pERa8N1U96tu94p2z5Uv" target="_blank">Reserva
                                     aquí</a>
                             </div>
 
