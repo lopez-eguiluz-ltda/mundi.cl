@@ -16,6 +16,7 @@ import { FaWhatsapp } from "react-icons/fa";
     </nav>
     <FrontCarousel client:load />
 
+    <!-- Footer carousel -->
     <div class="flex justify-center">
       <div
         class="bg-white/95 rounded-b-3xl w-10/12 px-10 py-4 -translate-y-0 shadow-md opacity-65 hover:opacity-100 hover:rounded-3xl hover:-translate-y-5 transition-all duration-300 ease-in-out"
@@ -74,6 +75,36 @@ import { FaWhatsapp } from "react-icons/fa";
         </div>
       </div>
     </div>
+
+    <!-- Carousel de servicios -->
+    <div class="py-10">
+      <ServicesCarousel client:load />
+    </div>
+
+    <!-- Sobre nosotros -->
+    
+
+      <div class="flex bg-white rounded-3xl mx-20 gap-5">
+        
+        <div class="flex flex-col gap-5 ps-14 pt-14 w-1/2 h-full justify-start items-start">
+          <h2 class="text-corange">Acerca de nosotros</h2>
+  
+          <div>
+            <h2 class="text-4xl font-bold">No guiamos tus pasos</h2>
+            <h2 class="text-4xl font-bold">¡Los acompañamos!</h2>
+          </div>
+          <p class="text-cgray">Somos tu centro médico terapéutico, pendientes de potenciar una mirada integradora del sanar, crecer y florecer de nuestros usuarios ♥️✨️</p>
+
+          <p class="text-cgray">Si ya nos conoces, sabes que recibimos a todos con cariño, aprecio y buena onda. Si no nos conoces ¿Qué estas esperando para venir? 🤭</p>
+          <p>¡Te esperamos! ♥️</p>
+        </div>
+
+        <div class="p-10">
+          <img src="acompanamiento.jpg" alt="" class="rounded-3xl ">
+        </div>
+        
+      </div>
+    
   </main>
 
   <div class="flex flex-col items-center gap-10 p-24">
@@ -162,5 +193,28 @@ import { FaWhatsapp } from "react-icons/fa";
     </div>
   </div>
 
-  <ServicesCarousel client:load />
+  
+
+  <div class="flex justify-around items-stretch p-20 gap-20">
+    <img src="familia-1.webp" alt="Familia" class="w-1/2 rounded-3xl">
+    <div class="flex flex-col items-start justify-start w-1/2 bg-red-400/0 gap-5">
+
+      <div class="flex gap-4 text-white font-medium">
+        <button class="bg-red-400/25 border-2 border-gray-400 px-10 py-1 rounded-full mb-10">
+          <h1>Misión</h1>
+        </button>
+
+        <button class="bg-red-400/25 border-2 border-gray-400 px-10 py-1 rounded-full mb-10">
+          <h1>Visión</h1>
+        </button>
+
+        <button class="bg-red-400/25 border-2 border-gray-400 px-10 py-1 rounded-full mb-10">
+          <h1>Compromiso</h1>
+        </button>
+      </div>
+      
+      <h1 class="font-bold text-white text-4xl">Nuestra Misión</h1>
+      <p class="text-cgray text-xl">"Acompañar a las familias en el proceso de maternidad, desarrollo infantil, establecimiento de vínculo afectivo seguro y alimentación, siendo la red de apoyo multidisciplinaria de la región".</p>
+    </div>
+  </div>
 </Layout>
