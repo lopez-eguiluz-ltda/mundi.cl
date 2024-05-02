@@ -31,7 +31,7 @@ const FrontCarousel = () => {
       ]}
     >
       <CarouselContent>
-      <CarouselItem className="basis-1/3 p-0 flex justify-center items-center">
+        <CarouselItem className="basis-1/3 p-0 flex justify-center items-center">
           <h1 className="text-6xl font-light">Nutrición</h1>
         </CarouselItem>
 

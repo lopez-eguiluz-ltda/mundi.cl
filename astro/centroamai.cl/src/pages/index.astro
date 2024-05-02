@@ -8,21 +8,22 @@ import FrontCarousel from "@/components/FrontCarousel";
 import ServicesCarousel from "@/components/ServicesCarousel";
 import { FaWhatsapp } from "react-icons/fa";
 
-
 import { ImFacebook, ImLinkedin2 } from "react-icons/im";
 import { Picture } from "astro:assets";
 import { FaCircle } from "react-icons/fa";
 import { SiInstagram } from "react-icons/si";
 import Person from "@/components/team/Person.astro";
-
+import { teams } from "@/utils/teamsSeed";
+import type { TeamProp } from "@/utils/types";
+import TeamSection from "@/components/team/TeamSection.astro";
 ---
 
 <Layout title="Welcome to Astro.">
   <main>
     <nav class="fixed z-10 w-full backdrop-blur-sm">
       <div class="flex justify-start items-center px-40 py-8 text-white gap-10">
-        <h1 class=" text-3xl">Logo Centro amai</h1>
-        <h1 class=" text-lg">Felipe</h1>
+        <h1 class="text-3xl">Logo Centro amai</h1>
+        <h1 class="text-lg">Felipe</h1>
       </div>
     </nav>
 
@@ -94,43 +95,39 @@ import Person from "@/components/team/Person.astro";
     </div>
 
     <!-- Sobre nosotros -->
-      <div class="flex bg-white rounded-3xl mx-20 gap-5">
-        
-        <div class="flex flex-col gap-5 ps-14 pt-14 w-1/2 h-full justify-start items-start">
-          <h2 class="text-corange text-xs border-[1px] border-corange rounded-3xl py-1 px-3">Acerca de nosotros</h2>
-  
-          <div>
-            <h2 class="text-4xl font-bold">No guiamos tus pasos</h2>
-            <h2 class="text-4xl font-bold">¡Los acompañamos!</h2>
-          </div>
-          <p class="text-cgray">Somos tu centro médico terapéutico, pendientes de potenciar una mirada integradora del sanar, crecer y florecer de nuestros usuarios ♥️✨️</p>
+    <div class="flex bg-white rounded-3xl mx-20 gap-5">
+      <div
+        class="flex flex-col gap-5 ps-14 pt-14 w-1/2 h-full justify-start items-start"
+      >
+        <h2
+          class="text-corange text-xs border-[1px] border-corange rounded-3xl py-1 px-3"
+        >
+          Acerca de nosotros
+        </h2>
 
-          <p class="text-cgray">Si ya nos conoces, sabes que recibimos a todos con cariño, aprecio y buena onda. Si no nos conoces ¿Qué estas esperando para venir? 🤭</p>
-          <p>¡Te esperamos! ♥️</p>
+        <div>
+          <h2 class="text-4xl font-bold">No guiamos tus pasos</h2>
+          <h2 class="text-4xl font-bold">¡Los acompañamos!</h2>
         </div>
+        <p class="text-cgray">
+          Somos tu centro médico terapéutico, pendientes de potenciar una mirada
+          integradora del sanar, crecer y florecer de nuestros usuarios ♥️✨️
+        </p>
 
-        <div class="p-10">
-          <img src="acompanamiento.jpg" alt="" class="rounded-3xl ">
-        </div>
-        
+        <p class="text-cgray">
+          Si ya nos conoces, sabes que recibimos a todos con cariño, aprecio y
+          buena onda. Si no nos conoces ¿Qué estas esperando para venir? 🤭
+        </p>
+        <p>¡Te esperamos! ♥️</p>
       </div>
 
-
-      <!-- Nuestro equipo -->
-      <div class="flex flex-col items-start mx-20 mt-24 gap-5">
-
-        <h2 class="text-corange text-xs border-[1px] border-corange rounded-3xl py-1 px-3">Nuestro Equipo</h2>
-
-        <div class="bg-red-400/20 grid grid-cols-3 justify-items-center gap-y-10 px-10 w-full">
-
-          <Person/>
-          <Person/>
-          <Person/>
-          <Person/>
-        </div>
-
+      <div class="p-10">
+        <img src="acompanamiento.jpg" alt="" class="rounded-3xl" />
       </div>
-    
+    </div>
+
+    <!-- Nuestro equipo -->
+    <TeamSection/>
   </main>
 
   <div class="flex flex-col items-center gap-10 p-24">
@@ -219,28 +216,37 @@ import Person from "@/components/team/Person.astro";
     </div>
   </div>
 
-  
-
   <div class="flex justify-around items-stretch p-20 gap-20">
-    <img src="familia-1.webp" alt="Familia" class="w-1/2 rounded-3xl">
-    <div class="flex flex-col items-start justify-start w-1/2 bg-red-400/0 gap-5">
-
+    <img src="familia-1.webp" alt="Familia" class="w-1/2 rounded-3xl" />
+    <div
+      class="flex flex-col items-start justify-start w-1/2 bg-red-400/0 gap-5"
+    >
       <div class="flex gap-4 text-white font-medium">
-        <button class="bg-red-400/25 border-2 border-gray-400 px-10 py-1 rounded-full mb-10">
+        <button
+          class="bg-red-400/25 border-2 border-gray-400 px-10 py-1 rounded-full mb-10"
+        >
           <h1>Misión</h1>
         </button>
 
-        <button class="bg-red-400/25 border-2 border-gray-400 px-10 py-1 rounded-full mb-10">
+        <button
+          class="bg-red-400/25 border-2 border-gray-400 px-10 py-1 rounded-full mb-10"
+        >
           <h1>Visión</h1>
         </button>
 
-        <button class="bg-red-400/25 border-2 border-gray-400 px-10 py-1 rounded-full mb-10">
+        <button
+          class="bg-red-400/25 border-2 border-gray-400 px-10 py-1 rounded-full mb-10"
+        >
           <h1>Compromiso</h1>
         </button>
       </div>
-      
+
       <h1 class="font-bold text-white text-4xl">Nuestra Misión</h1>
-      <p class="text-cgray text-xl">"Acompañar a las familias en el proceso de maternidad, desarrollo infantil, establecimiento de vínculo afectivo seguro y alimentación, siendo la red de apoyo multidisciplinaria de la región".</p>
+      <p class="text-cgray text-xl">
+        "Acompañar a las familias en el proceso de maternidad, desarrollo
+        infantil, establecimiento de vínculo afectivo seguro y alimentación,
+        siendo la red de apoyo multidisciplinaria de la región".
+      </p>
     </div>
   </div>
 </Layout>
