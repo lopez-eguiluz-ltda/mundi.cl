@@ -1,0 +1,52 @@
+---
+import Picture from "astro/components/Picture.astro";
+import { FaCircle } from "react-icons/fa6";
+import { ImFacebook, ImLinkedin2 } from "react-icons/im";
+import { SiInstagram } from "react-icons/si";
+
+
+
+import camila from "../../assets/images/equipo/camila_eguiluz.jpg";
+import karla from "../assets/images/equipo/karla_lopez.jpg";
+import mauro from "../assets/images/equipo/mauro_rivera.jpg";
+
+---
+
+<div class="flex flex-col justify-center items-start">
+	<div class="relative w-64 h-80 rounded-3xl shadow-lg overflow-hidden ring-white ring-offset-2 ring-4">
+	
+	  <div class="relative hover:scale-105 transition-transform duration-300 ease-in-out w-full h-full">
+		<Picture src={camila} alt="" class="object-cover rounded-3xl w-full h-full transform"/>
+		<div class="absolute inset-0 opacity-0 hover:opacity-100 rounded-3xl transition-opacity duration-300 ease-in-out">
+
+		  <div class="absolute bottom-4 bg-white/40 flex justify-center items-center w-full h-16 gap-3">
+
+			<a class=" bg-white text-cgreen hover:bg-cpurple hover:text-white p-3 rounded-full duration-150 ease-in-out" href="https://www.facebook.com/your-facebook-profile" target="_blank" rel="noopener noreferrer">
+			  <ImFacebook size={24} />
+			</a>
+
+			<a class=" bg-white text-cgreen hover:bg-cpurple hover:text-white p-3 rounded-full duration-150 ease-in-out" href="https://www.facebook.com/your-facebook-profile" target="_blank" rel="noopener noreferrer">
+			  <ImLinkedin2 size={24} />
+			</a>
+
+			<a class=" bg-white text-cgreen hover:bg-cpurple hover:text-white p-3 rounded-full duration-150 ease-in-out" href="https://www.facebook.com/your-facebook-profile" target="_blank" rel="noopener noreferrer">
+			  <SiInstagram size={24} />
+			</a>
+
+			<a class=" bg-white text-cgreen hover:bg-cpurple hover:text-white p-3 rounded-full duration-150 ease-in-out" href="https://www.facebook.com/your-facebook-profile" target="_blank" rel="noopener noreferrer">
+			  <SiInstagram size={24} />
+			</a>
+
+		  </div>
+		</div>
+
+	  </div>
+				
+	  
+	</div>
+
+	<div class="flex items-center gap-3 pt-2">
+	  <FaCircle className="text-corange" size={8} /><h2 class="text-sm text-cgray">Fonoaudióloga</h2>
+	</div>
+	<h2 class="font-bold text-xl text-white">Camila Eguiluz</h2>
+  </div>

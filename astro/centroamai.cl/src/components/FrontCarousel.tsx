@@ -27,7 +27,7 @@ const FrontCarousel = () => {
               alt="Home"
               className="object-cover w-full h-[80vh] opacity-90 blur-sm rounded-b-3xl"
             />
-            <div className="absolute inset-0 bg-gradient-to-br from-[#7FAEB5] to-transparent opacity-100 rounded-b-3xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-cbackground to-transparent opacity-100 rounded-b-3xl"></div>
 
             <div className="absolute top-0 left-0 flex flex-col justify-center items-start p-20 w-full h-full">
               <h2 className="text-2xl text-white">

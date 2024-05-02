@@ -22,7 +22,7 @@ const FrontCarousel = () => {
       }}
       plugins={[
         AutoScroll({
-          speed: 2,
+          speed: 1.5,
           startDelay: 500,
           stopOnInteraction: false,
           stopOnMouseEnter: false,
@@ -31,15 +31,13 @@ const FrontCarousel = () => {
       ]}
     >
       <CarouselContent>
-        <CarouselItem className="basis-1/3 p-0 flex justify-center items-center">
-          <h1 className="text-6xl hover:text-7xl hover:text-cpurple font-light">
-            Nutrición
-          </h1>
+      <CarouselItem className="basis-1/3 p-0 flex justify-center items-center">
+          <h1 className="text-6xl font-light">Nutrición</h1>
         </CarouselItem>
 
         <CarouselItem className="basis-1/12 p-0 flex justify-center items-center">
           <svg height="100" width="50" xmlns="http://www.w3.org/2000/svg">
-            <circle r="10" cx="25" cy="50" fill="red" />
+            <circle r="10" cx="25" cy="50" fill="#42A299" />
           </svg>
         </CarouselItem>
 
@@ -49,7 +47,7 @@ const FrontCarousel = () => {
 
         <CarouselItem className="basis-1/12 p-0 flex justify-center items-center">
           <svg height="100" width="50" xmlns="http://www.w3.org/2000/svg">
-            <circle r="10" cx="25" cy="50" fill="red" />
+            <circle r="10" cx="25" cy="50" fill="#42A299" />
           </svg>
         </CarouselItem>
 
@@ -59,7 +57,7 @@ const FrontCarousel = () => {
 
         <CarouselItem className="basis-1/12 p-0 flex justify-center items-center">
           <svg height="100" width="50" xmlns="http://www.w3.org/2000/svg">
-            <circle r="10" cx="25" cy="50" fill="red" />
+            <circle r="10" cx="25" cy="50" fill="#42A299" />
           </svg>
         </CarouselItem>
 
@@ -69,7 +67,7 @@ const FrontCarousel = () => {
 
         <CarouselItem className="basis-1/12 p-0 flex justify-center items-center">
           <svg height="100" width="50" xmlns="http://www.w3.org/2000/svg">
-            <circle r="10" cx="25" cy="50" fill="red" />
+            <circle r="10" cx="25" cy="50" fill="#42A299" />
           </svg>
         </CarouselItem>
 
@@ -79,7 +77,7 @@ const FrontCarousel = () => {
 
         <CarouselItem className="basis-1/12 p-0 flex justify-center items-center">
           <svg height="100" width="50" xmlns="http://www.w3.org/2000/svg">
-            <circle r="10" cx="25" cy="50" fill="red" />
+            <circle r="10" cx="25" cy="50" fill="#42A299" />
           </svg>
         </CarouselItem>
 
@@ -89,7 +87,7 @@ const FrontCarousel = () => {
 
         <CarouselItem className="basis-1/12 p-0 flex justify-center items-center">
           <svg height="100" width="50" xmlns="http://www.w3.org/2000/svg">
-            <circle r="10" cx="25" cy="50" fill="red" />
+            <circle r="10" cx="25" cy="50" fill="#42A299" />
           </svg>
         </CarouselItem>
 
@@ -99,7 +97,7 @@ const FrontCarousel = () => {
 
         <CarouselItem className="basis-1/12 p-0 flex justify-center items-center">
           <svg height="100" width="50" xmlns="http://www.w3.org/2000/svg">
-            <circle r="10" cx="25" cy="50" fill="red" />
+            <circle r="10" cx="25" cy="50" fill="#42A299" />
           </svg>
         </CarouselItem>
       </CarouselContent>
