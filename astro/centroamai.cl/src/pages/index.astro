@@ -19,9 +19,13 @@ import Person from "@/components/team/Person.astro";
 
 <Layout title="Welcome to Astro.">
   <main>
-    <nav class="fixed z-10">
-      <h1 class="text-black text-lg">Felipe</h1>
+    <nav class="fixed z-10 w-full backdrop-blur-sm">
+      <div class="flex justify-start items-center px-40 py-8 text-white gap-10">
+        <h1 class=" text-3xl">Logo Centro amai</h1>
+        <h1 class=" text-lg">Felipe</h1>
+      </div>
     </nav>
+
     <FrontCarousel client:load />
 
     <!-- Footer carousel -->
