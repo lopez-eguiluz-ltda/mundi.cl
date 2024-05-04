@@ -12,7 +12,6 @@ import daniel from "@assets/images/equipo/daniel_oliva.jpg";
 
 import { ImFacebook, ImLinkedin2 } from "react-icons/im";
 import { SiInstagram } from "react-icons/si";
-import { PiArrowUpLeftDuotone } from "react-icons/pi";
 
 export const teams: TeamType[] = [
   {

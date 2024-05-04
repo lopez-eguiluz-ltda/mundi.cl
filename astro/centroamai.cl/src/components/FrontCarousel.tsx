@@ -1,7 +1,10 @@
 import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
 
 import Autoplay from "embla-carousel-autoplay";
-import p1 from "@assets/images/carousel/fotos_portada1.jpeg";
+
+import portada1 from "@assets/images/carousel/portada_1.jpg";
+import portada2 from "@assets/images/carousel/portada_2.jpg";
+import portada3 from "@assets/images/carousel/portada_3.jpg";
 
 const FrontCarousel = () => {
   return (
@@ -23,7 +26,7 @@ const FrontCarousel = () => {
         <CarouselItem>
           <div className="relative">
             <img
-              src={p1.src}
+              src={portada1.src}
               alt="Home"
               className="object-cover w-full h-[80vh] opacity-90 blur-sm rounded-b-3xl"
             />
@@ -57,7 +60,7 @@ const FrontCarousel = () => {
         <CarouselItem>
           <div className="relative">
             <img
-              src={p1.src}
+              src={portada2.src}
               alt="Home"
               className="object-cover w-full h-[80vh] opacity-90 blur-sm rounded-b-3xl"
             />
@@ -74,25 +77,24 @@ const FrontCarousel = () => {
           </div>
         </CarouselItem>
 
-        {/*<CarouselItem className="relative">
-          <img
-            src={p1.src}
-            alt="Home"
-            className="absolute inset-0 object-cover w-full h-full opacity-90 brightness-50 blur-sm"
-          />
-          <div className="absolute inset-0 bg-gradient-to-br from-[#7FAEB5] to-transparent flex justify-center items-center">
-            <Button className="absolute bg-white text-[#3FAEBD] font-bold py-2 px-4 rounded-3xl uppercase">
-              Reserva aquí
-            </Button>
-            <div className="mt-2 ms-2 bg-gray-700 rounded-3xl w-32 h-10"></div>
-          </div>
-    </CarouselItem>*/}
         <CarouselItem>
-          <img
-            src={p1.src}
-            className="object-cover w-full h-[80vh]"
-            alt="Home"
-          />
+          <div className="relative">
+            <img
+              src={portada3.src}
+              alt="Home"
+              className="object-cover w-full h-[80vh] opacity-90 blur-sm rounded-b-3xl"
+            />
+            <div className="absolute inset-0 bg-gradient-to-br from-[#7FAEB5] to-transparent opacity-100 rounded-b-3xl"></div>
+
+            <div className="absolute top-0 left-0 flex flex-col justify-center items-start p-20 w-full h-full">
+              <h2 className="text-2xl text-white">
+                Solicita tu hora con nuestros especialistas
+              </h2>
+              <h1 className="text-7xl text-white font-bold mb-5">
+                Centro amai
+              </h1>
+            </div>
+          </div>
         </CarouselItem>
       </CarouselContent>
     </Carousel>

@@ -2,14 +2,9 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "./ui/carousel";
 
-import Autoplay from "embla-carousel-autoplay";
 import AutoScroll from "embla-carousel-auto-scroll";
-import p1 from "@assets/images/carousel/fotos_portada1.jpeg";
-import { Card, CardContent } from "./ui/card";
 
 const FrontCarousel = () => {
   return (

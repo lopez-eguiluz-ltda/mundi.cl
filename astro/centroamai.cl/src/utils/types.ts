@@ -1,5 +1,4 @@
 import type { IconType } from "react-icons";
-import type { SocialType } from "./enum";
 
 export type TeamType = {
   name: string;
