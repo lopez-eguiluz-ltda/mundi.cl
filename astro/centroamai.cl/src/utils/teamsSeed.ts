@@ -9,7 +9,6 @@ import claudia from "@assets/images/equipo/claudia_salas.jpg";
 import scarlett from "@assets/images/equipo/scarlett_orellana.jpeg";
 import daniel from "@assets/images/equipo/daniel_oliva.jpg";
 
-
 import { ImFacebook, ImLinkedin2 } from "react-icons/im";
 import { SiInstagram } from "react-icons/si";
 

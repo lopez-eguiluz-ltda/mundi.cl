@@ -17,8 +17,8 @@ const { name, position, photo, socials } = Astro.props;
       <Picture
         src={photo}
         alt=`Foto perfil ${name}`
-		formats={["webp","jpg"]}
-		fallbackFormat="jpg"
+        formats={["webp", "jpg"]}
+        fallbackFormat="jpg"
         class="object-cover rounded-3xl w-full h-full transform"
       />
 
@@ -26,11 +26,9 @@ const { name, position, photo, socials } = Astro.props;
         socials.length > 0 && (
           <div class="absolute inset-0 opacity-0 hover:opacity-100 rounded-3xl transition-opacity duration-300 ease-in-out">
             <div class="absolute bottom-4 bg-white/40 flex justify-center items-center w-full h-16 gap-3">
-
-				{socials.map((socialLink: SocialLinkType) => (
-					<SocialLink icon={socialLink.icon} link={socialLink.link} />
-				))}
-
+              {socials.map((socialLink: SocialLinkType) => (
+                <SocialLink icon={socialLink.icon} link={socialLink.link} />
+              ))}
             </div>
           </div>
         )

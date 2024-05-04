@@ -4,11 +4,11 @@ import Layout from "../layouts/Layout.astro";
 import { FaBaby, FaAppleWhole } from "react-icons/fa6";
 import { PiStarFourFill } from "react-icons/pi";
 import { MdBabyChangingStation } from "react-icons/md";
-import FrontCarousel from "@/components/FrontCarousel";
 import ServicesCarousel from "@/components/ServicesCarousel";
-import { FaWhatsapp } from "react-icons/fa";
 
 import TeamSection from "@/components/team/TeamSection.astro";
+import FrontCarousel from "@/components/frontcarousel/FrontCarousel";
+import FooterCarousel from "@/components/frontcarousel/FooterCarousel.astro";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -20,67 +20,9 @@ import TeamSection from "@/components/team/TeamSection.astro";
       </div>
     </nav>
 
+    <!-- Carousel principa & footer -->
     <FrontCarousel client:load />
-
-    <!-- Footer carousel -->
-    <div class="flex justify-center">
-      <div
-        class="bg-white/95 rounded-b-3xl w-10/12 px-10 py-4 -translate-y-0 shadow-md opacity-65 hover:opacity-100 hover:rounded-3xl hover:-translate-y-5 transition-all duration-300 ease-in-out"
-      >
-        <div class="grid grid-cols-3 items-center">
-          <div class="text-center">
-            <div class="flex justify-start items-center">
-              <div class="flex">
-                <div
-                  class="w-11 h-11 overflow-hidden rounded-full border-2 border-caqua"
-                >
-                  <img
-                    src="camila_eguiluz.jpg"
-                    alt="Descripción de la imagen"
-                    class="object-cover w-full h-full"
-                  />
-                </div>
-
-                <div
-                  class="w-11 h-11 overflow-hidden rounded-full border-2 border-caqua -translate-x-3"
-                >
-                  <img
-                    src="karla_lopez.jpg"
-                    alt="Descripción de la imagen"
-                    class="object-cover w-full h-full"
-                  />
-                </div>
-              </div>
-              <h1 class="font-semibold text-cgreen text-right">
-                Nuestro equipo
-              </h1>
-            </div>
-          </div>
-
-          <div class="text-center flex justify-center items-center">
-            <img
-              src="amai_logo_simplificado.jpg"
-              class="w-1/5 rounded"
-              alt=""
-            />
-          </div>
-
-          <div class="flex justify-end items-center gap-5">
-            <h1 class="font-semibold text-cgreen text-right">
-              Agenda tu asesoría de orientación gratis
-            </h1>
-            <a
-              class="hover:opacity-50 transition-opacity duration-300 ease-in-out animate-pop animate-duration-1000 animate-iteration-count-infinite"
-              href="https://api.whatsapp.com/send?phone=56959905385"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <FaWhatsapp size={42} className="text-[#25D366]" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+    <FooterCarousel />
 
     <!-- Carousel de servicios -->
     <div class="py-10">
@@ -120,7 +62,7 @@ import TeamSection from "@/components/team/TeamSection.astro";
     </div>
 
     <!-- Nuestro equipo -->
-    <TeamSection/>
+    <TeamSection />
   </main>
 
   <div class="flex flex-col items-center gap-10 p-24">
