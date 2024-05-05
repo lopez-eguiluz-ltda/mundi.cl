@@ -278,7 +278,8 @@ export const teams: TeamType[] = [
         link: "#",
       },
     ],
-  }, {
+  },
+  {
     name: "Estrella Daque",
     position: "Terapia Ocupacional",
     photo: estrella,
@@ -296,10 +297,10 @@ export const teams: TeamType[] = [
         link: "#",
       },
     ],
-  }, 
+  },
 
   {
-    name : "Felipe Contreras",
+    name: "Felipe Contreras",
     position: "Psicología Infanto-Juvenil",
     photo: felipe,
     socialLink: [
@@ -356,8 +357,8 @@ export const teams: TeamType[] = [
         link: "#",
       },
     ],
-  }, {
-
+  },
+  {
     name: "Mª José Vargas",
     position: "Psicología Infanto-Juvenil",
     photo: user,
@@ -376,7 +377,6 @@ export const teams: TeamType[] = [
       },
     ],
   },
-
 
   {
     name: "Charnelle Galleguillos",
@@ -398,7 +398,7 @@ export const teams: TeamType[] = [
     ],
   },
 
-   {
+  {
     name: "Fernanda Maturana",
     position: "Fonoaudiología",
     photo: user,
@@ -416,5 +416,5 @@ export const teams: TeamType[] = [
         link: "#",
       },
     ],
-   }
+  },
 ];
