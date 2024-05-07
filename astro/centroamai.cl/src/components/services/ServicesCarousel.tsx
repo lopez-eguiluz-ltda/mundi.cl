@@ -1,4 +1,4 @@
-import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
+import { Carousel, CarouselContent, CarouselItem } from "../ui/carousel";
 
 import AutoScroll from "embla-carousel-auto-scroll";
 
@@ -21,7 +21,7 @@ const FrontCarousel = () => {
         }),
       ]}
     >
-      <CarouselContent>
+      <CarouselContent className="text-white">
         <CarouselItem className="basis-1/3 p-0 flex justify-center items-center">
           <h1 className="text-6xl font-light">Nutrición</h1>
         </CarouselItem>
