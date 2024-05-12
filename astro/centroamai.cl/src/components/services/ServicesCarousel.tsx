@@ -3,6 +3,8 @@ import { Carousel, CarouselContent, CarouselItem } from "../ui/carousel";
 import AutoScroll from "embla-carousel-auto-scroll";
 
 const FrontCarousel = () => {
+  const dotColor = "#D34F4D";
+
   return (
     <Carousel
       className="w-full"
@@ -26,9 +28,9 @@ const FrontCarousel = () => {
           <h1 className="text-6xl font-light">Nutrición</h1>
         </CarouselItem>
 
-        <CarouselItem className="basis-1/12 p-0 flex justify-center items-center">
+        <CarouselItem className="basis-1/12 p-0 flex justify-center items-center text-corange">
           <svg height="100" width="50" xmlns="http://www.w3.org/2000/svg">
-            <circle r="10" cx="25" cy="50" fill="#42A299" />
+            <circle r="10" cx="25" cy="50" fill={dotColor} />
           </svg>
         </CarouselItem>
 
@@ -38,7 +40,7 @@ const FrontCarousel = () => {
 
         <CarouselItem className="basis-1/12 p-0 flex justify-center items-center">
           <svg height="100" width="50" xmlns="http://www.w3.org/2000/svg">
-            <circle r="10" cx="25" cy="50" fill="#42A299" />
+            <circle r="10" cx="25" cy="50" fill={dotColor} />
           </svg>
         </CarouselItem>
 
@@ -48,7 +50,7 @@ const FrontCarousel = () => {
 
         <CarouselItem className="basis-1/12 p-0 flex justify-center items-center">
           <svg height="100" width="50" xmlns="http://www.w3.org/2000/svg">
-            <circle r="10" cx="25" cy="50" fill="#42A299" />
+            <circle r="10" cx="25" cy="50" fill={dotColor} />
           </svg>
         </CarouselItem>
 
@@ -58,7 +60,7 @@ const FrontCarousel = () => {
 
         <CarouselItem className="basis-1/12 p-0 flex justify-center items-center">
           <svg height="100" width="50" xmlns="http://www.w3.org/2000/svg">
-            <circle r="10" cx="25" cy="50" fill="#42A299" />
+            <circle r="10" cx="25" cy="50" fill={dotColor} />
           </svg>
         </CarouselItem>
 
@@ -68,7 +70,7 @@ const FrontCarousel = () => {
 
         <CarouselItem className="basis-1/12 p-0 flex justify-center items-center">
           <svg height="100" width="50" xmlns="http://www.w3.org/2000/svg">
-            <circle r="10" cx="25" cy="50" fill="#42A299" />
+            <circle r="10" cx="25" cy="50" fill={dotColor} />
           </svg>
         </CarouselItem>
 
@@ -78,7 +80,7 @@ const FrontCarousel = () => {
 
         <CarouselItem className="basis-1/12 p-0 flex justify-center items-center">
           <svg height="100" width="50" xmlns="http://www.w3.org/2000/svg">
-            <circle r="10" cx="25" cy="50" fill="#42A299" />
+            <circle r="10" cx="25" cy="50" fill={dotColor} />
           </svg>
         </CarouselItem>
 
@@ -88,7 +90,7 @@ const FrontCarousel = () => {
 
         <CarouselItem className="basis-1/12 p-0 flex justify-center items-center">
           <svg height="100" width="50" xmlns="http://www.w3.org/2000/svg">
-            <circle r="10" cx="25" cy="50" fill="#42A299" />
+            <circle r="10" cx="25" cy="50" fill={dotColor} />
           </svg>
         </CarouselItem>
       </CarouselContent>

@@ -10,14 +10,11 @@ import {
   FaPuzzlePiece,
   FaLocationDot,
   FaWhatsapp,
-FaRegClock,
+  FaRegClock,
+  FaYoutube,
 } from "react-icons/fa6";
 import { PiStarFourFill } from "react-icons/pi";
-import {
-  MdBabyChangingStation,
-  MdOutlineEmail,
-  MdOutlinePersonalInjury,
-} from "react-icons/md";
+import { MdOutlineEmail, MdOutlinePersonalInjury } from "react-icons/md";
 
 import TeamSection from "@/components/team/TeamSection.astro";
 import FrontCarousel from "@/components/frontcarousel/FrontCarousel";
@@ -491,30 +488,44 @@ import { SiInstagram } from "react-icons/si";
         </div>
 
         <div class="flex flex-col items-center justify-start gap-2">
-          <div class="p-3 rounded-full bg-white text-corange border-[1px] border-corange hover:bg-corange hover:text-white transition-all duration-300 ease-in-out">
+          <div
+            class="p-3 rounded-full bg-white text-corange border-[1px] border-corange hover:bg-corange hover:text-white transition-all duration-300 ease-in-out"
+          >
             <FaWhatsapp size={24} />
           </div>
 
           <a href="https://api.whatsapp.com/send?phone=56959905385">
-            <p class="text-sm text-center text-cgray underline hover:opacity-50 transition-opacity duration-150 ease-in-out">+56 9 5990 5385</p>
+            <p
+              class="text-sm text-center text-cgray underline hover:opacity-50 transition-opacity duration-150 ease-in-out"
+            >
+              +56 9 5990 5385
+            </p>
           </a>
         </div>
 
         <div class="flex flex-col items-center justify-start gap-2">
-          <div class="p-3 rounded-full bg-white text-corange border-[1px] border-corange hover:bg-corange hover:text-white transition-all duration-300 ease-in-out">
-            <MdOutlineEmail size={24}  />
+          <div
+            class="p-3 rounded-full bg-white text-corange border-[1px] border-corange hover:bg-corange hover:text-white transition-all duration-300 ease-in-out"
+          >
+            <MdOutlineEmail size={24} />
           </div>
 
           <div>
             <a href="mailto:amaicentro@gmail.com">
-              <p class="text-cgray text-sm text-center underline hover:opacity-50 transition-opacity duration-150 ease-in-out">amaicentro@gmail.com</p>
+              <p
+                class="text-cgray text-sm text-center underline hover:opacity-50 transition-opacity duration-150 ease-in-out"
+              >
+                amaicentro@gmail.com
+              </p>
             </a>
           </div>
         </div>
 
         <div class="flex flex-col items-center justify-start gap-2">
-          <div class="p-3 rounded-full bg-white text-corange border-[1px] border-corange hover:bg-corange hover:text-white transition-all duration-300 ease-in-out">
-            <FaRegClock size={24}  />
+          <div
+            class="p-3 rounded-full bg-white text-corange border-[1px] border-corange hover:bg-corange hover:text-white transition-all duration-300 ease-in-out"
+          >
+            <FaRegClock size={24} />
           </div>
 
           <div class="text-center text-sm">
@@ -526,7 +537,7 @@ import { SiInstagram } from "react-icons/si";
 
       <hr />
 
-      <div class="flex w-full h-full p-5 gap-5 justify-center">
+      <div class="flex w-full h-full gap-5 justify-center p-14">
         <div class="w-1/3 p-10">
           <Picture
             src={logo}
@@ -562,11 +573,19 @@ import { SiInstagram } from "react-icons/si";
             </a>
             <a
               class="bg-white text-corange border-[1px] border-corange hover:bg-corange hover:text-white p-2 rounded-full duration-150 ease-in-out"
-              href="#"
+              href="https://api.whatsapp.com/send?phone=56959905385"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaWhatsapp />
+            </a>
+            <a
+              class="bg-white text-corange border-[1px] border-corange hover:bg-corange hover:text-white p-2 rounded-full duration-150 ease-in-out"
+              href="https://www.youtube.com/@amaicentro"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaYoutube />
             </a>
           </div>
         </div>
