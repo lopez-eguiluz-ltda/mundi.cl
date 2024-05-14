@@ -4,7 +4,7 @@ import camila from "@assets/images/equipo/camila_eguiluz.jpg";
 import karla from "@assets/images/equipo/karla_lopez.jpg";
 import mauro from "@assets/images/equipo/mauro_rivera.jpg";
 import carmina from "@assets/images/equipo/carmina_nicolai.jpg";
-import paulette from "@assets/images/equipo/paulette_toha.jpeg";
+import paulette from "@assets/images/equipo/paulette_toha.jpg";
 import claudia from "@assets/images/equipo/claudia_salas.jpg";
 import daniel from "@assets/images/equipo/daniel_oliva.jpg";
 import mariflor from "@assets/images/equipo/mariflor_martinez.jpg";
@@ -14,8 +14,13 @@ import estrella from "@assets/images/equipo/estrella_daque.jpg";
 import felipe from "@assets/images/equipo/felipe_contreras.jpg";
 import jenifer from "@assets/images/equipo/jenifer_meneses.jpg";
 import charnelle from "@assets/images/equipo/charnelle_galleguillos.jpg";
+import valentina from "@assets/images/equipo/valentina_collao.jpg";
+import daniela_parra from "@assets/images/equipo/daniela_parra.jpg";
+import catalina_gamboa from "@assets/images/equipo/catalina_gamboa.jpg";
+import fernanda_maturana from "@assets/images/equipo/fernanda_maturana.jpg";
+import maria_vargas from "@assets/images/equipo/maria_vargas.jpg";
+import rocio_gimenez from "@assets/images/equipo/rocio_gimenez.jpg";
 
-import user from "@assets/images/equipo/default.png";
 
 import { ImFacebook, ImLinkedin2 } from "react-icons/im";
 import { SiInstagram } from "react-icons/si";
@@ -184,7 +189,7 @@ export const teams: TeamType[] = [
   {
     name: "Valentina Collao",
     position: "Nutrición",
-    photo: user,
+    photo: valentina,
     socialLink: [
       {
         icon: ImFacebook,
@@ -224,7 +229,7 @@ export const teams: TeamType[] = [
   {
     name: "Daniela Parra",
     position: "Psicopedagogía / Psicología",
-    photo: user,
+    photo: daniela_parra,
     socialLink: [
       {
         icon: ImFacebook,
@@ -263,7 +268,7 @@ export const teams: TeamType[] = [
   {
     name: "Rocío Giménez",
     position: "Terapia Ocupacional",
-    photo: user,
+    photo: rocio_gimenez,
     socialLink: [
       {
         icon: ImFacebook,
@@ -322,7 +327,7 @@ export const teams: TeamType[] = [
   {
     name: "Catalina Gamboa",
     position: "Psicología Clínica",
-    photo: user,
+    photo: catalina_gamboa,
     socialLink: [
       {
         icon: ImFacebook,
@@ -361,7 +366,7 @@ export const teams: TeamType[] = [
   {
     name: "Mª José Vargas",
     position: "Psicología Infanto-Juvenil",
-    photo: user,
+    photo: maria_vargas,
     socialLink: [
       {
         icon: ImFacebook,
@@ -401,7 +406,7 @@ export const teams: TeamType[] = [
   {
     name: "Fernanda Maturana",
     position: "Fonoaudiología",
-    photo: user,
+    photo: fernanda_maturana,
     socialLink: [
       {
         icon: ImFacebook,
