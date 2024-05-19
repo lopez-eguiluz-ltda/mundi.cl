@@ -4,6 +4,13 @@ import Picture from "astro/components/Picture.astro";
 import { FaCircle } from "react-icons/fa6";
 import SocialLink from "./PersonSocialLink.astro";
 
+interface Props {
+  name: string;
+  position: string;
+  photo: ImageMetadata;
+  socials: SocialLinkType[];
+}
+
 const { name, position, photo, socials } = Astro.props;
 ---
 

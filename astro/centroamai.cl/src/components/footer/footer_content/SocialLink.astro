@@ -1,4 +1,11 @@
 ---
+import type { IconType } from "react-icons";
+
+interface Props {
+  link: string;
+  icon: IconType;
+}
+
 const { icon: Icon, link } = Astro.props;
 ---
 
