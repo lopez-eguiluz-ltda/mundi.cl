@@ -18,7 +18,8 @@ import FooterCarousel from "@/components/front_carousel/FooterCarousel.astro";
 import { RiSpeakFill } from "react-icons/ri";
 import { GiHand } from "react-icons/gi";
 import ServicesCarousel from "@/components/services/ServicesCarousel";
-import Footer from "@/components/footer/Footer.astro";
+import Footer from "@/components/footer/FooterSection.astro";
+import AboutSection from "@/components/about/AboutSection.astro";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -39,37 +40,7 @@ import Footer from "@/components/footer/Footer.astro";
       <ServicesCarousel client:load />
     </div>
 
-    <!-- Sobre nosotros -->
-    <div class="flex bg-white rounded-3xl mx-20 gap-5">
-      <div
-        class="flex flex-col gap-5 ps-14 pt-14 w-1/2 h-full justify-start items-start"
-      >
-        <h2
-          class="text-corange text-xs border-[1px] border-corange rounded-3xl py-1 px-3"
-        >
-          Acerca de nosotros
-        </h2>
-
-        <div>
-          <h2 class="text-4xl font-bold">No guiamos tus pasos</h2>
-          <h2 class="text-4xl font-bold">¡Los acompañamos!</h2>
-        </div>
-        <p class="text-cgray">
-          Somos tu centro médico terapéutico, pendientes de potenciar una mirada
-          integradora del sanar, crecer y florecer de nuestros usuarios ♥️✨️
-        </p>
-
-        <p class="text-cgray">
-          Si ya nos conoces, sabes que recibimos a todos con cariño, aprecio y
-          buena onda. Si no nos conoces ¿Qué estas esperando para venir? 🤭
-        </p>
-        <p>¡Te esperamos! ♥️</p>
-      </div>
-
-      <div class="p-10">
-        <img src="acompanamiento.jpg" alt="" class="rounded-3xl" />
-      </div>
-    </div>
+    <AboutSection />
 
     <!-- Nuestro equipo -->
     <TeamSection />
