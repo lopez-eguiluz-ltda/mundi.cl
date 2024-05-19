@@ -1,0 +1,101 @@
+---
+import {
+  FaLocationDot,
+  FaWhatsapp,
+  FaRegClock,
+  FaYoutube,
+} from "react-icons/fa6";
+import { MdOutlineEmail } from "react-icons/md";
+import logo from "@assets/images/amai_logo.png";
+import { Picture } from "astro:assets";
+import { ImFacebook } from "react-icons/im";
+import { SiInstagram } from "react-icons/si";
+import Rrss from "./Rrss.astro";
+import Gmaps from "./Gmaps.astro";
+---
+
+<footer>
+  <div class="bg-white py-5 w-full md:px-8 xl:px-16">
+    <div class="grid grid-cols-4 justify-items-center pb-5">
+      <div class="flex flex-col items-center justify-start gap-2">
+        <div
+          class="p-3 rounded-full bg-white text-corange border-[1px] border-corange hover:bg-corange hover:text-white transition-all duration-300 ease-in-out"
+        >
+          <FaLocationDot size={24} />
+        </div>
+        <div class="w-3/4 text-center text-sm text-cgray">
+          <p class="inline-block">Las Rojas Poniente #1489</p>
+          <p class="inline-block">La Serena, Chile.</p>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center justify-start gap-2">
+        <div
+          class="p-3 rounded-full bg-white text-corange border-[1px] border-corange hover:bg-corange hover:text-white transition-all duration-300 ease-in-out"
+        >
+          <FaWhatsapp size={24} />
+        </div>
+
+        <a href="https://api.whatsapp.com/send?phone=56959905385">
+          <p
+            class="text-sm text-center text-cgray underline hover:opacity-50 transition-opacity duration-150 ease-in-out"
+          >
+            +56 9 5990 5385
+          </p>
+        </a>
+      </div>
+
+      <div class="flex flex-col items-center justify-start gap-2">
+        <div
+          class="p-3 rounded-full bg-white text-corange border-[1px] border-corange hover:bg-corange hover:text-white transition-all duration-300 ease-in-out"
+        >
+          <MdOutlineEmail size={24} />
+        </div>
+
+        <div>
+          <a href="mailto:amaicentro@gmail.com">
+            <p
+              class="text-cgray text-sm text-center underline hover:opacity-50 transition-opacity duration-150 ease-in-out"
+            >
+              amaicentro@gmail.com
+            </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center justify-start gap-2">
+        <div
+          class="p-3 rounded-full bg-white text-corange border-[1px] border-corange hover:bg-corange hover:text-white transition-all duration-300 ease-in-out"
+        >
+          <FaRegClock size={24} />
+        </div>
+
+        <div class="text-center text-sm">
+          <p>Lun a Vie, 9:00 a 13:00 - 14:00 a 19:00 hrs</p>
+          <p>Sáb y Dom, 9:00 a 14:00 hrs</p>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div
+      class="flex flex-col items-center md:flex-row w-full h-full gap-5 justify-center py-5 md:py-14 2xl:p-14"
+    >
+      <Rrss />
+      <Gmaps />
+
+    </div>
+  </div>
+
+  <script>
+    const actualYear = new Date().getFullYear();
+    const yearElement = document.getElementById("year");
+
+    if (yearElement) {
+      yearElement.textContent = actualYear.toString();
+    } else {
+      console.log('No se encontró el elemento con id "year"');
+    }
+  </script>
+</footer>

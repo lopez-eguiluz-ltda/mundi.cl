@@ -21,7 +21,6 @@ import fernanda_maturana from "@assets/images/equipo/fernanda_maturana.jpg";
 import maria_vargas from "@assets/images/equipo/maria_vargas.jpg";
 import rocio_gimenez from "@assets/images/equipo/rocio_gimenez.jpg";
 
-
 import { ImFacebook, ImLinkedin2 } from "react-icons/im";
 import { SiInstagram } from "react-icons/si";
 

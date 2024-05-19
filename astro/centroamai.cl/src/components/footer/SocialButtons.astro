@@ -1,0 +1,34 @@
+---
+import type { SocialLinkType } from "@/utils/types";
+import { FaWhatsapp, FaYoutube } from "react-icons/fa6";
+import { ImFacebook } from "react-icons/im";
+import { SiInstagram } from "react-icons/si";
+import SocialLink from "./SocialLink.astro";
+
+const socialLink: SocialLinkType[] = [
+  {
+    link: "https://web.facebook.com/centroamai/",
+    icon: ImFacebook,
+  },
+  {
+    link: "https://www.instagram.com/centroamai/",
+    icon: SiInstagram,
+  },
+  {
+    link: "https://api.whatsapp.com/send?phone=56959905385",
+    icon: FaWhatsapp,
+  },
+  {
+    link: "https://www.youtube.com/@amaicentro",
+    icon: FaYoutube,
+  },
+];
+---
+
+<div class="flex justify-center items-center gap-2 py-2">
+  {
+    socialLink.map((socialLink: SocialLinkType) => (
+      <SocialLink icon={socialLink.icon} link={socialLink.link} />
+    ))
+  }
+</div>
