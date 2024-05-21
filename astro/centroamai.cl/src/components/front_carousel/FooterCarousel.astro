@@ -7,11 +7,11 @@ import logo from "@assets/images/amai_logo.png";
 import { Picture } from "astro:assets";
 ---
 
-<div class="flex justify-center">
+<div class="flex justify-center md:px-10 xl:px-28">
   <div
-    class="bg-white/95 rounded-b-3xl w-10/12 px-10 py-4 -translate-y-0 shadow-md opacity-65 hover:opacity-100 hover:rounded-3xl hover:-translate-y-5 transition-all duration-300 ease-in-out"
+    class="bg-white/95 w-full px-10 xl:px-20 py-8 md:py-4 -translate-y-0 shadow-lg md:opacity-65 md:hover:opacity-100 md:hover:rounded-3xl md:rounded-b-3xl md:hover:-translate-y-5 transition-all duration-300 ease-in-out"
   >
-    <div class="grid grid-cols-3 items-center">
+    <div class="grid grid-cols-1 space-y-5 md:space-y-0 md:grid-cols-3 items-center">
       <div class="flex justify-start">
         <a href="#">
           <div class="flex flex-row items-center">
@@ -40,7 +40,7 @@ import { Picture } from "astro:assets";
             </div>
 
             <div>
-              <h2 class="font-semibold text-cgreen text-right">
+              <h2 class="text-sm sm:text-base font-semibold text-cgreen text-right">
                 Nuestro equipo
               </h2>
             </div>
@@ -53,8 +53,8 @@ import { Picture } from "astro:assets";
           src={logo}
           alt="Centro amai logo"
           formats={["webp", "jpg"]}
-          fallbackFormat="png"
-          class="w-2/5 m-auto"
+          fallbackFormat="jpg"
+          class="w-56 md:w-36 m-auto"
         />
       </div>
 
@@ -65,7 +65,7 @@ import { Picture } from "astro:assets";
           target="_blank"
         >
           <h1
-            class="font-semibold text-cgreen text-right hover:opacity-50 transition-opacity duration-300 ease-in-out"
+            class="text-sm sm:text-base font-semibold text-cgreen text-right hover:opacity-50 transition-opacity duration-300 ease-in-out"
           >
             Agenda tu asesoría de orientación gratis
           </h1>
