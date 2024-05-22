@@ -1,4 +1,4 @@
-import { CarouselItem } from "../ui/carousel";
+import { CarouselItem } from "../../ui/carousel";
 
 const ServiceTitle = ({ title }: { title: string }) => {
   return (

@@ -11,3 +11,9 @@ export type SocialLinkType = {
   icon: IconType;
   link: string;
 };
+
+export type AmaiService = {
+  icon: IconType;
+  service: string;
+  descriptions: string[];
+};

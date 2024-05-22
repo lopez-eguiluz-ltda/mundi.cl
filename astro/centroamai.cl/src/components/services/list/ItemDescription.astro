@@ -1,0 +1,10 @@
+---
+import { PiStarFourFill } from "react-icons/pi";
+
+const { description } = Astro.props;
+---
+
+<li class="flex items-center justify-start gap-2">
+  <PiStarFourFill className="text-corange flex-shrink-0" />
+  <p class="font-light">{description}</p>
+</li>
