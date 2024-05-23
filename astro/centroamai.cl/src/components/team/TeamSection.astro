@@ -14,7 +14,7 @@ const shuffle = (array: TeamType[]) => {
 ---
 
 <!-- Nuestro equipo -->
-<div class="flex flex-col items-start mx-20 mt-24">
+<div class="flex flex-col items-start px-10 md:px-20 mt-24">
   <h2
     class="text-corange text-xs border-[1px] border-corange rounded-3xl py-1 px-3"
   >
@@ -25,7 +25,7 @@ const shuffle = (array: TeamType[]) => {
     Nuestros especialistas
   </h2>
   <div
-    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 justify-items-center gap-y-10 gap-x-5 w-full"
+    class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 justify-items-center gap-y-10 gap-x-5 w-full"
   >
     {
       teams.map((person: TeamType) => (
