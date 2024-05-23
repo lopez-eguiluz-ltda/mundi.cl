@@ -6,7 +6,7 @@ import { Carousel, CarouselContent } from "@/components/ui/carousel";
 
 const ServiceCarousel = () => {
   const dotColor = "#D34F4D";
-  const services = [
+  const services: string[] = [
     "Nutrición",
     "Medicina",
     "Kinesiología",
@@ -20,9 +20,10 @@ const ServiceCarousel = () => {
 
   useEffect(() => {
     const adjustSpeed = () => {
-      if (window.innerWidth < 640) {
+      const width = window.innerWidth;
+      if (width < 640) {
         setSpeed(0.5); // Velocidad para móviles
-      } else if (window.innerWidth < 1024) {
+      } else if (width < 1024) {
         setSpeed(1.0); // Velocidad para tabletas
       } else {
         setSpeed(1.5); // Velocidad para escritorios
@@ -31,7 +32,6 @@ const ServiceCarousel = () => {
 
     adjustSpeed();
     window.addEventListener("resize", adjustSpeed);
-
     return () => {
       window.removeEventListener("resize", adjustSpeed);
     };
@@ -57,10 +57,10 @@ const ServiceCarousel = () => {
         ]}
       >
         <CarouselContent>
-          {services.map((service) => (
+          {services.map((service, index) => (
             <>
-              <ServiceTitle title={service} />
-              <ServiceCircle dotColor={dotColor} />
+              <ServiceTitle title={service} key={index} />
+              <ServiceCircle dotColor={dotColor} key={index} />
             </>
           ))}
         </CarouselContent>
