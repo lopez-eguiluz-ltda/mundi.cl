@@ -43,7 +43,7 @@ const ServiceCarousel = () => {
         className="w-full"
         opts={{
           loop: true,
-          active: true,
+          active: false,
           align: "center",
         }}
         plugins={[

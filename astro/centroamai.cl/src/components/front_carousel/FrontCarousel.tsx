@@ -11,7 +11,7 @@ const FrontCarousel = () => {
     <Carousel
       opts={{
         loop: true,
-        active: true,
+        active: false,
         duration: 60,
       }}
       plugins={[

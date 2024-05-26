@@ -1,29 +1,17 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
-import {
-  FaBaby,
-  FaAppleWhole,
-  FaBrain,
-  FaUserNurse,
-  FaUserDoctor,
-  FaPuzzlePiece,
-} from "react-icons/fa6";
-import { PiStarFourFill } from "react-icons/pi";
-import { MdOutlinePersonalInjury } from "react-icons/md";
 
 import TeamSection from "@/components/team/TeamSection.astro";
 import FrontCarousel from "@/components/front_carousel/FrontCarousel";
 import FooterCarousel from "@/components/front_carousel/FooterCarousel.astro";
-import { RiSpeakFill } from "react-icons/ri";
-import { GiHand } from "react-icons/gi";
 import ServicesCarousel from "@/components/services/carousel/ServicesCarousel";
 import Footer from "@/components/footer/FooterSection.astro";
 import AboutSection from "@/components/about/AboutSection.astro";
 import ServiceSection from "@/components/services/ServiceSection.astro";
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout>
   <main>
     <nav class="fixed z-10 w-full backdrop-blur-sm">
       <div class="flex justify-start items-center px-40 py-8 text-white gap-10">
@@ -47,6 +35,12 @@ import ServiceSection from "@/components/services/ServiceSection.astro";
 
     <!-- Nuestros servicios -->
     <ServiceSection />
+
+    <!-- <div class="relative w-screen h-screen">
+      <svg class="absolute right-0 top-1/2 transform -translate-y-1/2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#ff1255">
+        <circle cx="50" cy="50" r="5" stroke="black" stroke-width="3" fill="red" />
+      </svg>
+    </div>-->
 
     <!--
     <div class="flex justify-around items-stretch p-20 gap-20">

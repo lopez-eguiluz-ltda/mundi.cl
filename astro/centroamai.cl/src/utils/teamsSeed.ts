@@ -107,7 +107,7 @@ export const teams: TeamType[] = [
 
   {
     name: "Carmina Nicolai",
-    position: "Obstetricia Pro-parto",
+    position: "Matronería-Partería",
     photo: carmina,
     socialLink: [
       {
@@ -147,7 +147,7 @@ export const teams: TeamType[] = [
 
   {
     name: "Claudia Salas",
-    position: "Medicina Infanto-Juvenil",
+    position: "Pediatría Ambulatoria",
     photo: claudia,
     socialLink: [
       {
