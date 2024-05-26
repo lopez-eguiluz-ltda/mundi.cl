@@ -1,7 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
-
 import TeamSection from "@/components/team/TeamSection.astro";
 import FrontCarousel from "@/components/front_carousel/FrontCarousel";
 import FooterCarousel from "@/components/front_carousel/FooterCarousel.astro";
@@ -9,17 +8,30 @@ import ServicesCarousel from "@/components/services/carousel/ServicesCarousel";
 import Footer from "@/components/footer/FooterSection.astro";
 import AboutSection from "@/components/about/AboutSection.astro";
 import ServiceSection from "@/components/services/ServiceSection.astro";
+
+import logo from "@assets/images/amai_logo_full_white.png";
+
+import { Picture } from "astro:assets";
+import Navastro from "@/components/Navastro";
 ---
 
 <Layout>
-  <main>
-    <nav class="fixed z-10 w-full backdrop-blur-sm">
-      <div class="flex justify-start items-center px-40 py-8 text-white gap-10">
-        <h1 class="text-3xl">Logo Centro amai</h1>
-        <h1 class="text-lg">Felipe</h1>
-      </div>
-    </nav>
+  <Navastro client:load/>
 
+  <!-- <nav class="fixed z-10 w-full backdrop-blur-sm">
+    <div class="flex justify-start items-center px-40 py-8 text-white gap-10">
+      <Picture
+        src={logo}
+        alt="Logo centroamai"
+        formats={["webp", "jpg"]}
+        fallbackFormat="jpg"
+        class="object-cover w-36"
+      />
+      <h1 class="text-lg">Felipe</h1>
+    </div>
+  </nav>-->
+
+  <main>
     <!-- Carousel principa & footer -->
     <FrontCarousel client:load />
     <FooterCarousel />
