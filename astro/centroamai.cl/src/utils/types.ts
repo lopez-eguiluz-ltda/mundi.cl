@@ -17,3 +17,8 @@ export type AmaiService = {
   service: string;
   descriptions: string[];
 };
+
+export type AmaiNavService = {
+  service: string;
+  description: string;
+}

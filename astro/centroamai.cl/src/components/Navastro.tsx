@@ -9,6 +9,48 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
+import type { AmaiNavService } from "@/utils/types";
+
+const childService: AmaiNavService[] = [
+  {
+    service: "Pediatría ambulatoria",
+    description: "Control niño sano y Urgencias pediátricas",
+  },
+  {
+    service: "Endocrinología pediátrica",
+    description:
+      "Diagnóstico y seguimiento de patologías del sistema endocrino: Diabetes, hiper/hipotiroidismo, pubertad precoz, otros.",
+  },
+  {
+    service: "Neurología infantil",
+    description: "Diagnóstico y seguimiento de trastornos del neurodesarrollo.",
+  },
+  {
+    service: "Terapia ocupacional",
+    description:
+      "Evaluación, diagnóstico y terapia en trastornos del neurodesarrollo, integración sensorial y rechazo alimentario.",
+  },
+  {
+    service: "Fonoaudiología",
+    description:
+      "Evaluación, diagnóstico y terapia en trastornos de la comunicación, deglución, neurodesarrollo y rechazo alimentario.",
+  },
+  {
+    service: "Psicología",
+    description:
+      "Evaluación, diagnóstico y terapia en trastornos del neurodesarrollo y habilidades parentales.",
+  },
+  {
+    service: "Psicopedagogía",
+    description:
+      "Evaluación, diagnóstico y terapia en trastornos del neurodesarrollo, potenciar lectoescritura y acompañamiento estudiantil.",
+  },
+  {
+    service: "Nutrición",
+    description:
+      "Acompañamiento en inicio de la alimentación complementaria, método BLW y Alergias alimentarias.",
+  },
+];
 
 const Navastro = () => (
   <nav className="fixed z-10 w-full backdrop-blur-sm">
@@ -27,7 +69,6 @@ const Navastro = () => (
             </NavigationMenuTrigger>
             <NavigationMenuContent>
               <div className="flex gap-8 p-6 md:w-[400px] lg:w-[600px]">
-                
                 <div className="basis-1/3">
                   <NavigationMenuLink asChild>
                     <a
@@ -37,7 +78,7 @@ const Navastro = () => (
                       <img
                         src="nav/pediatria.jpg"
                         alt=""
-                        className="object-cover h-72 opacity-50 rounded-3xl "
+                        className="object-contain opacity-50 rounded-3xl "
                       />
 
                       <div className="absolute mb-2 mt-4 text-lg font-medium">
@@ -47,40 +88,19 @@ const Navastro = () => (
                   </NavigationMenuLink>
                 </div>
 
-
                 <div className="basis-2/3 bg-white">
-                  <div className="flex gap-5">
-                    <ul className="space-y-5">
+                  <ul className="grid grid-cols-2 justify-items-center">
+                    {childService.map((amaiService: AmaiNavService) => (
                       <li className="space-y-2 hover:bg-cgreen/10 rounded-xl p-2 transition-colors duration-300 ease-in-out">
-                        <h2 className="font-bold leading-none">Servicio 1</h2>
+                        <h2 className="font-bold leading-none">
+                          {amaiService.service}
+                        </h2>
                         <p className="line-clamp-2 text-sm leading-snug text-cgray">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Ad eaque saepe voluptate odit soluta eveniet
-                          quam itaque officiis explicabo perferendis
+                          {amaiService.description}
                         </p>
                       </li>
-
-                      <li className="space-y-2 hover:bg-cgreen/10 rounded-xl p-2 transition-colors duration-300 ease-in-out">
-                        <h2 className="font-bold leading-none">Servicio 2</h2>
-                        <p className="line-clamp-2 text-sm leading-snug text-cgray">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Ad eaque saepe voluptate odit soluta eveniet
-                          quam itaque officiis explicabo perferendis
-                        </p>
-                      </li>
-
-                      <li className="space-y-2 hover:bg-cgreen/10 rounded-xl p-2 transition-colors duration-300 ease-in-out">
-                        <h2 className="font-bold leading-none">Servicio 3</h2>
-                        <p className="line-clamp-2 text-sm leading-snug text-cgray">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Ad eaque saepe voluptate odit soluta eveniet
-                          quam itaque officiis explicabo perferendis
-                        </p>
-                      </li>
-                    </ul>
-
-
-                  </div>
+                    ))}
+                  </ul>
                 </div>
               </div>
             </NavigationMenuContent>
