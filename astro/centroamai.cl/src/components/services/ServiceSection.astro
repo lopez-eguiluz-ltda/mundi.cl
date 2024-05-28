@@ -1,5 +1,5 @@
 ---
-import { services } from "@/utils/servicesSeed";
+import { detailServices } from "@/utils/servicesSeed";
 import ItemDescription from "./list/ItemDescription.astro";
 import ServiceItem from "./list/ServiceItem.astro";
 import type { AmaiService } from "@/utils/types";
@@ -23,7 +23,7 @@ import type { AmaiService } from "@/utils/types";
       class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 items-start justify-items-center p-10 w-full lg:w-10/12 xl:w-9/12"
     >
       {
-        services.map((service: AmaiService) => (
+        detailServices.map((service: AmaiService) => (
           <ServiceItem icon={service.icon} title={service.service}>
             {service.descriptions.map((description: string) => (
               <ItemDescription description={description} />

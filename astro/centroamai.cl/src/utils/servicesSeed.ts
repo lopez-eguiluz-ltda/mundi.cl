@@ -9,9 +9,50 @@ import {
 import { GiHand } from "react-icons/gi";
 import { MdOutlinePersonalInjury } from "react-icons/md";
 import { RiSpeakFill } from "react-icons/ri";
-import type { AmaiService } from "./types";
+import type { AmaiNavService, AmaiService } from "./types";
 
-export const services: AmaiService[] = [
+const navServices: AmaiNavService[] = [
+  {
+    service: "Pediatría ambulatoria",
+    description: "Control niño sano y urgencias pediátricas",
+  },
+  {
+    service: "Endocrinología",
+    description:
+      "Diagnóstico y seguimiento de: Diabetes, hiper/hipotiroidismo, pubertad precoz y otros.",
+  },
+  {
+    service: "Neurología",
+    description: "Diagnóstico y seguimiento de trastornos del neurodesarrollo.",
+  },
+  {
+    service: "Terapia ocupacional",
+    description:
+      "Evaluación, diagnóstico y terapia en trastornos del neurodesarrollo, integración sensorial y rechazo alimentario.",
+  },
+  {
+    service: "Fonoaudiología",
+    description:
+      "Evaluación, diagnóstico y terapia en trastornos de la comunicación, deglución, neurodesarrollo y rechazo alimentario.",
+  },
+  {
+    service: "Psicología",
+    description:
+      "Evaluación, diagnóstico y terapia en trastornos del neurodesarrollo y habilidades parentales.",
+  },
+  {
+    service: "Psicopedagogía",
+    description:
+      "Evaluación, diagnóstico y terapia en trastornos del neurodesarrollo, potenciar lectoescritura y acompañamiento estudiantil.",
+  },
+  {
+    service: "Nutrición",
+    description:
+      "Alimentación complementaria, método BLW y alergias alimentarias.",
+  },
+];
+
+const detailServices: AmaiService[] = [
   {
     icon: FaBaby,
     service: "Pediatría",
@@ -98,3 +139,5 @@ export const services: AmaiService[] = [
     ],
   },
 ];
+
+export { navServices, detailServices };
