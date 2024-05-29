@@ -11,7 +11,7 @@ import { MdOutlinePersonalInjury } from "react-icons/md";
 import { RiSpeakFill } from "react-icons/ri";
 import type { AmaiNavService, AmaiService } from "./types";
 
-const navServices: AmaiNavService[] = [
+const navServicesChild: AmaiNavService[] = [
   {
     service: "Pediatría ambulatoria",
     description: "Control niño sano y urgencias pediátricas",
@@ -49,6 +49,43 @@ const navServices: AmaiNavService[] = [
     service: "Nutrición",
     description:
       "Alimentación complementaria, método BLW y alergias alimentarias.",
+  },
+];
+
+const navServicesAdult: AmaiNavService[] = [
+  {
+    service: "Medicina Biorreguladora",
+    description:
+      "Evaluación, diagnóstico y tratamiento integral de todo tipo de enfermedades, potenciando el sistema inmune.",
+  },
+  {
+    service: "Medicina General",
+    description: "Evaluación y diagnóstico de enfermedades, licencia médica.",
+  },
+  {
+    service: "Matronería",
+    description:
+      "Acompañamiento en gestación, parto y post parto, PAP, anticoncepción natural y farmacológica.",
+  },
+  {
+    service: "Kinesiología",
+    description:
+      "Evaluación, diagnóstico y rehabilitación de trastornos musculoesqueléticos. Reintegro deportivo",
+  },
+  {
+    service: "Nutrición",
+    description:
+      "Nutrición consciente y pautas alimentarias en: Alergias alimentarias, vegetarianismo, veganismo, enfermedad celiaca.",
+  },
+  {
+    service: "Psicología",
+    description:
+      "Evaluación, diagnóstico y terapia en trastornos de la personalidad y neurodesarrollo.",
+  },
+  {
+    service: "Fonoaudiología",
+    description:
+      "Evaluación, diagnóstico y terapia en trastornos de la comunicación, deglución y auditivos.",
   },
 ];
 
@@ -140,4 +177,4 @@ const detailServices: AmaiService[] = [
   },
 ];
 
-export { navServices, detailServices };
+export { navServicesChild,navServicesAdult, detailServices };
