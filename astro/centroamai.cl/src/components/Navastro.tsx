@@ -29,17 +29,17 @@ const Navastro = () => (
                 <div className="basis-1/3">
                   <NavigationMenuLink asChild>
                     <a
-                      className="flex h-full w-full select-none flex-col justify-end rounded-3xl bg-gradient-to-b from-muted/50 to-muted no-underline outline-none focus:shadow-md relative"
+                      className="flex h-full w-full select-none flex-col justify-center items-center rounded-3xl bg-cpurple/50 no-underline outline-none focus:shadow-md relative"
                       href="/"
                     >
                       <img
                         src="nav/pediatria.jpg"
                         alt=""
-                        className="object-cover h-full opacity-50 rounded-3xl "
+                        className="object-cover h-full opacity-20 rounded-3xl "
                       />
 
-                      <div className="absolute mb-2 mt-4 text-lg font-medium">
-                        shadcn/ui
+                      <div className="absolute mb-2 mt-4 text-3xl font-bold text-white">
+                        Pediatría
                       </div>
                     </a>
                   </NavigationMenuLink>
