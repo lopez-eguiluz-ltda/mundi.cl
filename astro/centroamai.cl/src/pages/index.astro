@@ -8,14 +8,13 @@ import ServicesCarousel from "@/components/services/carousel/ServicesCarousel";
 import Footer from "@/components/footer/FooterSection.astro";
 import AboutSection from "@/components/about/AboutSection.astro";
 import ServiceSection from "@/components/services/ServiceSection.astro";
+import NavSection from "@/components/navigation/NavSection";
 
-
-import Navastro from "@/components/Navastro";
 
 ---
 
 <Layout>
-  <Navastro client:load/>
+  <NavSection client:load/>
 
   <main>
     <!-- Carousel principa & footer -->

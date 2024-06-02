@@ -21,4 +21,10 @@ export type AmaiService = {
 export type AmaiNavService = {
   service: string;
   description: string;
-}
+};
+
+export type NavImageItemType = {
+  title: string;
+  image: string;
+  imageAlt: string;
+};
