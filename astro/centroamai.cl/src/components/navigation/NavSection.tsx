@@ -16,7 +16,7 @@ const NavSection = () => {
 
       // Si el porcentaje de scroll es mayor a X, cambia el color
       if (scrollPercent > 0.63) {
-        setNavBarColor("bg-white pt-2 lg:py-4 text-black shadow-md");
+        setNavBarColor("bg-white pt-2 lg:py-4 text-cgray shadow-md");
         setLogo(LogoNormal);
       } else {
         setNavBarColor("py-8 text-white");
