@@ -33,7 +33,7 @@ const NavSection = () => {
 
   return (
     <nav
-      className={`${navBarColor} fixed z-10 w-full backdrop-blur-sm transition-all duration-500 ease-in-out`}
+      className={`${navBarColor} fixed z-30 w-full backdrop-blur-sm transition-all duration-500 ease-in-out`}
     >
       <div className="flex flex-row justify-between items-center px-10 sm:px-20 lg:px-40 gap-5 lg:gap-10">
         {/* LOGO NAVBAR */}

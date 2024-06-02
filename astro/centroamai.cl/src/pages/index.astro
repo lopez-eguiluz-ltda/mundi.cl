@@ -9,80 +9,12 @@ import Footer from "@/components/footer/FooterSection.astro";
 import AboutSection from "@/components/about/AboutSection.astro";
 import ServiceSection from "@/components/services/ServiceSection.astro";
 import NavSection from "@/components/navigation/NavSection";
+import SvgSection from "@/components/svg_patterns/SvgSection.astro";
 ---
 
 <Layout>
-  <!-- SUPERIOR DERECHA -->
-  <div class="fixed -z-10 -top-20 -right-72 lg:-right-56">
-    <svg width="400" height="400">
-      <circle cx="200" cy="200" r="170" fill="#d3eaed1A"></circle>
-    </svg>
-  </div>
 
-  <!-- INFERIOR DERECHA -->
-  <div class="fixed -z-10 -bottom-36 -right-48">
-    <svg width="300" height="300">
-      <circle cx="100" cy="100" r="100" fill="#42A29966"></circle>
-    </svg>
-  </div>
-  <div class="fixed -z-10 bottom-0 right-10 hidden sm:block">
-    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <pattern
-          id="rayado"
-          patternUnits="userSpaceOnUse"
-          width="16"
-          height="16"
-        >
-          <path
-            d="M-1,1 l2,-2
-                   M0,16 l16,-16
-                   M15,17 l2,-2"
-            style="stroke:#d3eaed1A; stroke-width:4"></path>
-        </pattern>
-      </defs>
-      <circle cx="100" cy="100" r="80" fill="url(#rayado)"></circle>
-    </svg>
-  </div>
-
-  <!-- RAYADO -->
-  <div class="fixed -z-10 bottom-1/2 right-1/3">
-    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <pattern
-          id="rayado2"
-          patternUnits="userSpaceOnUse"
-          width="16"
-          height="16"
-        >
-          <path
-            d="M-1,15 l2,2
-          M0,0 l16,16
-          M15,-1 l2,2"
-            style="stroke:#42A29933; stroke-width:4"></path>
-        </pattern>
-      </defs>
-      <circle cx="100" cy="100" r="80" fill="url(#rayado2)"></circle>
-    </svg>
-  </div>
-
-  <!-- IZQ ABAJO -->
-  <div class="fixed -z-10 bottom-10 -left-20">
-    <svg width="200" height="200">
-      <circle cx="100" cy="100" r="100" fill="#42A29940"></circle>
-    </svg>
-  </div>
-  <div class="fixed -z-10 -bottom-10 -left-32">
-    <svg width="400" height="400">
-      <circle
-        cx="200"
-        cy="200"
-        r="170"
-        fill="transparent"
-        stroke="#d3eaed1A"
-        stroke-width="35"></circle>
-    </svg>
-  </div>
+  <SvgSection/>
 
   <NavSection client:load />
 

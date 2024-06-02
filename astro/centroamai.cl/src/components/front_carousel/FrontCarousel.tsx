@@ -42,7 +42,7 @@ const FrontCarousel = () => {
               <hr className="opacity-15 p-2 w-1/3 mb-3" />
 
               <div className="relative w-1/4">
-                <div className="absolute w-full h-full bg-black rounded-full opacity-50 z-10 transform translate-x-1 translate-y-1.5"></div>
+                <div className="absolute w-full h-full bg-black rounded-full opacity-50 z-20 transform translate-x-1 translate-y-1.5"></div>
                 <a
                   className="flex justify-center items-center bg-white hover:bg-cpurple rounded-full px-4 py-2 transition-colors duration-300 ease-in-out uppercase font-semibold z-20 relative text-cgreen hover:text-white"
                   href="https://agendamiento.reservo.cl/makereserva/agenda/f0Jn8dB0F0pERa8N1U96tu94p2z5Uv"
