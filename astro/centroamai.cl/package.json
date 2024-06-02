@@ -40,8 +40,8 @@
     "typescript": "^5.4.5"
   },
   "devDependencies": {
-    "oxlint": "^0.4.1",
-    "prettier": "^3.2.5",
+    "oxlint": "^0.4.2",
+    "prettier": "^3.3.0",
     "prettier-plugin-astro": "^0.14.0"
   }
 }

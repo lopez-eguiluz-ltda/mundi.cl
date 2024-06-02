@@ -43,7 +43,7 @@ const ServiceCarousel = () => {
         className="w-full"
         opts={{
           loop: true,
-          active: false,
+          active: true,
           align: "center",
         }}
         plugins={[
@@ -56,12 +56,14 @@ const ServiceCarousel = () => {
           }),
         ]}
       >
-        {services.map((service, index) => (
-          <CarouselContent key={index}>
-            <ServiceTitle title={service} />
-            <ServiceCircle dotColor={dotColor} />
-          </CarouselContent>
-        ))}
+        <CarouselContent>
+          {services.map((service, index) => (
+            <>
+              <ServiceTitle title={service} key={index} />
+              <ServiceCircle dotColor={dotColor} key={index + 1} />
+            </>
+          ))}
+        </CarouselContent>
       </Carousel>
     </div>
   );
