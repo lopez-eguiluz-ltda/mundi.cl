@@ -177,4 +177,4 @@ const detailServices: AmaiService[] = [
   },
 ];
 
-export { navServicesChild,navServicesAdult, detailServices };
+export { navServicesChild, navServicesAdult, detailServices };
