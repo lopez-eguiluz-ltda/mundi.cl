@@ -4,16 +4,28 @@ import { FaWhatsapp } from "react-icons/fa";
 import camila from "@assets/images/equipo/camila_eguiluz.jpg";
 import karla from "@assets/images/equipo/karla_lopez.jpg";
 import logo from "@assets/images/amai_logo.png";
+import { RxDoubleArrowDown } from "react-icons/rx";
 import { Picture } from "astro:assets";
 ---
 
-<div class="flex justify-center md:px-10 xl:px-28">
+<div class="flex justify-center md:px-10 xl:px-28 relative">
+  <div
+    class="hidden sm:block absolute transform top-0 right-0 -translate-x-24 lg:-translate-x-40 xl:-translate-x-60 -translate-y-28 md:-translate-y-32"
+  >
+    <RxDoubleArrowDown
+      className="absolute z-20 top-0 right-0 text-white animate-sink animate-duration-1000 animate-iteration-count-infinite"
+      size={90}
+    />
+    <RxDoubleArrowDown
+      className="absolute z-20 top-2 right-0  text-black opacity-50 animate-sink animate-duration-1000 animate-iteration-count-infinite"
+      size={90}
+    />
+  </div>
+
   <div
     class="bg-white/95 w-full px-10 xl:px-20 py-8 md:py-4 -translate-y-0 shadow-lg md:opacity-65 md:hover:opacity-100 md:hover:rounded-3xl md:rounded-b-3xl md:hover:-translate-y-5 transition-all duration-300 ease-in-out"
   >
-    <div
-      class="grid grid-cols-1 md:space-y-0 md:grid-cols-3 items-center"
-    >
+    <div class="grid grid-cols-1 md:space-y-0 md:grid-cols-3 items-center">
       <div class="flex justify-start order-last md:order-first">
         <a href="#equipo">
           <div class="flex flex-row items-center">
@@ -62,17 +74,22 @@ import { Picture } from "astro:assets";
         />
       </div>
 
-      <div class="flex justify-end items-center gap-5 order-first md:order-last">
+      <div
+        class="flex justify-end items-center gap-5 order-first md:order-last"
+      >
         <a
           href="https://api.whatsapp.com/send?phone=56959905385"
           rel="noreferrer"
           target="_blank"
         >
-          <h1
-            class="text-sm sm:text-base font-semibold text-cgreen text-right hover:opacity-50 transition-opacity duration-300 ease-in-out"
-          >
-            Agenda tu asesoría de orientación gratis
-          </h1>
+          <div>
+            <h2
+              class="text-sm sm:text-base font-semibold text-cgreen text-right hover:opacity-50 transition-opacity duration-300 ease-in-out"
+            >
+              Agenda tu asesoría de orientación gratis
+            </h2>
+          </div>
+
           <a
             class="hover:opacity-50 transition-opacity duration-300 ease-in-out animate-pop animate-duration-1000 animate-iteration-count-infinite"
             href="https://api.whatsapp.com/send?phone=56959905385"
