@@ -1,11 +1,7 @@
-import { Carousel, CarouselContent, CarouselItem } from "../ui/carousel";
+import { Carousel, CarouselContent } from "../ui/carousel";
 
 import Autoplay from "embla-carousel-autoplay";
 
-import portada1 from "@assets/images/carousel/portada_1.jpg";
-import portada2 from "@assets/images/carousel/portada_2.jpg";
-import portada3 from "@assets/images/carousel/portada_3.jpg";
-import Image from "astro/components/Image.astro";
 import FrontCarouselItem from "./FrontCarouselItem";
 import carouselItems from "@/utils/carouselSeed";
 import type { CarouselItemType } from "@/utils/types";
@@ -22,7 +18,7 @@ const FrontCarousel = () => {
         Autoplay({
           delay: 10000,
           stopOnInteraction: false,
-          stopOnMouseEnter: true,
+          stopOnMouseEnter: false,
         }),
       ]}
     >

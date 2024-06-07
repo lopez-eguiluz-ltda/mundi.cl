@@ -21,7 +21,8 @@ const carouselItems: CarouselItemType[] = [
     image: portada3,
     header: "Apoyo integral",
     title: "Centro amai",
-    subtitle: "Equipo multidisciplinario enfocado en la salud materno infantil 🤰🤱🏻",
+    subtitle:
+      "Equipo multidisciplinario enfocado en la salud materno infantil 🤰🤱🏻",
   },
 ];
 

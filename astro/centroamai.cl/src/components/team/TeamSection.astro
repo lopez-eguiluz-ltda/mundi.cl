@@ -31,7 +31,7 @@ const shuffle = (array: TeamType[]) => {
     class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 justify-items-center gap-y-10 gap-x-5 w-full"
   >
     {
-      teams.map((person: TeamType) => (
+      shuffle(teams).map((person: TeamType) => (
         <Person
           name={person.name}
           position={person.position}
