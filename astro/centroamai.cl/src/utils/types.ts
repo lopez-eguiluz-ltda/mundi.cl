@@ -28,3 +28,10 @@ export type NavImageItemType = {
   image: string;
   imageAlt: string;
 };
+
+export type CarouselItemType = {
+  header: string;
+  title: string;
+  subtitle: string;
+  image: ImageMetadata;
+};
