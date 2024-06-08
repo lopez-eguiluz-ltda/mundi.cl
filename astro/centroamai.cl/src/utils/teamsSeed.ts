@@ -29,396 +29,136 @@ export const teams: TeamType[] = [
     name: "Camila Eguiluz",
     position: "Fonoaudiología",
     photo: camila,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
 
   {
     name: "Karla López",
     position: "Fonoaudiología / Consej. Lactancia",
     photo: karla,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
 
   {
     name: "Mauro Rivera",
     position: "Medicina Biorreguladora",
     photo: mauro,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
 
   {
     name: "Daniel Oliva",
     position: "Nutrición",
     photo: daniel,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
 
   {
     name: "Carmina Nicolai",
     position: "Matronería-Partería",
     photo: carmina,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
 
   {
     name: "Paulette Tohá",
     position: "Psicología Adulto-Juvenil",
     photo: paulette,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
 
   {
     name: "Claudia Salas",
     position: "Pediatría Ambulatoria",
     photo: claudia,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
 
   {
     name: "Mariflor Martinez",
     position: "Endocrinología Infantil",
     photo: mariflor,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
 
   {
     name: "Valentina Collao",
     position: "Nutrición",
     photo: valentina,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
 
   {
     name: "Sebastián Vilches",
     position: "Kinesiología",
     photo: sebastian,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
 
   {
     name: "Daniela Parra",
     position: "Psicopedagogía / Psicología",
     photo: daniela_parra,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
 
   {
     name: "Gabriela Araya",
     position: "Psicopedagogía",
     photo: gabriela,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
   {
     name: "Rocío Giménez",
     position: "Terapia Ocupacional",
     photo: rocio_gimenez,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
   {
     name: "Estrella Daque",
     position: "Terapia Ocupacional",
     photo: estrella,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
 
   {
     name: "Felipe Contreras",
     position: "Psicología Infanto-Juvenil",
     photo: felipe,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
 
   {
     name: "Catalina Gamboa",
     position: "Psicología Clínica",
     photo: catalina_gamboa,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
 
   {
     name: "Jenifer Meneses",
     position: "Psicología Infantil",
     photo: jenifer,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
   {
     name: "Mª José Vargas",
     position: "Psicología Infanto-Juvenil",
     photo: maria_vargas,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
 
   {
     name: "Charnelle Galleguillos",
     position: "Fonoaudiología / Consej. Lactancia",
     photo: charnelle,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
 
   {
     name: "Fernanda Maturana",
     position: "Fonoaudiología",
     photo: fernanda_maturana,
-    socialLink: [
-      {
-        icon: ImFacebook,
-        link: "#",
-      },
-      {
-        icon: SiInstagram,
-        link: "#",
-      },
-      {
-        icon: ImLinkedin2,
-        link: "#",
-      },
-    ],
+    socialLink: [],
   },
 ];
