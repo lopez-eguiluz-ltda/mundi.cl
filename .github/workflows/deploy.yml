@@ -26,5 +26,5 @@ jobs:
           password: ${{ secrets.SFTP_PASSWORD }}
           port: ${{ secrets.SFTP_PORT }}
           node-version: 20
-          package-manager: npm@20.14.0
+          package-manager: npm@latest
           directory: ./
