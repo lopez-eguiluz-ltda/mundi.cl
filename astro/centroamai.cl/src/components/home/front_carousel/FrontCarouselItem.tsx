@@ -1,5 +1,6 @@
+import { CarouselItem } from "@/components/ui/carousel";
 import type { CarouselItemType } from "@/utils/types";
-import { CarouselItem } from "../ui/carousel";
+
 
 const FrontCarouselItem = ({ item }: { item: CarouselItemType }) => (
   <CarouselItem className="relative">
