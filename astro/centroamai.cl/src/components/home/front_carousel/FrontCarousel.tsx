@@ -1,5 +1,3 @@
-
-
 import Autoplay from "embla-carousel-autoplay";
 
 import FrontCarouselItem from "./FrontCarouselItem";
