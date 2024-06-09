@@ -5,11 +5,11 @@ import TeamSection from "@/components/team/TeamSection.astro";
 import FrontCarousel from "@/components/front_carousel/FrontCarousel";
 import FooterCarousel from "@/components/front_carousel/FooterCarousel.astro";
 import ServicesCarousel from "@/components/services/carousel/ServicesCarousel";
-import Footer from "@/components/footer/FooterSection.astro";
 import AboutSection from "@/components/about/AboutSection.astro";
 import ServiceSection from "@/components/services/ServiceSection.astro";
 import SvgSection from "@/components/svg_patterns/SvgSection.astro";
 import NavSection from "@/components/common/navigation/NavSection";
+import FooterSection from "@/components/common/footer/FooterSection.astro";
 ---
 
 <Layout>
@@ -33,48 +33,7 @@ import NavSection from "@/components/common/navigation/NavSection";
 
     <!-- Nuestros servicios -->
     <ServiceSection />
-
-    <!-- <div class="relative w-screen h-screen">
-      <svg class="absolute right-0 top-1/2 transform -translate-y-1/2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#ff1255">
-        <circle cx="50" cy="50" r="5" stroke="black" stroke-width="3" fill="red" />
-      </svg>
-    </div>-->
-
-    <!--
-    <div class="flex justify-around items-stretch p-20 gap-20">
-      <img src="familia-1.webp" alt="Familia" class="w-1/2 rounded-3xl" />
-      <div
-        class="flex flex-col items-start justify-start w-1/2 bg-red-400/0 gap-5"
-      >
-        <div class="flex gap-4 text-white font-medium">
-          <button
-            class="bg-red-400/25 border-2 border-gray-400 px-10 py-1 rounded-full mb-10"
-          >
-            <h1>Misión</h1>
-          </button>
-
-          <button
-            class="bg-red-400/25 border-2 border-gray-400 px-10 py-1 rounded-full mb-10"
-          >
-            <h1>Visión</h1>
-          </button>
-
-          <button
-            class="bg-red-400/25 border-2 border-gray-400 px-10 py-1 rounded-full mb-10"
-          >
-            <h1>Compromiso</h1>
-          </button>
-        </div>
-
-        <h1 class="font-bold text-white text-4xl">Nuestra Misión</h1>
-        <p class="text-cgray text-xl">
-          "Acompañar a las familias en el proceso de maternidad, desarrollo
-          infantil, establecimiento de vínculo afectivo seguro y alimentación,
-          siendo la red de apoyo multidisciplinaria de la región".
-        </p>
-      </div>
-    </div>-->
   </main>
 
-  <Footer />
+  <FooterSection />
 </Layout>
