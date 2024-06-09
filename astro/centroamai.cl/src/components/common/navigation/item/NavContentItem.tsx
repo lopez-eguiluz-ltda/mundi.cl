@@ -1,4 +1,4 @@
-import { NavigationMenuLink } from "@/components/ui/navigation-menu";
+import { NavigationMenuLink } from "@/components/common/ui/navigation-menu";
 import NavImageItem from "./NavImageItem";
 import NavServiceItem from "./NavServiceItem";
 import type { AmaiNavService, NavImageItemType } from "@/utils/types";

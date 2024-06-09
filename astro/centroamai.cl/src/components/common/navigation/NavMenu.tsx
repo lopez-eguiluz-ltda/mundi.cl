@@ -5,7 +5,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu";
+} from "@/components/common/ui/navigation-menu";
 import { navServicesChild } from "@/utils/servicesSeed";
 import NavContentItem from "./item/NavContentItem";
 

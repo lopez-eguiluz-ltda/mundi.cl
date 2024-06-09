@@ -5,7 +5,7 @@ import Autoplay from "embla-carousel-autoplay";
 import FrontCarouselItem from "./FrontCarouselItem";
 import carouselItems from "@/utils/carouselSeed";
 import type { CarouselItemType } from "@/utils/types";
-import { Carousel, CarouselContent } from "@/components/ui/carousel";
+import { Carousel, CarouselContent } from "@/components/common/ui/carousel";
 
 const FrontCarousel = () => {
   return (

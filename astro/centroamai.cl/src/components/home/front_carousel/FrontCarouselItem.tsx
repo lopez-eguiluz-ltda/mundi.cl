@@ -1,4 +1,4 @@
-import { CarouselItem } from "@/components/ui/carousel";
+import { CarouselItem } from "@/components/common/ui/carousel";
 import type { CarouselItemType } from "@/utils/types";
 
 
