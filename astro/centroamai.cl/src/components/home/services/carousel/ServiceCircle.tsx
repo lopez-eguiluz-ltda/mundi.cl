@@ -1,4 +1,4 @@
-import { CarouselItem } from "../../ui/carousel";
+import { CarouselItem } from "@/components/ui/carousel";
 
 const ServiceCircle = ({ dotColor }: { dotColor: string }) => {
   return (
