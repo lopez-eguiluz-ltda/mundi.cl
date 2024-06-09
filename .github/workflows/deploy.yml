@@ -13,19 +13,7 @@ permissions:
   contents: read
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout your repository using git
-        uses: actions/checkout@v3
-      - name: Install, build, and upload your site
-        uses: withastro/action@v1
-        with:
-          node-version: 20 # La versión específica de Node que debe utilizarse para compilar tu proyecto. Por defecto es la 18. (opcional)
-          package-manager: npm@20.14.0 # El gestor de paquetes de Node que debe instalar las dependencias y compilar tu proyecto. Automáticamente detectadas con base en tu archivo lockfile. (opcional)
-
   deploy:
-    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository using git
@@ -38,3 +26,4 @@ jobs:
           password: ${{ secrets.SFTP_PASSWORD }}
           port: ${{ secrets.SFTP_PORT }}
           node-version: 20
+          directory: ./
