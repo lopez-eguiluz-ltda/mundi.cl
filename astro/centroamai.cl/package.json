@@ -4,11 +4,10 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "tailwind": "pnpm dlx tailwind build -i ./src/styles/tailwind.css -o public/styles.css -m",
-    "format": "pnpm dlx prettier --write . --plugin=prettier-plugin-astro",
-    "lint": "pnpm dlx oxlint",
+    "format": "npx prettier --write . --plugin=prettier-plugin-astro",
+    "lint": "npx oxlint",
     "start": "astro dev",
-    "build": "astro check && astro build",
+    "build": "npm run format && npm run lint && astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
