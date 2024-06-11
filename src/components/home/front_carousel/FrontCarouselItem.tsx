@@ -11,7 +11,7 @@ const FrontCarouselItem = ({ item }: { item: CarouselItemType }) => (
     <div className="absolute inset-0 bg-gradient-to-br from-cbackground to-transparent opacity-100 rounded-b-3xl"></div>
 
     <div className="absolute top-0 left-0 flex flex-col justify-center items-center lg:items-start p-10 sm:p-20 lg:p-32 xl:p-40 w-full h-full">
-      <h3 className="text-center md:text-left text-xs sm:text-sm md:text-base lg:text-lg text-white border-[1px] rounded-3xl py-1 px-5 uppercase my-6 animate-fade-in-right animate-delay-200 animate-duration-slower">
+      <h3 className="text-center md:text-left text-xs font-semibold sm:text-sm md:text-base lg:text-lg text-white border-[1px] rounded-3xl py-1 px-5 my-6 animate-fade-in-right animate-delay-200 animate-duration-slower">
         {item.header}
       </h3>
       <h2 className="text-center text-5xl sm:text-7xl lg:text-8xl text-white font-bold animate-fade-in-down animate-delay-500 animate-duration-slower">

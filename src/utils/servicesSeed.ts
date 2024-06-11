@@ -114,7 +114,7 @@ const detailServices: AmaiService[] = [
     service: "Psicología",
     descriptions: [
       "Psicología infanto-juvenil",
-      "Experiencia en TEA",
+      "Experiencia en CEA",
       "Asesorías en habilidades parentales",
     ],
   },
@@ -122,7 +122,7 @@ const detailServices: AmaiService[] = [
     icon: RiSpeakFill,
     service: "Fonoaudiología",
     descriptions: [
-      "Experiencia en TEA",
+      "Experiencia en CEA",
       "Rechazo alimentario",
       "Trastornos de lenguaje, habla y deglución",
     ],
@@ -169,7 +169,7 @@ const detailServices: AmaiService[] = [
     icon: FaPuzzlePiece,
     service: "Psicopedagogía",
     descriptions: [
-      "Experiencia en TEA",
+      "Experiencia en CEA",
       "Competencias en Evaluación de N.E.E",
       "Intervención Psicopedagógica",
       "Evaluaciones Psicopedagógicas",
