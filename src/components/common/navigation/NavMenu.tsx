@@ -10,12 +10,12 @@ import { navServicesChild } from "@/utils/servicesSeed";
 import NavContentItem from "./item/NavContentItem";
 
 const NavMenu = () => {
-  var itemClass: string = "px-2";
+  const itemClass: string = "px-2";
 
-  var triggerClass: string =
+  const triggerClass: string =
     "bg-transparent text-lg focus:bg-cgreen focus:text-white hover:bg-cpurple hover:text-white data-[state=open]:bg-cpurple/50 rounded-3xl transition-all duration-300 ease-in-out";
 
-  var linkClass: string =
+  const linkClass: string =
     "inline-flex items-center justify-center bg-transparent text-lg focus:bg-cgreen focus:text-white hover:bg-cpurple/50 hover:text-white data-[state=open]:bg-cpurple/50 rounded-3xl px-4 py-2 transition-all font-medium duration-300 ease-in-out";
 
   return (

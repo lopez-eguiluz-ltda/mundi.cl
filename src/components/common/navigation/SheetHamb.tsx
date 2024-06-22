@@ -35,10 +35,10 @@ const SheetHamb = () => {
       </SheetTrigger>
       <SheetContent className="pt-12 w-[200px] sm:w-[300px] lg:hidden">
         <div className="flex flex-col items-start justify-center gap-5 w-full">
-          {navHambItems.map((item, index) => (
+          {navHambItems.map((item) => (
             <a
               href="/"
-              key={index}
+              key={item.title}
               className="inline-flex items-center justify-center gap-5"
               onClick={() => {
                 setOpen(false);

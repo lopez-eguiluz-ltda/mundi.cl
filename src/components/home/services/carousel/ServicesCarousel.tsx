@@ -57,10 +57,10 @@ const ServiceCarousel = () => {
         ]}
       >
         <CarouselContent>
-          {services.map((service, index) => (
+          {services.map((service) => (
             <>
-              <ServiceTitle title={service} key={index} />
-              <ServiceCircle dotColor={dotColor} key={index + 1} />
+              <ServiceTitle title={service} key={service} />
+              <ServiceCircle dotColor={dotColor} key={service + 1} />
             </>
           ))}
         </CarouselContent>
