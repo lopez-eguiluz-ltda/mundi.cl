@@ -25,6 +25,9 @@ export default {
         cpurple: "#6A4A90",
         corange: "#D34F4D",
         cbackground: "#7FAEB5",
+        fgreen: "#26d6ad",
+        fpurple: "#5919cff8",
+        "fpurple-box": "#5919cf80",
       },
       keyframes: {
         "accordion-down": {

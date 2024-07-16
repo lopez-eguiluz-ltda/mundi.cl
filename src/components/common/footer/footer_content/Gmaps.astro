@@ -1,5 +1,6 @@
 ---
-
+import { Fragment } from "react";
+import DevHoverCard from "./DevHoverCard";
 ---
 
 <div class="w-full md:w-2/3 px-10">
@@ -26,12 +27,17 @@
     class="flex flex-col sm:flex-row justify-between items-center text-sm lg:text-base text-cgray"
   >
     <h2 class="sm:text-start">© <span id="year"></span> Centro Amaï</h2>
-    <span class="sm:text-end"
-      >Hecho con 🍵 y código por <a
-        href="https://figonzal.cl/"
-        class="underline font-semibold hover:opacity-50 transition-opacity duration-300 ease-in-out"
-        >figonzal.cl</a
+
+    <div>
+      <span class="sm:text-end">Hecho con 🍵 y código por</span>
+      <a
+        href="https://www.figonzal.cl"
+        target="_blank"
+        rel="noopener noreferrer"
+        referrerpolicy="no-referrer"
       >
-    </span>
+        <DevHoverCard title={"figonzal.cl"} client:visible />
+      </a>
+    </div>
   </div>
 </div>
