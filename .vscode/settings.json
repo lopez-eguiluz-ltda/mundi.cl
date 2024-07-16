@@ -1,5 +1,5 @@
 {
-	"yaml.schemas": {
-		"https://json.schemastore.org/github-workflow.json": "file:///d%3A/Users/figon/Desktop/Proyectos/Felipe/Vscode/LOPEZ-EGUILUZ/centroamai.cl/.github/workflows/deploy.yml"
-	}
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow.json": "file:///d%3A/Users/figon/Desktop/Proyectos/Felipe/Vscode/LOPEZ-EGUILUZ/centroamai.cl/.github/workflows/deploy.yml"
+  }
 }
