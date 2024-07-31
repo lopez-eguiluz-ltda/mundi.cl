@@ -31,7 +31,7 @@ const SheetHamb = () => {
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger>
-        <IoMenu size={46} />
+        <IoMenu size={46} aria-label="Mostrar menú web" />
       </SheetTrigger>
       <SheetContent className="pt-12 w-[200px] sm:w-[300px] lg:hidden">
         <div className="flex flex-col items-start justify-center gap-5 w-full">
