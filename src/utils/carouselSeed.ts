@@ -1,7 +1,7 @@
 import type { CarouselItemType } from "./types";
-import portada1 from "@assets/images/carousel/portada_1.jpg";
-import portada2 from "@assets/images/carousel/portada_2.jpg";
-import portada3 from "@assets/images/carousel/portada_3.jpg";
+import portada1 from "@assets/images/carousel/portada_1.webp";
+import portada2 from "@assets/images/carousel/portada_2.webp";
+import portada3 from "@assets/images/carousel/portada_3.webp";
 
 const carouselItems: CarouselItemType[] = [
   {
