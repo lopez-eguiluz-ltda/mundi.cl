@@ -9,6 +9,7 @@ export type TeamType = {
 
 export type SocialLinkType = {
   icon: IconType;
+  name: string;
   link: string;
 };
 

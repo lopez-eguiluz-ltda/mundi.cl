@@ -9,6 +9,7 @@ const NavImageItem = ({ title, image, imageAlt }: NavImageItemType) => {
       <img
         src={image}
         alt={imageAlt}
+        loading="lazy"
         className="object-cover h-full opacity-20 rounded-3xl "
       />
 

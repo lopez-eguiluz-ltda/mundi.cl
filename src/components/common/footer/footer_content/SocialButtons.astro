@@ -8,18 +8,22 @@ import SocialLink from "../footer_content/SocialLink.astro";
 const socialLink: SocialLinkType[] = [
   {
     link: "https://web.facebook.com/centroamai/",
+    name: "Facebook",
     icon: ImFacebook,
   },
   {
     link: "https://www.instagram.com/centroamai/",
+    name: "Instagram",
     icon: SiInstagram,
   },
   {
     link: "https://api.whatsapp.com/send?phone=56959905385",
+    name: "Whatsapp",
     icon: FaWhatsapp,
   },
   {
     link: "https://www.youtube.com/@amaicentro",
+    name: "Youtube",
     icon: FaYoutube,
   },
 ];
@@ -28,7 +32,11 @@ const socialLink: SocialLinkType[] = [
 <div class="flex justify-center items-center gap-2 py-2">
   {
     socialLink.map((socialLink: SocialLinkType) => (
-      <SocialLink icon={socialLink.icon} link={socialLink.link} />
+      <SocialLink
+        icon={socialLink.icon}
+        link={socialLink.link}
+        name={socialLink.name}
+      />
     ))
   }
 </div>
