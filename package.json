@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
-    "format": "npx prettier --write . --plugin=prettier-plugin-astro",
-    "lint": "npx oxlint",
+    "format": "pnpm dlx prettier --write . --plugin=prettier-plugin-astro",
+    "lint": "pnpm dlx oxlint",
     "start": "astro dev",
-    "build": "npm run format && npm run lint && astro check && astro build",
+    "build": "pnpm format && pnpm lint && astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -32,6 +32,7 @@
     "embla-carousel-autoplay": "^8.1.7",
     "embla-carousel-react": "^8.1.7",
     "lucide-react": "^0.408.0",
+    "postcss": "^8.4.40",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",

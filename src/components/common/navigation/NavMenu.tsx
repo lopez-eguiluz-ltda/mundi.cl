@@ -9,6 +9,9 @@ import {
 import { navServicesChild } from "@/utils/servicesSeed";
 import NavContentItem from "./item/NavContentItem";
 
+import pediatria from "@assets/images/nav/pediatria.webp";
+import adulto from "@assets/images/nav/adulto.webp";
+
 const NavMenu = () => {
   const itemClass: string = "px-2";
 
@@ -35,7 +38,7 @@ const NavMenu = () => {
             <NavContentItem
               imageItem={{
                 title: "Pediatría",
-                image: "nav/pediatria.jpg",
+                image: pediatria.src,
                 imageAlt: "Fondo pediatría",
               }}
               services={navServicesChild}
@@ -51,7 +54,7 @@ const NavMenu = () => {
             <NavContentItem
               imageItem={{
                 title: "Adulto",
-                image: "nav/adulto.jpg",
+                image: adulto.src,
                 imageAlt: "Fondo adulto",
               }}
               services={navServicesChild}

@@ -6,7 +6,7 @@ const FrontCarouselItem = ({ item }: { item: CarouselItemType }) => (
     <img
       src={item.image.src}
       alt="Home"
-      loading="lazy"
+      loading="eager"
       className="object-cover w-full h-[80vh] opacity-90 blur-sm rounded-b-3xl"
     />
     <div className="absolute inset-0 bg-gradient-to-br from-cbackground to-transparent opacity-100 rounded-b-3xl"></div>

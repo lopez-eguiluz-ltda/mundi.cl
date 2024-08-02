@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
-import LogoNormal from "@assets/images/amai_logo_full.png";
-import LogoWhite from "@assets/images/amai_logo_full_white.png";
+import LogoNormal from "@assets/images/amai_logo_full.webp";
+import LogoWhite from "@assets/images/amai_logo_full_white.webp";
 
 import NavMenu from "./NavMenu";
 import SheetHamb from "./SheetHamb";
