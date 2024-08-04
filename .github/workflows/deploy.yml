@@ -20,7 +20,7 @@ jobs:
       - name: Checkout your repository using git
         uses: actions/checkout@v3
       - name: Deploy to FTP server
-        uses: radenpioneer/astro-ftp-deploy@v0.1.1
+        uses: figonzal1/astro-ftp-deploy@main
         with:
           server: ${{ secrets.SFTP_SERVER }}
           username: ${{ secrets.SFTP_USERNAME }}
