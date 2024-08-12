@@ -1,6 +1,8 @@
 {
   "name": "centroamai.cl",
   "type": "module",
+  "author": "Felipe González Alarcón",
+  "description": "Sitio web - Centroamai.cl",
   "version": "1.0.1",
   "scripts": {
     "dev": "astro dev",
