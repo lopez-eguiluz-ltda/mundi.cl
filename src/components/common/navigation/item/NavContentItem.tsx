@@ -1,7 +1,7 @@
-import { NavigationMenuLink } from "@/components/common/ui/navigation-menu";
+import { NavigationMenuLink } from "@shadcn/navigation-menu";
 import NavImageItem from "./NavImageItem";
 import NavServiceItem from "./NavServiceItem";
-import type { AmaiNavService, NavImageItemType } from "@/utils/types";
+import type { AmaiNavService, NavImageItemType } from "@utils/types";
 
 const NavContentItem = ({
   imageItem,

@@ -1,18 +1,17 @@
 ---
-import Layout from "../layouts/Layout.astro";
-
-import NavSection from "@/components/common/navigation/NavSection";
-import FooterSection from "@/components/common/footer/FooterSection.astro";
-import SvgSection from "@/components/home/svg_patterns/SvgSection.astro";
-import ServicesCarousel from "@/components/home/services/carousel/ServicesCarousel";
-import ServiceSection from "@/components/home/services/ServiceSection.astro";
-import TeamSection from "@/components/home/team/TeamSection.astro";
-import AboutSection from "@/components/home/about/AboutSection.astro";
-import FooterCarousel from "@/components/home/front_carousel/FooterCarousel.astro";
-import FrontCarousel from "@/components/home/front_carousel/FrontCarousel";
+import FooterSection from "@components/common/footer/FooterSection.astro";
+import NavSection from "@components/common/navigation/NavSection";
+import AboutSection from "@components/home/about/AboutSection.astro";
+import FooterCarousel from "@components/home/front_carousel/FooterCarousel.astro";
+import FrontCarousel from "@components/home/front_carousel/FrontCarousel";
+import ServicesCarousel from "@components/home/services/carousel/ServicesCarousel";
+import ServiceSection from "@components/home/services/ServiceSection.astro";
+import SvgSection from "@components/home/svg_patterns/SvgSection.astro";
+import TeamSection from "@components/home/team/TeamSection.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
 ---
 
-<Layout>
+<BaseLayout>
   <SvgSection />
 
   <NavSection client:load />
@@ -36,4 +35,4 @@ import FrontCarousel from "@/components/home/front_carousel/FrontCarousel";
   </main>
 
   <FooterSection />
-</Layout>
+</BaseLayout>

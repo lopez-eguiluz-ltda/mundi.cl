@@ -1,4 +1,4 @@
-import type { NavImageItemType } from "@/utils/types";
+import type { NavImageItemType } from "@utils/types";
 
 const NavImageItem = ({ title, image, imageAlt }: NavImageItemType) => {
   return (

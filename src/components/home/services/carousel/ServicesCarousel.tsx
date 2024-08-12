@@ -2,7 +2,7 @@ import AutoScroll from "embla-carousel-auto-scroll";
 import ServiceTitle from "./ServiceTitle";
 import ServiceCircle from "./ServiceCircle";
 import { useEffect, useState } from "react";
-import { Carousel, CarouselContent } from "@/components/common/ui/carousel";
+import { Carousel, CarouselContent } from "@shadcn/carousel";
 
 const ServiceCarousel = () => {
   const dotColor = "#D34F4D";

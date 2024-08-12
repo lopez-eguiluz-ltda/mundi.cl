@@ -1,4 +1,4 @@
-import { CarouselItem } from "@/components/common/ui/carousel";
+import { CarouselItem } from "@shadcn/carousel";
 
 const ServiceTitle = ({ title }: { title: string }) => {
   return (

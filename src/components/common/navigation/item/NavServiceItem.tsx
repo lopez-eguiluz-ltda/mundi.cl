@@ -1,4 +1,4 @@
-import type { AmaiNavService } from "@/utils/types";
+import type { AmaiNavService } from "@utils/types";
 
 const NavServiceItem = ({ services }: { services: AmaiNavService[] }) => {
   return (

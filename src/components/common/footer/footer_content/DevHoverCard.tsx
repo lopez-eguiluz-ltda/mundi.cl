@@ -1,4 +1,4 @@
-import { Button } from "../../ui/button";
+import { Button } from "@shadcn/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
 import {
   HoverCard,

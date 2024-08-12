@@ -5,8 +5,8 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from "@/components/common/ui/navigation-menu";
-import { navServicesChild } from "@/utils/servicesSeed";
+} from "@shadcn/navigation-menu";
+import { navServicesChild } from "@utils/servicesSeed";
 import NavContentItem from "./item/NavContentItem";
 
 import pediatria from "@assets/images/nav/pediatria.webp";
