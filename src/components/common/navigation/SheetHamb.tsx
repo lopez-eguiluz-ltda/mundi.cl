@@ -24,6 +24,10 @@ const navHambItems = [
 const SheetHamb = () => {
   const [open, setOpen] = useState(false);
 
+  const hambClick = () => {
+    setOpen(false);
+  };
+
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger>
@@ -36,9 +40,7 @@ const SheetHamb = () => {
               href="/"
               key={item.title}
               className="inline-flex items-center justify-center gap-5"
-              onClick={() => {
-                setOpen(false);
-              }}
+              onClick={hambClick}
             >
               <item.icon size={24} className="text-cgreen" />
               <p className="font-medium sm:text-xl">{item.title}</p>
