@@ -57,6 +57,7 @@ const SheetContent = React.forwardRef<
   <SheetPortal>
     <SheetOverlay />
     <SheetPrimitive.Content
+      aria-describedby="Menú lateral"
       ref={ref}
       className={cn(sheetVariants({ side }), className)}
       {...props}
@@ -105,6 +106,7 @@ const SheetTitle = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <SheetPrimitive.Title
     ref={ref}
+    aria-describedby="Titulo menú"
     className={cn(
       "text-lg font-semibold text-neutral-950 dark:text-neutral-50",
       className,

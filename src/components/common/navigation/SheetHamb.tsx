@@ -1,4 +1,11 @@
-import { Sheet, SheetContent, SheetTrigger } from "@shadcn/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@shadcn/sheet";
 import { useState } from "react";
 
 import { FaHome } from "react-icons/fa";
@@ -30,10 +37,15 @@ const SheetHamb = () => {
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
-      <SheetTrigger>
-        <IoMenu size={46} aria-label="Mostrar menú web" />
+      <SheetTrigger asChild>
+        <IoMenu size={46} aria-label="Menú navegación celular" />
       </SheetTrigger>
+
       <SheetContent className="pt-12 w-[200px] sm:w-[300px] lg:hidden">
+        <SheetHeader>
+          <SheetTitle className="pb-4">Menú</SheetTitle>
+          <SheetDescription />
+        </SheetHeader>
         <div className="flex flex-col items-start justify-center gap-5 w-full">
           {navHambItems.map((item) => (
             <a
