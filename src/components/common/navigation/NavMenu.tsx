@@ -36,7 +36,7 @@ const NavMenu = () => {
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <NavContentItem
-              imageItem={{
+              navItem={{
                 title: "Pediatría",
                 image: pediatria.src,
                 imageAlt: "Fondo pediatría",
@@ -52,7 +52,7 @@ const NavMenu = () => {
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <NavContentItem
-              imageItem={{
+              navItem={{
                 title: "Adulto",
                 image: adulto.src,
                 imageAlt: "Fondo adulto",

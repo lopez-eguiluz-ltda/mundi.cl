@@ -37,7 +37,7 @@ const SheetHamb = () => {
         <div className="flex flex-col items-start justify-center gap-5 w-full">
           {navHambItems.map((item) => (
             <a
-              href="/"
+              href={`/#${item.title.toLowerCase()}`}
               key={item.title}
               className="inline-flex items-center justify-center gap-5"
               onClick={hambClick}

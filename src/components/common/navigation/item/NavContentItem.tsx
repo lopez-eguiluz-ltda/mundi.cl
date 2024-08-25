@@ -4,21 +4,17 @@ import NavServiceItem from "./NavServiceItem";
 import type { AmaiNavService, NavImageItemType } from "@utils/types";
 
 const NavContentItem = ({
-  imageItem,
+  navItem,
   services,
 }: {
-  imageItem: NavImageItemType;
+  navItem: NavImageItemType;
   services: AmaiNavService[];
 }) => {
   return (
     <div className="flex gap-5 p-5 md:w-[400px] lg:w-[800px]">
       <div className="basis-1/3">
         <NavigationMenuLink asChild>
-          <NavImageItem
-            title={imageItem.title}
-            image={imageItem.image}
-            imageAlt={imageItem.imageAlt}
-          />
+          <NavImageItem navItem={navItem} />
         </NavigationMenuLink>
       </div>
 
