@@ -13,5 +13,7 @@
     "jsx": "react-jsx",
     "jsxImportSource": "react",
     "verbatimModuleSyntax": true
-  }
+  },
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["dist"]
 }
