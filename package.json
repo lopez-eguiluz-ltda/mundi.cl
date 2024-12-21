@@ -3,7 +3,7 @@
   "type": "module",
   "author": "Felipe González Alarcón",
   "description": "Sitio web - Centroamai.cl",
-  "version": "1.0.3",
+  "version": "1.0.8",
   "scripts": {
     "dev": "astro dev",
     "format": "pnpm dlx prettier --write . --plugin=prettier-plugin-astro",
