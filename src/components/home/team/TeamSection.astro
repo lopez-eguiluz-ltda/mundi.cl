@@ -1,5 +1,4 @@
 ---
-import { shuffle } from "@utils/shadcn";
 import { teams } from "@utils/teamsSeed";
 import type { TeamType } from "@utils/types";
 import Person from "./Person.astro";
@@ -23,7 +22,7 @@ import Person from "./Person.astro";
     class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 justify-items-center gap-y-10 gap-x-5 w-full"
   >
     {
-      shuffle(teams).map((person: TeamType) => (
+      teams.map((person: TeamType) => (
         <Person
           name={person.name}
           position={person.position}
