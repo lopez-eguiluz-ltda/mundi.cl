@@ -6,9 +6,6 @@ import react from "@astrojs/react";
 export default defineConfig({
   site: "https://lopez-eguiluz-ltda.github.io/",
   base: "/centroamai.cl/",
-  i18n: {
-    defaultLocale: "es",
-  },
 
   integrations: [
     tailwind({
