@@ -4,6 +4,12 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://lopez-eguiluz-ltda.github.io/",
+  base: "/centroamai.cl/",
+  i18n: {
+    defaultLocale: "es",
+  },
+
   integrations: [
     tailwind({
       applyBaseStyles: false,
