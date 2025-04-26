@@ -34,7 +34,10 @@
     "Piece",
     "Puzzle",
     "radix",
+    "rounded",
     "scroll",
+    "shuffled",
+    "subtitle",
     "variance"
   ]
 }

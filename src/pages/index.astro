@@ -16,23 +16,19 @@ import BaseLayout from "@layouts/BaseLayout.astro";
 
   <NavSection client:load />
 
-  <main id="inicio">
-    <!-- Carousel principa & footer -->
-    <FrontCarousel client:load />
-    <FooterCarousel />
+  <!-- Carousel principa & footer -->
+  <FrontCarousel client:load />
+  <FooterCarousel />
 
-    <!-- Carousel de servicios -->
-    <ServicesCarousel client:load />
+  <!-- Carousel de servicios -->
+  <ServicesCarousel client:load />
 
-    <!-- Sección -->
-    <AboutSection />
+  <!-- Sección -->
+  <AboutSection />
 
-    <!-- Nuestro equipo -->
-    <TeamSection />
+  <!-- Nuestro equipo -->
+  <TeamSection />
 
-    <!-- Nuestros servicios -->
-    <ServiceSection />
-  </main>
-
-  <FooterSection />
+  <!-- Nuestros servicios -->
+  <ServiceSection />
 </BaseLayout>

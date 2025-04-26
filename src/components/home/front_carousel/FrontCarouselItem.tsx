@@ -2,7 +2,7 @@ import { CarouselItem } from "@shadcn/carousel";
 import type { CarouselItemType } from "@utils/types";
 
 const FrontCarouselItem = ({ item }: { item: CarouselItemType }) => (
-  <CarouselItem className="relative">
+  <CarouselItem className="relative select-none">
     <img
       src={item.image.src}
       alt="Home"
