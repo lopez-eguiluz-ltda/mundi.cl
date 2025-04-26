@@ -12,7 +12,7 @@ const carouselItems: CarouselItemType[] = [
   },
   {
     image: portada2,
-    header: "Tu centro médico terapéutico",
+    header: "Tu centro médico integral",
     title: "Centro amai",
     subtitle:
       "Atención desde la primera infancia, buscando promover la salud física y emocional, facilitando un desarrollo óptimo en todas las etapas de la vida.",

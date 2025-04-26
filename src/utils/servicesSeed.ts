@@ -1,14 +1,14 @@
 import {
   FaBaby,
   FaAppleWhole,
-  FaBrain,
-  FaUserNurse,
   FaUserDoctor,
   FaPuzzlePiece,
 } from "react-icons/fa6";
 import { GiHand } from "react-icons/gi";
 import { MdOutlinePersonalInjury } from "react-icons/md";
-import { RiSpeakFill } from "react-icons/ri";
+import { RiMentalHealthFill, RiSpeakFill } from "react-icons/ri";
+import { LuBrain } from "react-icons/lu";
+
 import type { AmaiNavService, AmaiService } from "./types";
 
 const navServicesChild: AmaiNavService[] = [
@@ -63,11 +63,6 @@ const navServicesAdult: AmaiNavService[] = [
     description: "Evaluación y diagnóstico de enfermedades, licencia médica.",
   },
   {
-    service: "Matronería",
-    description:
-      "Acompañamiento en gestación, parto y post parto, PAP, anticoncepción natural y farmacológica.",
-  },
-  {
     service: "Kinesiología",
     description:
       "Evaluación, diagnóstico y rehabilitación de trastornos musculoesqueléticos. Reintegro deportivo",
@@ -104,17 +99,17 @@ const detailServices: AmaiService[] = [
     icon: FaAppleWhole,
     service: "Nutrición",
     descriptions: [
-      "Materno infantil",
+      "Selectividad alimentaria",
       "Nutrición vegetariana",
-      "Consejería de Lactancia",
+      "Atención neurodivergente",
     ],
   },
   {
-    icon: FaBrain,
+    icon: RiMentalHealthFill,
     service: "Psicología",
     descriptions: [
       "Psicología infanto-juvenil",
-      "Experiencia en CEA",
+      "Experiencia en autismo",
       "Asesorías en habilidades parentales",
     ],
   },
@@ -122,9 +117,11 @@ const detailServices: AmaiService[] = [
     icon: RiSpeakFill,
     service: "Fonoaudiología",
     descriptions: [
-      "Experiencia en CEA",
+      "Experiencia en autismo",
       "Rechazo alimentario",
-      "Trastornos de lenguaje, habla y deglución",
+      "Trastornos de lenguaje, habla, deglución y motricidad orofacial",
+      "Frenillo lingual alterado",
+      "Experiencia en apraxia del habla infantil y tartamudez",
     ],
   },
   {
@@ -132,18 +129,9 @@ const detailServices: AmaiService[] = [
     service: "Terapia Ocupacional",
     descriptions: [
       "AVD (actividades de la vida diaria)",
-      "Integración sensorial",
+      "Integración y modulación sensorial",
       "Rechazo alimentario",
-    ],
-  },
-
-  {
-    icon: FaUserNurse,
-    service: "Matronería",
-    descriptions: [
-      "Consejería en salud sexual y reproductiva",
-      "Consejería en anticoncepción",
-      "Medicina placentaria",
+      "Experiencia en neurodesarrollo, autismo y TDAH",
     ],
   },
   {
@@ -169,10 +157,20 @@ const detailServices: AmaiService[] = [
     icon: FaPuzzlePiece,
     service: "Psicopedagogía",
     descriptions: [
-      "Experiencia en CEA",
+      "Experiencia en autismo",
       "Competencias en Evaluación de N.E.E",
       "Intervención Psicopedagógica",
       "Evaluaciones Psicopedagógicas",
+    ],
+  },
+  {
+    icon: LuBrain,
+    service: "Neurología",
+    descriptions: [
+      "Neurología",
+      "Evaluación neurológica",
+      "Controles neurológicos",
+      "Certificado MINEDUC",
     ],
   },
 ];

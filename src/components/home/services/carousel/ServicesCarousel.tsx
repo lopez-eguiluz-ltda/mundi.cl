@@ -14,6 +14,8 @@ const ServiceCarousel = () => {
     "Psicología",
     "Fonoaudiología",
     "Psicopedagogía",
+    "Neurología",
+    "Pediatría"
   ];
 
   const [speed, setSpeed] = useState(1.5);
@@ -38,7 +40,7 @@ const ServiceCarousel = () => {
   }, []);
 
   return (
-    <div className="py-2 sm:py-5 md:py-10">
+    <div className="py-2 sm:py-10 md:py-24">
       <Carousel
         className="w-full"
         opts={{

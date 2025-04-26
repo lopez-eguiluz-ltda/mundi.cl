@@ -8,7 +8,8 @@
     "dev": "astro dev",
     "format": "pnpm dlx prettier --write . --plugin=prettier-plugin-astro",
     "lint": "pnpm dlx oxlint",
-    "build": "pnpm format && pnpm lint && astro check && astro build",
+    "build": "astro check && astro build",
+    "build:full": "pnpm format && pnpm lint && astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },

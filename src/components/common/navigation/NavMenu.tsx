@@ -6,7 +6,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@shadcn/navigation-menu";
-import { navServicesChild } from "@utils/servicesSeed";
+import { navServicesAdult, navServicesChild } from "@utils/servicesSeed";
 import NavContentItem from "./item/NavContentItem";
 
 import pediatria from "@assets/images/nav/pediatria.webp";
@@ -57,7 +57,7 @@ const NavMenu = () => {
                 image: adulto.src,
                 imageAlt: "Fondo adulto",
               }}
-              services={navServicesChild}
+              services={navServicesAdult}
             />
           </NavigationMenuContent>
         </NavigationMenuItem>
