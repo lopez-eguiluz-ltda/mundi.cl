@@ -5,7 +5,7 @@ const NavServiceItem = ({ services }: { services: NavService[] }) => {
     <ul className="grid grid-cols-2 gap-x-5 justify-items-center">
       {services.map((service: NavService) => (
         <li
-          className="space-y-2 hover:bg-cgreen/10 rounded-xl p-2 transition-colors duration-300 ease-in-out"
+          className="space-y-2 hover:bg-accent-normal/10 rounded-xl p-2 transition-colors duration-300 ease-in-out"
           key={service.name}
         >
           <h3 className="font-bold leading-none">{service.name}</h3>

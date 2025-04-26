@@ -54,7 +54,7 @@ const SheetHamb = () => {
               className="inline-flex items-center justify-center gap-5"
               onClick={hambClick}
             >
-              <item.icon size={24} className="text-cgreen" />
+              <item.icon size={24} className="text-accent-normal" />
               <p className="font-medium sm:text-xl">{item.title}</p>
             </a>
           ))}

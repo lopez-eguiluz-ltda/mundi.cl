@@ -7,16 +7,15 @@
 
 @theme {
   --font-sans: "Quicksand Variable", system-ui, sans-serif;
+  
+  --color-primary-normal: #07AFAD;
+  --color-primary-light: #51c7c6;
 
-  --color-cgreen: #42a299;
-  --color-caqua: #3faebd;
+  --color-accent-normal: #E67C26;
+  --color-accent-light: #EEA367;
+  --color-accent-dark: #A1571B;
+  
   --color-cgray: #545454;
-  --color-cpurple: #6a4a90;
-  --color-corange: #d34f4d;
-  --color-cbackground: #7faeb5;
-  --color-fgreen: #26d6ad;
-  --color-fpurple: #5919cff8;
-  --color-fpurple-box: #5919cf80;
 }
 
 @theme inline {

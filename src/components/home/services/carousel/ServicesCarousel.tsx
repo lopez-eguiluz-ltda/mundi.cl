@@ -5,7 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Carousel, CarouselContent } from "@shadcn/carousel";
 
 const ServiceCarousel = () => {
-  const dotColor = "#D34F4D";
+  const dotColor = "#E67C26";
   const services: string[] = [
     "Nutrición",
     "Medicina",

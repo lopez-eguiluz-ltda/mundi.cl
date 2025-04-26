@@ -3,7 +3,7 @@ import type { NavImageItemType } from "@utils/types";
 const NavImageItem = ({ navItem }: { navItem: NavImageItemType }) => {
   return (
     <a
-      className="flex h-full w-full select-none flex-col justify-center items-center rounded-3xl bg-cpurple/50 no-underline outline-none focus:shadow-md relative"
+      className="flex h-full w-full select-none flex-col justify-center items-center rounded-3xl bg-accent-light/50 no-underline outline-none focus:shadow-md relative"
       href="/"
     >
       <img
