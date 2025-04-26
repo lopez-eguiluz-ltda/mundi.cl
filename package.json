@@ -1,9 +1,9 @@
 {
-  "name": "centroamai.cl",
+  "name": "mundi.cl",
   "type": "module",
   "author": "Felipe González Alarcón",
-  "description": "Sitio web - Centroamai.cl",
-  "version": "1.0.8",
+  "description": "Sitio web - Mundi.cl",
+  "version": "2.0.0",
   "scripts": {
     "dev": "astro dev",
     "format": "pnpm dlx prettier --write . --plugin=prettier-plugin-astro",

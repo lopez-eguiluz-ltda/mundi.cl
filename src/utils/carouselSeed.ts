@@ -7,20 +7,20 @@ const carouselItems: CarouselItemType[] = [
   {
     image: portada1,
     header: "Solicita tu hora",
-    title: "Centro amai",
+    title: "Centro mundi",
     subtitle: "¿Qué estas esperando para venir? 🤭 ¡Te esperamos! ♥️",
   },
   {
     image: portada2,
     header: "Tu centro médico integral",
-    title: "Centro amai",
+    title: "Centro mundi",
     subtitle:
       "Atención desde la primera infancia, buscando promover la salud física y emocional, facilitando un desarrollo óptimo en todas las etapas de la vida.",
   },
   {
     image: portada3,
     header: "Apoyo integral",
-    title: "Centro amai",
+    title: "Centro mundi",
     subtitle:
       "Equipo multidisciplinario enfocado en la salud materno infantil 🤰🤱🏻",
   },
