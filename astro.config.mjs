@@ -1,16 +1,17 @@
+// @ts-check
 import { defineConfig } from "astro/config";
-import tailwind from "@astrojs/tailwind";
+
+import tailwindcss from "@tailwindcss/vite";
+
 import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://lopez-eguiluz-ltda.github.io/",
-  base: "/centroamai.cl/",
+  site: "https://www.mundi.cl",
 
-  integrations: [
-    tailwind({
-      applyBaseStyles: false,
-    }),
-    react(),
-  ],
+  vite: {
+    plugins: [tailwindcss()],
+  },
+
+  integrations: [react()],
 });
