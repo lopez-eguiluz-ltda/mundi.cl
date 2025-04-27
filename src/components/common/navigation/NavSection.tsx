@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
-import LogoNormal from "@assets/images/mundi_logo.png";
-import LogoWhite from "@assets/images/mundi_logo_full_white.png";
+import LogoNormal from "@assets/images/mundi_logo.webp";
+import LogoWhite from "@assets/images/mundi_logo_full_white.webp";
 
 import NavMenu from "./NavMenu";
 import SheetHamb from "./SheetHamb";
