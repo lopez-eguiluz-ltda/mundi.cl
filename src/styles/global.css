@@ -114,13 +114,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(66, 162, 153, 0.8);
+  background: #07afacd2;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(66, 162, 153, 1);
+  background: #07afac;
   border-radius: 12px;
 }
 
