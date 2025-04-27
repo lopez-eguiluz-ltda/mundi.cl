@@ -11,6 +11,7 @@ import { RiServiceFill, RiTeamFill } from "react-icons/ri";
 import { MdOutlineCall } from "react-icons/md";
 import { IoMenu } from "react-icons/io5";
 import { BiSolidHomeAlt2 } from "react-icons/bi";
+import { cn } from "@utils/shadcn";
 
 const navHambItems = [
   {
@@ -44,7 +45,10 @@ const SheetHamb = ({ logoColorHamb }: { logoColorHamb: string }) => {
         <IoMenu
           size={46}
           aria-label="Menú navegación celular"
-          className={`${logoColorHamb} hover:cursor-pointer`}
+          className={cn(
+            "hover:cursor-pointer",
+            logoColorHamb === "white" ? "text-white/80" : "text-cgray/60",
+          )}
         />
       </SheetTrigger>
 

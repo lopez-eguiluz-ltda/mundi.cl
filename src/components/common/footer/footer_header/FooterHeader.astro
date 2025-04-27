@@ -8,7 +8,9 @@ import HeaderItem from "./HeaderItem.astro";
   class="grid grid-cols-2 gap-2 md:gap-5 md:grid-cols-4 justify-items-center pb-5"
 >
   <HeaderItem icon={FaLocationDot}>
-    <div class="w-3/4 text-center text-xs md:text-sm lg:text-base text-cgray">
+    <div
+      class="w-full md:w-3/4 text-pretty text-center text-xs md:text-sm lg:text-base text-cgray"
+    >
       <p class="inline-block">Las Rojas Poniente #1489</p>
       <p class="inline-block">La Serena, Chile.</p>
     </div>
@@ -25,12 +27,11 @@ import HeaderItem from "./HeaderItem.astro";
   </HeaderItem>
 
   <HeaderItem icon={MdOutlineEmail}>
-    <a href="mailto:contacto.centromundi@gmail.com">
-      <p
-        class="text-cgray text-xs md:text-sm lg:text-base text-center underline hover:opacity-50 transition-opacity duration-300 ease-in-out"
-      >
-        contacto.centromundi@gmail.com
-      </p>
+    <a
+      href="mailto:contacto.centromundi@gmail.com"
+      class="text-cgray text-pretty text-xs md:text-sm lg:text-base text-center underline hover:opacity-50 transition-opacity duration-300 ease-in-out break-all"
+    >
+      contacto.centromundi@gmail.com
     </a>
   </HeaderItem>
 

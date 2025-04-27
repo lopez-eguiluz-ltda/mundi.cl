@@ -5,7 +5,7 @@ import { BsPersonArmsUp } from "react-icons/bs";
 
 <section class="w-full select-none py-10 md:py-12">
   <div
-    class="flex flex-col justify-center bg-white rounded-3xl px-10 py-12 mx-10 md:mx-20 shadow-lg gap-10 select-none"
+    class="flex flex-col justify-center bg-white rounded-3xl p-5 mx-10 md:mx-20 md:p-10 shadow-lg gap-10 select-none"
   >
     <div class="flex flex-col gap-5">
       <h2
@@ -14,7 +14,7 @@ import { BsPersonArmsUp } from "react-icons/bs";
         Misión & Visión
       </h2>
 
-      <p class="text-sm md:text-base text-pretty text-cgray">
+      <p class="text-sm sm:text-base text-pretty text-cgray">
         En nuestro Centro Multidisciplinario para el Neurodesarrollo
         Infantojuvenil, nos mueve el compromiso de acompañar con calidez y
         profesionalismo a niños, niñas, adolescentes y sus familias. Nuestra
@@ -24,13 +24,15 @@ import { BsPersonArmsUp } from "react-icons/bs";
       </p>
     </div>
 
-    <div class="flex flex-col lg:flex-row gap-10 lg:max-w-4xl mx-auto">
+    <div class="flex flex-col lg:flex-row gap-5 md:gap-10 lg:max-w-4xl mx-auto">
       <div
-        class="flex flex-col items-center border-[1.7px] border-cgray/30 rounded-3xl lg:w-1/2 p-10 gap-3"
+        class="flex flex-col items-center border-[1.7px] border-cgray/30 rounded-3xl lg:w-1/2 p-3 py-10 md:px-10 gap-3"
       >
         <GoGoal className="text-accent-normal/90 w-20 h-20" />
         <h2 class="text-2xl font-bold">Misión</h2>
-        <p class="text-sm text-pretty text-center leading-relaxed italic">
+        <p
+          class="text-xs sm:text-sm text-pretty text-center leading-relaxed italic"
+        >
           "Brindar un espacio de evaluación y terapia integral para personas
           autistas y sus familias, ofreciendo un enfoque interdisciplinario
           basado en la evidencia. Acompañamos a cada familia con calidez,
@@ -40,17 +42,19 @@ import { BsPersonArmsUp } from "react-icons/bs";
       </div>
 
       <div
-        class="flex flex-col items-center border-[1.7px] border-cgray/30 rounded-3xl lg:w-1/2 p-10 gap-3"
+        class="flex flex-col items-center border-[1.7px] border-cgray/30 rounded-3xl lg:w-1/2 px-3 py-10 md:px-10 gap-3"
       >
         <BsPersonArmsUp className="text-accent-normal/90 w-20 h-20" />
         <h2 class="text-2xl font-bold">Visión</h2>
-        <p class="text-sm text-pretty text-center italic leading-relaxed">
-          Ser el centro de referencia en La Serena para la evaluación y el
+        <p
+          class="text-xs sm:text-sm text-pretty text-center leading-relaxed italic"
+        >
+          "Ser el centro de referencia en La Serena para la evaluación y el
           acompañamiento de personas autistas y sus familias, destacándonos por
           nuestra atención integral, calidez humana y excelencia profesional.
           Aspiramos a expandir nuestro impacto mediante la educación y la
           concienciación sobre el autismo, contribuyendo a una sociedad más
-          inclusiva y comprensiva.
+          inclusiva y comprensiva."
         </p>
       </div>
     </div>

@@ -7,14 +7,14 @@
 
 @theme {
   --font-sans: "Quicksand Variable", system-ui, sans-serif;
-  
-  --color-primary-normal: #07AFAD;
+
+  --color-primary-normal: #07afad;
   --color-primary-light: #51c7c6;
 
-  --color-accent-normal: #E67C26;
-  --color-accent-light: #EEA367;
-  --color-accent-dark: #A1571B;
-  
+  --color-accent-normal: #e67c26;
+  --color-accent-light: #eea367;
+  --color-accent-dark: #a1571b;
+
   --color-cgray: #545454;
 }
 
