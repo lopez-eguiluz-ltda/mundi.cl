@@ -28,6 +28,7 @@ const DevHoverCard = ({ title }: { title: string }) => {
               src="https://avatars.githubusercontent.com/u/46515974?v=4"
               alt="Felipe González"
               className="rounded-full w-14"
+              draggable={false}
             />
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>

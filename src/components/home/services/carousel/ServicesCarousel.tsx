@@ -40,7 +40,7 @@ const ServiceCarousel = () => {
   }, []);
 
   return (
-    <div className="py-2 sm:py-10 md:py-24 select-none">
+    <section className="py-2 sm:py-10 md:py-12 select-none">
       <Carousel
         className="w-full"
         opts={{
@@ -67,7 +67,7 @@ const ServiceCarousel = () => {
           ))}
         </CarouselContent>
       </Carousel>
-    </div>
+    </section>
   );
 };
 

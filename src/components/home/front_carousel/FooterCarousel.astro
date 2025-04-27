@@ -8,7 +8,7 @@ import { RxDoubleArrowDown } from "react-icons/rx";
 import { Image } from "astro:assets";
 ---
 
-<div class="flex justify-center md:px-10 xl:px-28 relative select-none">
+<section class="flex justify-center md:px-10 xl:px-28 relative select-none">
   <div
     class="hidden sm:block absolute transform top-0 right-0 -translate-x-24 lg:-translate-x-40 xl:-translate-x-60 -translate-y-28 md:-translate-y-32"
   >
@@ -37,6 +37,7 @@ import { Image } from "astro:assets";
                 alt="Imagen camila"
                 loading={"eager"}
                 class="object-cover"
+                draggable={false}
               />
             </div>
 
@@ -48,6 +49,7 @@ import { Image } from "astro:assets";
                 alt="Imagen karla"
                 loading={"eager"}
                 class="object-cover h-full"
+                draggable={false}
               />
             </div>
 
@@ -68,6 +70,7 @@ import { Image } from "astro:assets";
           alt="Logo centro mundi"
           loading={"eager"}
           class="w-28 md:w-14 m-auto"
+          draggable={false}
         />
       </div>
 
@@ -100,4 +103,4 @@ import { Image } from "astro:assets";
       </div>
     </div>
   </div>
-</div>
+</section>

@@ -45,6 +45,7 @@ const NavSection = () => {
           alt="Logo centro mundi"
           loading="lazy"
           className={logoSize}
+          draggable={false}
         />
 
         {/* NAV MENU */}

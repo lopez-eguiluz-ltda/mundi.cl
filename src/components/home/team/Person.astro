@@ -26,6 +26,7 @@ const { name, position, photo, socials } = Astro.props;
         alt=`Foto perfil ${name}`
         loading={"lazy"}
         class="object-cover rounded-3xl w-full h-full transform"
+        draggable={false}
       />
 
       {

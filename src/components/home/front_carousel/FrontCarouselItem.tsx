@@ -8,6 +8,7 @@ const FrontCarouselItem = ({ item }: { item: CarouselItemType }) => (
       alt="Home"
       loading="eager"
       className="object-cover w-full h-[80vh] opacity-90 blur-sm rounded-b-3xl"
+      draggable={false}
     />
     <div className="absolute inset-0 bg-gradient-to-br from-primary-normal to-transparent opacity-100 rounded-b-3xl"></div>
 

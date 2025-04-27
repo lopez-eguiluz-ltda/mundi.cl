@@ -23,6 +23,7 @@ function AvatarImage({
     <Image
       data-slot="avatar-image"
       className={cn("aspect-square size-full", className)}
+      draggable={false}
       {...props}
     />
   );

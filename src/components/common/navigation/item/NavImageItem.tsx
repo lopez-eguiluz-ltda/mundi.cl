@@ -10,7 +10,8 @@ const NavImageItem = ({ navItem }: { navItem: NavImageItemType }) => {
         src={navItem.image}
         alt={navItem.imageAlt}
         loading="lazy"
-        className="object-cover h-full opacity-20 rounded-3xl "
+        className="object-cover h-full opacity-20 rounded-3xl"
+        draggable={false}
       />
 
       <div className="absolute mb-2 mt-4 text-3xl font-bold text-white">
