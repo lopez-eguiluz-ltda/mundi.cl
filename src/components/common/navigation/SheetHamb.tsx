@@ -1,26 +1,30 @@
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
 } from "@shadcn/sheet";
 import { useState } from "react";
 
-import { FaHome } from "react-icons/fa";
-import { RiTeamFill } from "react-icons/ri";
+import { RiServiceFill, RiTeamFill } from "react-icons/ri";
 import { MdOutlineCall } from "react-icons/md";
 import { IoMenu } from "react-icons/io5";
+import { BiSolidHomeAlt2 } from "react-icons/bi";
+import { cn } from "@utils/shadcn";
 
 const navHambItems = [
   {
     title: "Inicio",
-    icon: FaHome,
+    icon: BiSolidHomeAlt2,
   },
   {
     title: "Equipo",
     icon: RiTeamFill,
+  },
+  {
+    title: "Servicios",
+    icon: RiServiceFill,
   },
   {
     title: "Contacto",
@@ -28,7 +32,7 @@ const navHambItems = [
   },
 ];
 
-const SheetHamb = () => {
+const SheetHamb = ({ logoColorHamb }: { logoColorHamb: string }) => {
   const [open, setOpen] = useState(false);
 
   const hambClick = () => {
@@ -37,25 +41,38 @@ const SheetHamb = () => {
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
-      <SheetTrigger asChild>
-        <IoMenu size={46} aria-label="Menú navegación celular" />
+      <SheetTrigger className="select-none">
+        <IoMenu
+          size={46}
+          aria-label="Menú navegación celular"
+          className={`${logoColorHamb} hover:cursor-pointer`}
+        />
       </SheetTrigger>
 
-      <SheetContent className="pt-12 w-[200px] sm:w-[300px] lg:hidden">
+      <SheetContent
+        side={"top"}
+        className="py-12 xl:hidden transition-all duration-300 ease-in-out max-h-screen overflow-y-auto"
+      >
         <SheetHeader>
-          <SheetTitle className="pb-4">Menú</SheetTitle>
-          <SheetDescription />
+          <SheetTitle className="text-lg font-bold text-accent-normal text-center">
+            Menú de navegación
+          </SheetTitle>
         </SheetHeader>
-        <div className="flex flex-col items-start justify-center gap-5 w-full">
+        <div className="flex flex-col items-start justify-center gap-5 w-full px-6">
           {navHambItems.map((item) => (
             <a
               href={`/#${item.title.toLowerCase()}`}
               key={item.title}
-              className="inline-flex items-center justify-center gap-5"
+              className="inline-flex items-center justify-center gap-5 group"
               onClick={hambClick}
             >
-              <item.icon size={24} className="text-accent-normal" />
-              <p className="font-medium sm:text-xl">{item.title}</p>
+              <item.icon
+                size={24}
+                className="text-accent-normal group-hover:opacity-50 transition-all duration-300"
+              />
+              <p className="font-medium sm:text-xl group-hover:opacity-50 transition-all duration-300">
+                {item.title}
+              </p>
             </a>
           ))}
         </div>

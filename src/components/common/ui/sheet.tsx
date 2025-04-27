@@ -1,4 +1,3 @@
-import { XIcon } from "lucide-react";
 import { cn } from "@utils/shadcn";
 import type { ComponentProps } from "react";
 import {
@@ -11,6 +10,7 @@ import {
   Title,
   Trigger,
 } from "@radix-ui/react-dialog";
+import { IoCloseOutline } from "react-icons/io5";
 
 function Sheet({ ...props }: ComponentProps<typeof Root>) {
   return <Root data-slot="sheet" {...props} />;
@@ -70,7 +70,7 @@ function SheetContent({
       >
         {children}
         <Close className="ring-offset-background focus:ring-ring data-[state=open]:bg-secondary absolute top-4 right-4 rounded-xs opacity-70 transition-opacity hover:opacity-100 focus:ring-2 focus:ring-offset-2 focus:outline-hidden disabled:pointer-events-none">
-          <XIcon className="size-4" />
+          <IoCloseOutline className="h-10 w-10" />
           <span className="sr-only">Close</span>
         </Close>
       </Content>

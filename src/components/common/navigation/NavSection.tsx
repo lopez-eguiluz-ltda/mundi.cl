@@ -11,19 +11,23 @@ const NavSection = () => {
   const [logo, setLogo] = useState(LogoWhite);
   const [logoSize, setLogoSize] = useState("w-32");
 
+  const [logoColorHamb, setLogoColorHamb] = useState<"white" | "gray">("white");
+
   useEffect(() => {
     const changeColor = () => {
       const scrollPercent = window.scrollY / window.innerHeight;
 
       // Si el porcentaje de scroll es mayor a X, cambia el color
       if (scrollPercent > 0.63) {
-        setNavBarColor("bg-white pt-2 lg:py-4 text-cgray shadow-md");
+        setNavBarColor("bg-white py-2 lg:py-4 text-cgray shadow-md");
         setLogo(LogoNormal);
-        setLogoSize("w-20");
+        setLogoSize("w-16 md:w-20");
+        setLogoColorHamb("gray");
       } else {
         setNavBarColor("py-6 text-white");
         setLogo(LogoWhite);
         setLogoSize("w-32");
+        setLogoColorHamb("white");
       }
     };
 
@@ -57,7 +61,7 @@ const NavSection = () => {
 
         {/* MOBILE HAMBURGER */}
         <div className="lg:hidden">
-          <SheetHamb />
+          <SheetHamb logoColorHamb={logoColorHamb} />
         </div>
       </div>
     </nav>
