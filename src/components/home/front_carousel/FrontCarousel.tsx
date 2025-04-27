@@ -23,7 +23,7 @@ const FrontCarousel = () => {
     >
       <CarouselContent>
         {carouselItems.map((carouselItem: CarouselItemType) => (
-          <FrontCarouselItem item={carouselItem} key={carouselItem.title} />
+          <FrontCarouselItem item={carouselItem} key={carouselItem.header} />
         ))}
       </CarouselContent>
     </Carousel>

@@ -20,7 +20,7 @@ const FrontCarouselItem = ({ item }: { item: CarouselItemType }) => (
       </h3>
       <hr className="opacity-30 m-3 w-4/5 lg:w-3/4 xl:w-[700px] animate-fade-in-right animate-delay-700 animate-duration-slower" />
 
-      <h4 className="text-center lg:text-left text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-white sm:p-3 w-full lg:w-3/4 xl:w-7/12 font-light animate-fade-in-right animate-delay-800 animate-duration-slower">
+      <h4 className="text-center lg:text-left text-sm md:text-base lg:text-lg xl:text-xl text-white sm:p-3 w-full lg:w-3/4 xl:w-7/12 font-light animate-fade-in-right animate-delay-800 animate-duration-slower">
         {item.subtitle}
       </h4>
 

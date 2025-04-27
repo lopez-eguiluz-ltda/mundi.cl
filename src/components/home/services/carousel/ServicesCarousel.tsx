@@ -1,7 +1,7 @@
 import AutoScroll from "embla-carousel-auto-scroll";
 import ServiceTitle from "./ServiceTitle";
 import ServiceCircle from "./ServiceCircle";
-import { useEffect, useMemo, useState } from "react";
+import { Fragment, useEffect, useMemo, useState } from "react";
 import { Carousel, CarouselContent } from "@shadcn/carousel";
 
 const ServiceCarousel = () => {
@@ -19,15 +19,6 @@ const ServiceCarousel = () => {
   ];
 
   const [speed, setSpeed] = useState(1.5);
-
-  const shuffledServices = useMemo(() => {
-    const shuffled = [...services];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-    }
-    return shuffled;
-  }, []);
 
   useEffect(() => {
     const adjustSpeed = () => {
@@ -68,11 +59,11 @@ const ServiceCarousel = () => {
         ]}
       >
         <CarouselContent>
-          {shuffledServices.map((service) => (
-            <>
-              <ServiceTitle title={service} key={service} />
-              <ServiceCircle dotColor={dotColor} key={service + 1} />
-            </>
+          {services.map((service) => (
+            <Fragment key={service}>
+              <ServiceTitle title={service} />
+              <ServiceCircle dotColor={dotColor} />
+            </Fragment>
           ))}
         </CarouselContent>
       </Carousel>
