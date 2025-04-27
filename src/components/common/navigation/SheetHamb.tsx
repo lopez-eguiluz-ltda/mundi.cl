@@ -11,7 +11,6 @@ import { RiServiceFill, RiTeamFill } from "react-icons/ri";
 import { MdOutlineCall } from "react-icons/md";
 import { IoMenu } from "react-icons/io5";
 import { BiSolidHomeAlt2 } from "react-icons/bi";
-import { cn } from "@utils/shadcn";
 
 const navHambItems = [
   {

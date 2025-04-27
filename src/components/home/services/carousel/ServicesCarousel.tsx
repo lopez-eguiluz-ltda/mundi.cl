@@ -1,7 +1,7 @@
 import AutoScroll from "embla-carousel-auto-scroll";
 import ServiceTitle from "./ServiceTitle";
 import ServiceCircle from "./ServiceCircle";
-import { Fragment, useEffect, useMemo, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Carousel, CarouselContent } from "@shadcn/carousel";
 
 const ServiceCarousel = () => {

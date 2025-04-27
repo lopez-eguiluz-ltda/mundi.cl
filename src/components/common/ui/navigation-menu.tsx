@@ -1,5 +1,5 @@
 import { cva } from "class-variance-authority";
-import { ChevronDownIcon } from "lucide-react";
+import { FaChevronDown } from "react-icons/fa6";
 import { cn } from "@utils/shadcn";
 import type { ComponentProps } from "react";
 import {
@@ -82,7 +82,7 @@ function NavigationMenuTrigger({
       {...props}
     >
       {children}{" "}
-      <ChevronDownIcon
+      <FaChevronDown
         className="relative top-[1px] ml-1 size-3 transition duration-300 group-data-[state=open]:rotate-180"
         aria-hidden="true"
       />
