@@ -8,8 +8,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 jobs:
   build:
@@ -17,16 +15,12 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4.2.2
-      - name: Install, build, and upload your site
-        uses: withastro/action@v3.0.2
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4.0.5
+      - name: Deploy to FTP server
+        uses: figonzal1/astro-ftp-deploy@main
+        with:
+          server: ${{ secrets.SFTP_SERVER }}
+          username: ${{ secrets.SFTP_USERNAME }}
+          password: ${{ secrets.SFTP_PASSWORD }}
+          port: ${{ secrets.SFTP_PORT }}
+          node-version: 22
+          directory: ./
