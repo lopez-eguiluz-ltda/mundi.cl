@@ -5,7 +5,7 @@ import about from "@assets/images/about.webp";
 ---
 
 <!-- Sobre nosotros -->
-<div class="w-full">
+<section class="w-full select-none py-10 md:py-12">
   <div
     class="flex flex-col-reverse lg:flex-row md:gap-10 justify-center items-center xl:items-start bg-white rounded-3xl mx-10 md:mx-20 md:p-10 shadow-lg"
   >
@@ -13,7 +13,7 @@ import about from "@assets/images/about.webp";
       class="flex flex-col gap-2 md:gap-5 2xl:gap-10 p-5 md:p-0 items-start lg:w-1/2"
     >
       <h2
-        class="text-corange text-sm font-semibold border-[1px] border-corange rounded-3xl py-1 px-3"
+        class="text-accent-normal text-sm font-semibold border-[1px] border-accent-normal rounded-3xl py-1 px-3"
       >
         Acerca de nosotros
       </h2>
@@ -27,7 +27,7 @@ import about from "@assets/images/about.webp";
         </h2>
       </div>
       <p class="text-sm sm:text-base xl:text-lg 2xl:text-xl text-cgray">
-        Somos tu centro médico terapéutico, pendientes de potenciar una mirada
+        Somos tu centro médico integral, pendientes de potenciar una mirada
         integradora del sanar, crecer y florecer de nuestros usuarios ♥️✨️
       </p>
 
@@ -45,8 +45,9 @@ import about from "@assets/images/about.webp";
         src={about}
         alt="Acerca de nosotros"
         loading={"lazy"}
-        class="object-cover 2xl:w-full rounded-t-3xl z-10 md:rounded-3xl mx-auto"
+        class="object-cover 2xl:w-full rounded-t-3xl z-10 md:rounded-3xl mx-auto select-none"
+        draggable={false}
       />
     </div>
   </div>
-</div>
+</section>

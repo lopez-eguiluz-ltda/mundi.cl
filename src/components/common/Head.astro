@@ -1,29 +1,37 @@
 ---
-const title = "Centro Amaï - Centro de Apoyo a la Maternidad - La Serena";
+const title = "Centro Mundi - La Serena";
 const description =
-  "Centro de Apoyo a la Maternidad y Alimentación Infantil. Contamos con profesionales altamente capacitadas en lactancia y alimentación.";
-const ogImage = "/og.jpg";
+  "Centro Multidisciplinario para el Neurodesarrollo Infantojuvenil. Ofrecemos una variedad de atenciones y todas especializadas en neurodesarrollo";
+const ogImage = "./og.jpg";
 ---
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="/favicon.ico" />
+  <link rel="icon" href="./favicon.ico" />
   <meta name="generator" content={Astro.generator} />
 
   <title>{title}</title>
   <meta name="description" content={description} />
 
-  <link rel="canonical" href="https://www.centroamai.cl/" />
+  <link
+    rel="canonical"
+    href="https://www.mundi.cl"
+  />
+
+  <link rel="sitemap" href="/sitemap-index.xml" />
 
   <!-- FB META -->
   <!-- <meta property="fb:app_id" content="#ID" />-->
-  <meta property="og:url" content="https://www.centroamai.cl" />
+  <meta
+    property="og:url"
+    content="https://www.mundi.cl"
+  />
   <meta property="og:type" content="website" />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
   <meta property="og:image" content={ogImage} />
-  <meta property="og:site_name" content="centroamai.cl" />
+  <meta property="og:site_name" content="mundi.cl" />
 
   <!-- TWITTER -->
   <meta name="twitter:title" content={title} />

@@ -1,15 +1,20 @@
 ---
-import Header from "@components/common/Header.astro";
+import FooterSection from "@components/common/footer/FooterSection.astro";
+import Head from "@components/common/Head.astro";
 import "@fontsource-variable/quicksand";
 
-import "@styles/tailwind.css";
+import "@styles/global.css";
 ---
 
 <html lang="es" class="scroll-smooth">
-  <Header />
+  <Head />
   <body
-    class="relative flex flex-col min-h-screen bg-gradient-to-br from-cbackground from-80% to-cgreen antialiased w-full"
+    class="relative flex flex-col min-h-screen bg-gradient-to-br from-primary-normal from-50% to-accent-normal antialiased w-full"
   >
-    <slot />
+    <main id="inicio">
+      <slot />
+    </main>
+
+    <FooterSection />
   </body>
 </html>

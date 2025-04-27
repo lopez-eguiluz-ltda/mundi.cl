@@ -13,14 +13,14 @@ export type SocialLinkType = {
   link: string;
 };
 
-export type AmaiService = {
+export type Service = {
   icon: IconType;
   service: string;
   descriptions: string[];
 };
 
-export type AmaiNavService = {
-  service: string;
+export type NavService = {
+  name: string;
   description: string;
 };
 

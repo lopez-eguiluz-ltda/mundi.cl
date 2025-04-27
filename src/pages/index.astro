@@ -1,9 +1,9 @@
 ---
-import FooterSection from "@components/common/footer/FooterSection.astro";
 import NavSection from "@components/common/navigation/NavSection";
 import AboutSection from "@components/home/about/AboutSection.astro";
 import FooterCarousel from "@components/home/front_carousel/FooterCarousel.astro";
 import FrontCarousel from "@components/home/front_carousel/FrontCarousel";
+import MisionVision from "@components/home/mision-vision/MisionVision.astro";
 import ServicesCarousel from "@components/home/services/carousel/ServicesCarousel";
 import ServiceSection from "@components/home/services/ServiceSection.astro";
 import SvgSection from "@components/home/svg_patterns/SvgSection.astro";
@@ -16,23 +16,22 @@ import BaseLayout from "@layouts/BaseLayout.astro";
 
   <NavSection client:load />
 
-  <main id="inicio">
-    <!-- Carousel principa & footer -->
-    <FrontCarousel client:load />
-    <FooterCarousel />
+  <!-- Carousel principa & footer -->
+  <FrontCarousel client:load />
+  <FooterCarousel />
 
-    <!-- Carousel de servicios -->
-    <ServicesCarousel client:load />
+  <!-- Carousel de servicios -->
+  <ServicesCarousel client:load />
 
-    <!-- Sección -->
-    <AboutSection />
+  <!-- Sección -->
+  <AboutSection />
 
-    <!-- Nuestro equipo -->
-    <TeamSection />
+  <!-- Nuestro equipo -->
+  <TeamSection />
 
-    <!-- Nuestros servicios -->
-    <ServiceSection />
-  </main>
+  <!-- Mision & Vision -->
+  <MisionVision />
 
-  <FooterSection />
+  <!-- Nuestros servicios -->
+  <ServiceSection />
 </BaseLayout>

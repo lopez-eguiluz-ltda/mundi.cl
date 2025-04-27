@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
-import LogoNormal from "@assets/images/amai_logo_full.webp";
-import LogoWhite from "@assets/images/amai_logo_full_white.webp";
+import LogoNormal from "@assets/images/mundi_logo.webp";
+import LogoWhite from "@assets/images/mundi_logo_full_white.webp";
 
 import NavMenu from "./NavMenu";
 import SheetHamb from "./SheetHamb";
@@ -9,6 +9,9 @@ import SheetHamb from "./SheetHamb";
 const NavSection = () => {
   const [navBarColor, setNavBarColor] = useState("py-6 text-white");
   const [logo, setLogo] = useState(LogoWhite);
+  const [logoSize, setLogoSize] = useState("w-32");
+
+  const [logoColorHamb, setLogoColorHamb] = useState<"white" | "gray">("white");
 
   useEffect(() => {
     const changeColor = () => {
@@ -16,11 +19,15 @@ const NavSection = () => {
 
       // Si el porcentaje de scroll es mayor a X, cambia el color
       if (scrollPercent > 0.63) {
-        setNavBarColor("bg-white pt-2 lg:py-4 text-cgray shadow-md");
+        setNavBarColor("bg-white py-2 lg:py-4 text-cgray shadow-md");
         setLogo(LogoNormal);
+        setLogoSize("w-16 md:w-20");
+        setLogoColorHamb("gray");
       } else {
         setNavBarColor("py-6 text-white");
         setLogo(LogoWhite);
+        setLogoSize("w-32");
+        setLogoColorHamb("white");
       }
     };
 
@@ -39,9 +46,10 @@ const NavSection = () => {
         {/* LOGO NAVBAR */}
         <img
           src={logo.src}
-          alt="Logo centro amai"
+          alt="Logo centro mundi"
           loading="lazy"
-          className="w-36"
+          className={logoSize}
+          draggable={false}
         />
 
         {/* NAV MENU */}
@@ -53,7 +61,7 @@ const NavSection = () => {
 
         {/* MOBILE HAMBURGER */}
         <div className="lg:hidden">
-          <SheetHamb />
+          <SheetHamb logoColorHamb={logoColorHamb} />
         </div>
       </div>
     </nav>

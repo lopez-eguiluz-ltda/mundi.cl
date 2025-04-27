@@ -1,11 +1,11 @@
 ---
 import { detailServices } from "@utils/servicesSeed";
-import type { AmaiService } from "@utils/types";
+import type { Service } from "@utils/types";
 import ItemDescription from "./list/ItemDescription.astro";
 import ServiceItem from "./list/ServiceItem.astro";
 ---
 
-<div class="flex flex-col items-start my-24">
+<section class="flex flex-col items-start px-10 py-10 md:py-12 select-none" id="servicios">
   <div class="px-10 md:px-20 flex flex-col items-start gap-5">
     <h2
       class="text-white font-semibold text-sm border-[1px] border-white rounded-3xl py-1 px-3"
@@ -23,7 +23,7 @@ import ServiceItem from "./list/ServiceItem.astro";
       class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 items-start justify-items-center p-10 w-full lg:w-10/12 xl:w-9/12"
     >
       {
-        detailServices.map((service: AmaiService) => (
+        detailServices.map((service: Service) => (
           <ServiceItem icon={service.icon} title={service.service}>
             {service.descriptions.map((description: string) => (
               <ItemDescription description={description} />
@@ -33,4 +33,4 @@ import ServiceItem from "./list/ServiceItem.astro";
       }
     </div>
   </div>
-</div>
+</section>

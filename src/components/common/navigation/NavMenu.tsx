@@ -6,7 +6,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@shadcn/navigation-menu";
-import { navServicesChild } from "@utils/servicesSeed";
+import { navServicesAdult, navServicesChild } from "@utils/servicesSeed";
 import NavContentItem from "./item/NavContentItem";
 
 import pediatria from "@assets/images/nav/pediatria.webp";
@@ -16,10 +16,10 @@ const NavMenu = () => {
   const itemClass: string = "px-2";
 
   const triggerClass: string =
-    "bg-transparent text-lg focus:bg-cgreen focus:text-white hover:bg-cpurple hover:text-white data-[state=open]:bg-cpurple/50 rounded-3xl transition-all duration-300 ease-in-out";
+    "bg-transparent text-lg focus:bg-accent-normal focus:text-white hover:bg-accent-light hover:text-white data-[state=open]:bg-accent-light/50 rounded-3xl transition-all duration-300 ease-in-out";
 
   const linkClass: string =
-    "inline-flex items-center justify-center bg-transparent text-lg focus:bg-cgreen focus:text-white hover:bg-cpurple/50 hover:text-white data-[state=open]:bg-cpurple/50 rounded-3xl px-4 py-2 transition-all font-medium duration-300 ease-in-out";
+    "inline-flex items-center justify-center bg-transparent text-lg focus:bg-accent-normal focus:text-white hover:bg-accent-light/50 hover:text-white data-[state=open]:bg-accent-light/50 rounded-3xl px-4 py-2 transition-all font-medium duration-300 ease-in-out";
 
   return (
     <NavigationMenu>
@@ -57,7 +57,7 @@ const NavMenu = () => {
                 image: adulto.src,
                 imageAlt: "Fondo adulto",
               }}
-              services={navServicesChild}
+              services={navServicesAdult}
             />
           </NavigationMenuContent>
         </NavigationMenuItem>

@@ -1,11 +1,11 @@
 import AutoScroll from "embla-carousel-auto-scroll";
 import ServiceTitle from "./ServiceTitle";
 import ServiceCircle from "./ServiceCircle";
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Carousel, CarouselContent } from "@shadcn/carousel";
 
 const ServiceCarousel = () => {
-  const dotColor = "#D34F4D";
+  const dotColor = "#E67C26";
   const services: string[] = [
     "Nutrición",
     "Medicina",
@@ -14,6 +14,8 @@ const ServiceCarousel = () => {
     "Psicología",
     "Fonoaudiología",
     "Psicopedagogía",
+    "Neurología",
+    "Pediatría",
   ];
 
   const [speed, setSpeed] = useState(1.5);
@@ -38,7 +40,7 @@ const ServiceCarousel = () => {
   }, []);
 
   return (
-    <div className="py-2 sm:py-5 md:py-10">
+    <section className="py-2 sm:py-10 md:py-12 select-none">
       <Carousel
         className="w-full"
         opts={{
@@ -58,14 +60,14 @@ const ServiceCarousel = () => {
       >
         <CarouselContent>
           {services.map((service) => (
-            <>
-              <ServiceTitle title={service} key={service} />
-              <ServiceCircle dotColor={dotColor} key={service + 1} />
-            </>
+            <Fragment key={service}>
+              <ServiceTitle title={service} />
+              <ServiceCircle dotColor={dotColor} />
+            </Fragment>
           ))}
         </CarouselContent>
       </Carousel>
-    </div>
+    </section>
   );
 };
 

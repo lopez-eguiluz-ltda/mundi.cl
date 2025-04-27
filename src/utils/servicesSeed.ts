@@ -1,95 +1,90 @@
 import {
   FaBaby,
   FaAppleWhole,
-  FaBrain,
-  FaUserNurse,
   FaUserDoctor,
   FaPuzzlePiece,
 } from "react-icons/fa6";
 import { GiHand } from "react-icons/gi";
 import { MdOutlinePersonalInjury } from "react-icons/md";
-import { RiSpeakFill } from "react-icons/ri";
-import type { AmaiNavService, AmaiService } from "./types";
+import { RiMentalHealthFill, RiSpeakFill } from "react-icons/ri";
+import { LuBrain } from "react-icons/lu";
 
-const navServicesChild: AmaiNavService[] = [
+import type { NavService, Service } from "./types";
+
+const navServicesChild: NavService[] = [
   {
-    service: "Pediatría ambulatoria",
+    name: "Pediatría ambulatoria",
     description: "Control niño sano y urgencias pediátricas",
   },
   {
-    service: "Endocrinología",
+    name: "Endocrinología",
     description:
       "Diagnóstico y seguimiento de: Diabetes, hiper/hipotiroidismo, pubertad precoz y otros.",
   },
   {
-    service: "Neurología",
+    name: "Neurología",
     description: "Diagnóstico y seguimiento de trastornos del neurodesarrollo.",
   },
   {
-    service: "Terapia ocupacional",
+    name: "Terapia ocupacional",
     description:
       "Evaluación, diagnóstico y terapia en trastornos del neurodesarrollo, integración sensorial y rechazo alimentario.",
   },
   {
-    service: "Fonoaudiología",
+    name: "Fonoaudiología",
     description:
       "Evaluación, diagnóstico y terapia en trastornos de la comunicación, deglución, neurodesarrollo y rechazo alimentario.",
   },
   {
-    service: "Psicología",
+    name: "Psicología",
     description:
       "Evaluación, diagnóstico y terapia en trastornos del neurodesarrollo y habilidades parentales.",
   },
   {
-    service: "Psicopedagogía",
+    name: "Psicopedagogía",
     description:
       "Evaluación, diagnóstico y terapia en trastornos del neurodesarrollo, potenciar lectoescritura y acompañamiento estudiantil.",
   },
   {
-    service: "Nutrición",
+    name: "Nutrición",
     description:
       "Alimentación complementaria, método BLW y alergias alimentarias.",
   },
 ];
 
-const navServicesAdult: AmaiNavService[] = [
+const navServicesAdult: NavService[] = [
   {
-    service: "Medicina Biorreguladora",
+    name: "Medicina Biorreguladora",
     description:
       "Evaluación, diagnóstico y tratamiento integral de todo tipo de enfermedades, potenciando el sistema inmune.",
   },
   {
-    service: "Medicina General",
+    name: "Medicina General",
     description: "Evaluación y diagnóstico de enfermedades, licencia médica.",
   },
   {
-    service: "Matronería",
-    description:
-      "Acompañamiento en gestación, parto y post parto, PAP, anticoncepción natural y farmacológica.",
-  },
-  {
-    service: "Kinesiología",
+    name: "Kinesiología",
     description:
       "Evaluación, diagnóstico y rehabilitación de trastornos musculoesqueléticos. Reintegro deportivo",
   },
   {
-    service: "Nutrición",
+    name: "Nutrición",
     description:
       "Nutrición consciente y pautas alimentarias en: Alergias alimentarias, vegetarianismo, veganismo, enfermedad celiaca.",
   },
   {
-    service: "Psicología",
+    name: "Psicología",
     description:
       "Evaluación, diagnóstico y terapia en trastornos de la personalidad y neurodesarrollo.",
   },
   {
-    service: "Fonoaudiología",
+    name: "Fonoaudiología",
     description:
       "Evaluación, diagnóstico y terapia en trastornos de la comunicación, deglución y auditivos.",
   },
 ];
 
-const detailServices: AmaiService[] = [
+const detailServices: Service[] = [
   {
     icon: FaBaby,
     service: "Pediatría",
@@ -104,17 +99,17 @@ const detailServices: AmaiService[] = [
     icon: FaAppleWhole,
     service: "Nutrición",
     descriptions: [
-      "Materno infantil",
+      "Selectividad alimentaria",
       "Nutrición vegetariana",
-      "Consejería de Lactancia",
+      "Atención neurodivergente",
     ],
   },
   {
-    icon: FaBrain,
+    icon: RiMentalHealthFill,
     service: "Psicología",
     descriptions: [
       "Psicología infanto-juvenil",
-      "Experiencia en CEA",
+      "Experiencia en autismo",
       "Asesorías en habilidades parentales",
     ],
   },
@@ -122,9 +117,11 @@ const detailServices: AmaiService[] = [
     icon: RiSpeakFill,
     service: "Fonoaudiología",
     descriptions: [
-      "Experiencia en CEA",
+      "Experiencia en autismo",
       "Rechazo alimentario",
-      "Trastornos de lenguaje, habla y deglución",
+      "Trastornos de lenguaje, habla, deglución y motricidad orofacial",
+      "Frenillo lingual alterado",
+      "Experiencia en apraxia del habla infantil y tartamudez",
     ],
   },
   {
@@ -132,18 +129,9 @@ const detailServices: AmaiService[] = [
     service: "Terapia Ocupacional",
     descriptions: [
       "AVD (actividades de la vida diaria)",
-      "Integración sensorial",
+      "Integración y modulación sensorial",
       "Rechazo alimentario",
-    ],
-  },
-
-  {
-    icon: FaUserNurse,
-    service: "Matronería",
-    descriptions: [
-      "Consejería en salud sexual y reproductiva",
-      "Consejería en anticoncepción",
-      "Medicina placentaria",
+      "Experiencia en neurodesarrollo, autismo y TDAH",
     ],
   },
   {
@@ -169,10 +157,20 @@ const detailServices: AmaiService[] = [
     icon: FaPuzzlePiece,
     service: "Psicopedagogía",
     descriptions: [
-      "Experiencia en CEA",
+      "Experiencia en autismo",
       "Competencias en Evaluación de N.E.E",
       "Intervención Psicopedagógica",
       "Evaluaciones Psicopedagógicas",
+    ],
+  },
+  {
+    icon: LuBrain,
+    service: "Neurología",
+    descriptions: [
+      "Neurología",
+      "Evaluación neurológica",
+      "Controles neurológicos",
+      "Certificado MINEDUC",
     ],
   },
 ];

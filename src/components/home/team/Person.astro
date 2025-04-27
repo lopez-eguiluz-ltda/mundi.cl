@@ -26,6 +26,7 @@ const { name, position, photo, socials } = Astro.props;
         alt=`Foto perfil ${name}`
         loading={"lazy"}
         class="object-cover rounded-3xl w-full h-full transform"
+        draggable={false}
       />
 
       {
@@ -43,7 +44,7 @@ const { name, position, photo, socials } = Astro.props;
   </div>
 
   <div class="flex items-center gap-3 pt-4">
-    <FaCircle className="text-corange" size={8} />
+    <FaCircle className="text-accent-normal" size={8} />
     <h2 class="text-sm text-cgray font-semibold">{position}</h2>
   </div>
   <h2 class="font-bold text-xl text-white">{name}</h2>
