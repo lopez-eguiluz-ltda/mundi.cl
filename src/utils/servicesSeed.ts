@@ -17,11 +17,6 @@ const navServicesChild: NavService[] = [
     description: "Control niño sano y urgencias pediátricas",
   },
   {
-    name: "Endocrinología",
-    description:
-      "Diagnóstico y seguimiento de: Diabetes, hiper/hipotiroidismo, pubertad precoz y otros.",
-  },
-  {
     name: "Neurología",
     description: "Diagnóstico y seguimiento de trastornos del neurodesarrollo.",
   },
@@ -53,11 +48,6 @@ const navServicesChild: NavService[] = [
 ];
 
 const navServicesAdult: NavService[] = [
-  {
-    name: "Medicina Biorreguladora",
-    description:
-      "Evaluación, diagnóstico y tratamiento integral de todo tipo de enfermedades, potenciando el sistema inmune.",
-  },
   {
     name: "Medicina General",
     description: "Evaluación y diagnóstico de enfermedades, licencia médica.",
@@ -138,7 +128,6 @@ const detailServices: Service[] = [
     icon: FaUserDoctor,
     service: "Medicina General",
     descriptions: [
-      "Medicina biorreguladora",
       "Medicina ortomolecular",
       "Fitoterapia clínica",
     ],
