@@ -5,7 +5,7 @@ import camila from "@assets/images/equipo/camila_eguiluz.jpg";
 import karla from "@assets/images/equipo/karla_lopez.jpg";
 import logo from "@assets/images/mundi_logo_semi_full.webp";
 import { RxDoubleArrowDown } from "react-icons/rx";
-import { Image } from "astro:assets";
+import { Picture } from "astro:assets";
 ---
 
 <section class="flex justify-center md:px-10 xl:px-28 relative select-none">
@@ -32,8 +32,11 @@ import { Image } from "astro:assets";
             <div
               class="w-11 h-11 overflow-hidden rounded-full border-2 border-primary-light"
             >
-              <Image
+              <Picture
                 src={camila}
+                format="jpg"
+                formats={["avif", "webp"]}
+                fallbackFormat="jpg"
                 alt="Imagen camila"
                 loading={"eager"}
                 class="object-cover"
@@ -44,8 +47,11 @@ import { Image } from "astro:assets";
             <div
               class="w-11 h-11 overflow-hidden rounded-full border-2 border-primary-light -translate-x-3"
             >
-              <Image
+              <Picture
                 src={karla}
+                format="jpg"
+                formats={["avif", "webp"]}
+                fallbackFormat="jpg"
                 alt="Imagen karla"
                 loading={"eager"}
                 class="object-cover h-full"
@@ -65,8 +71,11 @@ import { Image } from "astro:assets";
       </div>
 
       <div class="text-center py-5 md:py-0">
-        <Image
+        <Picture
           src={logo}
+          format="webp"
+          formats={["avif", "webp"]}
+          fallbackFormat="jpg"
           alt="Logo centro mundi"
           loading={"eager"}
           class="w-28 md:w-14 m-auto"
