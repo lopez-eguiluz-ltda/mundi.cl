@@ -127,10 +127,7 @@ const detailServices: Service[] = [
   {
     icon: FaUserDoctor,
     service: "Medicina General",
-    descriptions: [
-      "Medicina ortomolecular",
-      "Fitoterapia clínica",
-    ],
+    descriptions: ["Medicina ortomolecular", "Fitoterapia clínica"],
   },
   {
     icon: MdOutlinePersonalInjury,
