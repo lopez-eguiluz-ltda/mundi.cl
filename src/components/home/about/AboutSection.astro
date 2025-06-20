@@ -42,11 +42,10 @@ import { Picture } from "astro:assets";
     <div class="lg:w-1/2">
       <Picture
         src={about}
-        format="webp"
         formats={["avif", "webp"]}
         fallbackFormat="jpg"
         alt="Acerca de nosotros"
-        loading={"lazy"}
+        loading="lazy"
         class="object-cover 2xl:w-full rounded-t-3xl z-10 md:rounded-3xl mx-auto select-none"
         draggable={false}
       />
