@@ -1,7 +1,7 @@
 import Autoplay from "embla-carousel-autoplay";
 
 import FrontCarouselItem from "./FrontCarouselItem";
-import { Carousel, CarouselContent } from "@shadcn/carousel";
+import { Carousel, CarouselContent } from "@components/common/ui/carousel";
 import carouselItems from "@utils/carouselSeed";
 import type { CarouselItemType } from "@utils/types";
 
