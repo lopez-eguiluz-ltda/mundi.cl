@@ -1,14 +1,12 @@
 ---
 import logo from "@assets/images/mundi_logo.webp";
 import SocialButtons from "./SocialButtons.astro";
-import { Picture } from "astro:assets";
+import { Image } from "astro:assets";
 ---
 
 <div class="w-full md:w-1/3 p-5 xl:p-10 flex flex-col items-center">
-  <Picture
+  <Image
     src={logo}
-    formats={["avif", "webp"]}
-    fallbackFormat="jpg"
     alt="Logo centro mundi"
     loading="lazy"
     class="w-52 py-2"

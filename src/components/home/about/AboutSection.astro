@@ -1,6 +1,6 @@
 ---
 import about from "@assets/images/about.webp";
-import { Picture } from "astro:assets";
+import { Image } from "astro:assets";
 ---
 
 <!-- Sobre nosotros -->
@@ -40,10 +40,8 @@ import { Picture } from "astro:assets";
     </div>
 
     <div class="lg:w-1/2">
-      <Picture
+      <Image
         src={about}
-        formats={["avif", "webp"]}
-        fallbackFormat="jpg"
         alt="Acerca de nosotros"
         loading="lazy"
         class="object-cover 2xl:w-full rounded-t-3xl z-10 md:rounded-3xl mx-auto select-none"
