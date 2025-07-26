@@ -7,7 +7,6 @@
     "paths": {
       "@assets/*": ["src/assets/*"],
       "@layouts/*": ["src/layouts/*"],
-      "@shadcn/*": ["src/components/common/ui/*"],
       "@utils/*": ["src/utils/*"],
       "@components/*": ["src/components/*"],
       "@styles/*": ["src/styles/*"],

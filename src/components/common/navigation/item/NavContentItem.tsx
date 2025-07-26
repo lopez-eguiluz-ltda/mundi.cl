@@ -1,4 +1,4 @@
-import { NavigationMenuLink } from "@shadcn/navigation-menu";
+import { NavigationMenuLink } from "@components/common/ui/navigation-menu";
 import NavImageItem from "./NavImageItem";
 import NavServiceItem from "./NavServiceItem";
 import type { NavService, NavImageItemType } from "@utils/types";

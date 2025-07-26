@@ -2,7 +2,7 @@
 import type { SocialLinkType } from "@utils/types";
 import { FaCircle } from "react-icons/fa6";
 import SocialLink from "./PersonSocialLink.astro";
-import { Picture } from "astro:assets";
+import { Image } from "astro:assets";
 
 interface Props {
   name: string;
@@ -21,12 +21,12 @@ const { name, position, photo, socials } = Astro.props;
     <div
       class="relative hover:scale-105 transition-transform duration-300 ease-in-out w-full h-full"
     >
-      <Picture
+      <Image
         src={photo}
-        formats={["avif", "webp"]}
-        fallbackFormat="jpg"
         alt={`Foto perfil ${name}`}
         loading="lazy"
+        decoding="async"
+        quality={80}
         class="object-cover rounded-3xl w-full h-full transform"
         draggable={false}
       />
