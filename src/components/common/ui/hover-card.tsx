@@ -2,7 +2,7 @@ import { Content, Portal, Root, Trigger } from "@radix-ui/react-hover-card";
 import { cn } from "@utils/shadcn";
 import type { ComponentProps } from "react";
 
-function HoverCard({ ...props }: ComponentProps<typeof Root>) {
+function HoverCard({ ...props }: Readonly<ComponentProps<typeof Root>>) {
   return <Root data-slot="hover-card" {...props} />;
 }
 
