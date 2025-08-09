@@ -12,9 +12,6 @@ import daniela_parra from "@assets/images/equipo/daniela_parra.webp";
 import catalina_gamboa from "@assets/images/equipo/catalina_gamboa.webp";
 import fernanda_maturana from "@assets/images/equipo/fernanda_maturana.webp";
 
-//import { ImFacebook, ImLinkedin2 } from "react-icons/im";
-//import { SiInstagram } from "react-icons/si";
-
 export const teams: TeamType[] = [
   {
     name: "Camila Eguiluz",

@@ -12,7 +12,7 @@ import {
 } from "@radix-ui/react-dialog";
 import { IoCloseOutline } from "react-icons/io5";
 
-function Sheet({ ...props }: ComponentProps<typeof Root>) {
+function Sheet({ ...props }: Readonly<ComponentProps<typeof Root>>) {
   return <Root data-slot="sheet" {...props} />;
 }
 
@@ -24,7 +24,7 @@ function SheetClose({ ...props }: ComponentProps<typeof Close>) {
   return <Close data-slot="sheet-close" {...props} />;
 }
 
-function SheetPortal({ ...props }: ComponentProps<typeof Portal>) {
+function SheetPortal({ ...props }: Readonly<ComponentProps<typeof Portal>>) {
   return <Portal data-slot="sheet-portal" {...props} />;
 }
 
