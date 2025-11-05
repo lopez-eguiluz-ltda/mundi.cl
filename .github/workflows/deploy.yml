@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository using git
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v5.0.0
       - name: Deploy to FTP server
         uses: figonzal1/astro-ftp-deploy@main
         with:
@@ -22,5 +22,5 @@ jobs:
           username: ${{ secrets.SFTP_USERNAME }}
           password: ${{ secrets.SFTP_PASSWORD }}
           port: ${{ secrets.SFTP_PORT }}
-          node-version: 22
+          node-version: 24
           directory: ./
