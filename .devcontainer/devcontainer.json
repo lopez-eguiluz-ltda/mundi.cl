@@ -1,0 +1,31 @@
+{
+    "name": "Mundi.cl dev-container with nvm and pnpm",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+    "workspaceFolder": "/workspace",
+    "shutdownAction": "stopContainer",
+    "postCreateCommand": "node -v && npm -v && pnpm -v",
+    "remoteUser": "vscode",
+    "forwardPorts": [
+        4321
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "esbenp.prettier-vscode",
+                "astro-build.astro-vscode",
+                "pflannery.vscode-versionlens"
+            ]
+        }
+    },
+    "portsAttributes": {
+        "4321": {
+            "label": "Astro",
+            "onAutoForward": "openBrowser"
+        }
+    },
+    "postStartCommand": "if [ -f package.json ]; then pnpm install; else echo 'no package.json in workspace, skipping install'; fi"
+}
