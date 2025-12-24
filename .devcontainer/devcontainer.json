@@ -7,8 +7,11 @@
     "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
     "workspaceFolder": "/workspace",
     "shutdownAction": "stopContainer",
-    "postCreateCommand": "node -v && npm -v && pnpm -v",
     "remoteUser": "vscode",
+    "mounts": [
+        "source=pnpm-store,target=/home/vscode/.pnpm-store,type=volume"
+    ],
+    "postCreateCommand": "bash -lc 'mkdir -p /home/vscode/.pnpm-store && (sudo chown -R vscode:vscode /home/vscode/.pnpm-store || true) && pnpm config set store-dir /home/vscode/.pnpm-store'",
     "forwardPorts": [
         4321
     ],
@@ -26,6 +29,5 @@
             "label": "Astro",
             "onAutoForward": "openBrowser"
         }
-    },
-    "postStartCommand": "if [ -f package.json ]; then pnpm install; else echo 'no package.json in workspace, skipping install'; fi"
+    }
 }
