@@ -1,5 +1,9 @@
 {
     "name": "Mundi.cl dev-container with nvm and pnpm",
+    "runArgs": [
+        "--name",
+        "mundi-dev"
+    ],
     "build": {
         "dockerfile": "Dockerfile",
         "context": ".."
