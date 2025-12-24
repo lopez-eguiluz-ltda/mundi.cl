@@ -1,0 +1,30 @@
+{
+  "name": "Mundi.cl dev-container with nvm and pnpm",
+  "runArgs": ["--name", "mundi-dev"],
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopContainer",
+  "remoteUser": "vscode",
+  "mounts": ["source=pnpm-store,target=/home/vscode/.pnpm-store,type=volume"],
+  "postCreateCommand": "bash -lc 'mkdir -p /home/vscode/.pnpm-store && (sudo chown -R vscode:vscode /home/vscode/.pnpm-store || true) && pnpm config set store-dir /home/vscode/.pnpm-store'",
+  "forwardPorts": [4321],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "astro-build.astro-vscode",
+        "pflannery.vscode-versionlens"
+      ]
+    }
+  },
+  "portsAttributes": {
+    "4321": {
+      "label": "Astro",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}
