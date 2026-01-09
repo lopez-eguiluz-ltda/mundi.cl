@@ -2,7 +2,6 @@
 import { FaWhatsapp } from "react-icons/fa";
 
 import camila from "@assets/images/equipo/camila_eguiluz.webp";
-import karla from "@assets/images/equipo/karla_lopez.webp";
 import logo from "@assets/images/mundi_logo_semi_full.webp";
 import { RxDoubleArrowDown } from "react-icons/rx";
 import { Image } from "astro:assets";
@@ -23,31 +22,18 @@ import { Image } from "astro:assets";
   </div>
 
   <div
-    class="bg-white/95 w-full px-10 xl:px-20 py-8 md:py-4 -translate-y-0 shadow-lg md:opacity-65 md:hover:opacity-100 md:hover:rounded-3xl md:rounded-b-3xl md:hover:-translate-y-5 transition-all duration-300 ease-in-out"
+    class="bg-white/95 w-full px-10 xl:px-20 py-8 md:py-4 translate-y-0 shadow-lg md:opacity-65 md:hover:opacity-100 md:hover:rounded-3xl md:rounded-b-3xl md:hover:-translate-y-5 transition-all duration-300 ease-in-out"
   >
     <div class="grid grid-cols-1 md:space-y-0 md:grid-cols-3 items-center">
       <div class="flex justify-start order-last md:order-first">
         <a href="#equipo">
           <div class="flex flex-row items-center">
             <div
-              class="w-11 h-11 overflow-hidden rounded-full border-2 border-primary-light"
+              class="w-11 h-11 overflow-hidden rounded-full border-2 border-primary-light -translate-x-3"
             >
               <Image
                 src={camila}
                 alt="Imagen camila"
-                loading="eager"
-                class="object-cover"
-                draggable={false}
-                quality={80}
-              />
-            </div>
-
-            <div
-              class="w-11 h-11 overflow-hidden rounded-full border-2 border-primary-light -translate-x-3"
-            >
-              <Image
-                src={karla}
-                alt="Imagen karla"
                 loading="eager"
                 class="object-cover h-full"
                 draggable={false}

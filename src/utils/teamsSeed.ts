@@ -1,7 +1,6 @@
 import type { TeamType } from "./types";
 
 import camila from "@assets/images/equipo/camila_eguiluz.webp";
-import karla from "@assets/images/equipo/karla_lopez.webp";
 import claudia from "@assets/images/equipo/claudia_salas.webp";
 import daniel from "@assets/images/equipo/daniel_oliva.webp";
 import sebastian from "@assets/images/equipo/sebastian_vilchez.webp";
@@ -17,13 +16,6 @@ export const teams: TeamType[] = [
     name: "Camila Eguiluz",
     position: "Fonoaudiología",
     photo: camila,
-    socialLink: [],
-  },
-
-  {
-    name: "Karla López",
-    position: "Fonoaudiología / Consej. Lactancia",
-    photo: karla,
     socialLink: [],
   },
 
