@@ -40,7 +40,7 @@ const ServiceCarousel = () => {
   }, []);
 
   return (
-    <section className="py-2 sm:py-10 md:py-12 select-none">
+    <section className="py-2 select-none sm:py-10 md:py-12">
       <Carousel
         className="w-full"
         opts={{

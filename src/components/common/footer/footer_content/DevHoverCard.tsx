@@ -17,16 +17,16 @@ const DevHoverCard = ({ title }: { title: string }) => {
       <HoverCardTrigger className="cursor-pointer" asChild>
         <Button
           variant="link"
-          className="underline text-sm sm:text-base font-semibold hover:opacity-50 transition-opacity duration-300 ease-in-out p-0"
+          className="p-0 text-sm font-semibold underline transition-opacity duration-300 ease-in-out hover:opacity-50 sm:text-base"
         >
           {title}
         </Button>
       </HoverCardTrigger>
       <HoverCardContent
-        className="bg-white me-6 md:me-14 rounded-xl shadow-lg w-fit pr-6"
+        className="me-6 w-fit rounded-xl bg-white pr-6 shadow-lg md:me-14"
         side="top"
       >
-        <div className="flex justify-start items-start gap-3">
+        <div className="flex items-start justify-start gap-3">
           <Avatar className="size-12">
             <AvatarImage
               src="https://avatars.githubusercontent.com/u/46515974?v=4"
@@ -44,10 +44,10 @@ const DevHoverCard = ({ title }: { title: string }) => {
               Ingeniero Informático, UTFSM.
             </p>
             <p className="text-sm text-gray-500">Desarrollador de software.</p>
-            <div className="flex items-center pt-2 gap-2">
+            <div className="flex items-center gap-2 pt-2">
               <FaLink className="h-4 w-4 opacity-70" />{" "}
               <a
-                className="text-xs text-gray-500 underline hover:opacity-50 transition-opacity duration-300 ease-in-out"
+                className="text-xs text-gray-500 underline transition-opacity duration-300 ease-in-out hover:opacity-50"
                 href={`https://www.${title}`}
                 target="_blank"
                 rel="noopener noreferrer"

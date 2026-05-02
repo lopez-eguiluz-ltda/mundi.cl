@@ -5,21 +5,21 @@ import HeaderItem from "./HeaderItem.astro";
 ---
 
 <div
-  class="grid grid-cols-2 gap-2 md:gap-5 md:grid-cols-4 justify-items-center pb-5"
+  class="grid grid-cols-2 justify-items-center gap-2 pb-5 md:grid-cols-4 md:gap-5"
 >
   <HeaderItem icon={FaLocationDot}>
     <div
-      class="w-full md:w-3/4 text-pretty text-center text-xs md:text-sm lg:text-base text-cgray"
+      class="text-cgray w-full text-center text-xs text-pretty md:w-3/4 md:text-sm lg:text-base"
     >
-      <p class="inline-block">Las Rojas Poniente #1489</p>
-      <p class="inline-block">La Serena, Chile.</p>
+      <p class="inline-block">Av Juan Cisternas #2283.</p>
+      <p class="inline-block">Edificio ATRIUM Piso 2, Of. A06</p>
     </div>
   </HeaderItem>
 
   <HeaderItem icon={FaWhatsapp}>
     <a href="https://api.whatsapp.com/send?phone=56959905385">
       <p
-        class="text-xs md:text-sm lg:text-base text-center text-cgray underline hover:opacity-50 transition-opacity duration-300 ease-in-out"
+        class="text-cgray text-center text-xs underline transition-opacity duration-300 ease-in-out hover:opacity-50 md:text-sm lg:text-base"
       >
         +56 9 5990 5385
       </p>
@@ -29,14 +29,14 @@ import HeaderItem from "./HeaderItem.astro";
   <HeaderItem icon={MdOutlineEmail}>
     <a
       href="mailto:contacto.centromundi@gmail.com"
-      class="text-cgray text-pretty text-xs md:text-sm lg:text-base text-center underline hover:opacity-50 transition-opacity duration-300 ease-in-out break-all"
+      class="text-cgray text-center text-xs text-pretty break-all underline transition-opacity duration-300 ease-in-out hover:opacity-50 md:text-sm lg:text-base"
     >
       contacto.centromundi@gmail.com
     </a>
   </HeaderItem>
 
   <HeaderItem icon={FaRegClock}>
-    <div class="text-center text-xs md:text-sm lg:text-base text-cgray">
+    <div class="text-cgray text-center text-xs md:text-sm lg:text-base">
       <p class="inline-block">Lun a Vie, 9:00 a 13:00 - 14:00 a 19:00 hrs</p>
       <p class="inline-block">Sáb, 9:00 a 18:00 hrs</p>
     </div>

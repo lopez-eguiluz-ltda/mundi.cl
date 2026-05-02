@@ -2,7 +2,7 @@ import { CarouselItem } from "@components/common/ui/carousel";
 
 const ServiceCircle = ({ dotColor }: { dotColor: string }) => {
   return (
-    <CarouselItem className="basis-1/12 p-0 flex justify-center items-center">
+    <CarouselItem className="flex basis-1/12 items-center justify-center p-0">
       <svg
         className="hidden md:block"
         height="100"

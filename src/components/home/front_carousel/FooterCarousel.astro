@@ -7,35 +7,35 @@ import { RxDoubleArrowDown } from "react-icons/rx";
 import { Image } from "astro:assets";
 ---
 
-<section class="flex justify-center md:px-10 xl:px-28 relative select-none">
+<section class="relative flex justify-center select-none md:px-10 xl:px-28">
   <div
-    class="hidden sm:block absolute transform top-0 right-0 -translate-x-24 lg:-translate-x-40 xl:-translate-x-60 -translate-y-28 md:-translate-y-32"
+    class="absolute top-0 right-0 hidden -translate-x-24 -translate-y-28 transform sm:block md:-translate-y-32 lg:-translate-x-40 xl:-translate-x-60"
   >
     <RxDoubleArrowDown
-      className="absolute z-20 top-0 right-0 text-white animate-sink animate-duration-1000 animate-iteration-count-infinite"
+      className="animate-sink animate-duration-1000 animate-iteration-count-infinite absolute top-0 right-0 z-20 text-white"
       size={90}
     />
     <RxDoubleArrowDown
-      className="absolute z-20 top-2 right-0  text-black opacity-50 animate-sink animate-duration-1000 animate-iteration-count-infinite"
+      className="animate-sink animate-duration-1000 animate-iteration-count-infinite absolute top-2 right-0 z-20 text-black opacity-50"
       size={90}
     />
   </div>
 
   <div
-    class="bg-white/95 w-full px-10 xl:px-20 py-8 md:py-4 translate-y-0 shadow-lg md:opacity-65 md:hover:opacity-100 md:hover:rounded-3xl md:rounded-b-3xl md:hover:-translate-y-5 transition-all duration-300 ease-in-out"
+    class="w-full translate-y-0 bg-white/95 px-10 py-8 shadow-lg transition-all duration-300 ease-in-out md:rounded-b-3xl md:py-4 md:opacity-65 md:hover:-translate-y-5 md:hover:rounded-3xl md:hover:opacity-100 xl:px-20"
   >
-    <div class="grid grid-cols-1 md:space-y-0 md:grid-cols-3 items-center">
-      <div class="flex justify-start order-last md:order-first">
+    <div class="grid grid-cols-1 items-center md:grid-cols-3 md:space-y-0">
+      <div class="order-last flex justify-start md:order-first">
         <a href="#equipo">
           <div class="flex flex-row items-center">
             <div
-              class="w-11 h-11 overflow-hidden rounded-full border-2 border-primary-light -translate-x-3"
+              class="border-primary-light h-11 w-11 -translate-x-3 overflow-hidden rounded-full border-2"
             >
               <Image
                 src={camila}
                 alt="Imagen camila"
                 loading="eager"
-                class="object-cover h-full"
+                class="h-full object-cover"
                 draggable={false}
                 quality={80}
               />
@@ -43,7 +43,7 @@ import { Image } from "astro:assets";
 
             <div>
               <h2
-                class="text-sm sm:text-base font-semibold text-accent-normal text-right"
+                class="text-accent-normal text-right text-sm font-semibold sm:text-base"
               >
                 Nuestro equipo
               </h2>
@@ -52,19 +52,19 @@ import { Image } from "astro:assets";
         </a>
       </div>
 
-      <div class="text-center py-5 md:py-0">
+      <div class="py-5 text-center md:py-0">
         <Image
           src={logo}
           alt="Logo centro mundi"
           loading="eager"
-          class="w-28 md:w-14 m-auto"
+          class="m-auto w-28 md:w-14"
           draggable={false}
           quality={80}
         />
       </div>
 
       <div
-        class="flex justify-end items-center gap-5 order-first md:order-last"
+        class="order-first flex items-center justify-end gap-5 md:order-last"
       >
         <a
           href="https://api.whatsapp.com/send?phone=56959905385"
@@ -73,14 +73,14 @@ import { Image } from "astro:assets";
         >
           <div>
             <h2
-              class="text-sm sm:text-base font-semibold text-accent-normal text-right hover:opacity-50 transition-opacity duration-300 ease-in-out"
+              class="text-accent-normal text-right text-sm font-semibold transition-opacity duration-300 ease-in-out hover:opacity-50 sm:text-base"
             >
               Agenda tu asesoría de orientación gratis
             </h2>
           </div>
 
           <a
-            class="hover:opacity-50 transition-opacity duration-300 ease-in-out animate-pop animate-duration-1000 animate-iteration-count-infinite"
+            class="animate-pop animate-duration-1000 animate-iteration-count-infinite transition-opacity duration-300 ease-in-out hover:opacity-50"
             href="https://api.whatsapp.com/send?phone=56959905385"
             rel="noreferrer"
             target="_blank"
