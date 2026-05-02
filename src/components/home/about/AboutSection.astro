@@ -4,33 +4,33 @@ import { Image } from "astro:assets";
 ---
 
 <!-- Sobre nosotros -->
-<section class="w-full select-none py-10 md:py-12">
+<section class="w-full py-10 select-none md:py-12">
   <div
-    class="flex flex-col-reverse lg:flex-row md:gap-10 justify-center items-center xl:items-start bg-white rounded-3xl mx-10 md:mx-20 md:p-10 shadow-lg"
+    class="mx-10 flex flex-col-reverse items-center justify-center rounded-3xl bg-white shadow-lg md:mx-20 md:gap-10 md:p-10 lg:flex-row xl:items-start"
   >
     <div
-      class="flex flex-col gap-2 md:gap-5 2xl:gap-10 p-5 md:p-0 items-start lg:w-1/2"
+      class="flex flex-col items-start gap-2 p-5 md:gap-5 md:p-0 lg:w-1/2 2xl:gap-10"
     >
       <h2
-        class="text-accent-normal text-sm font-semibold border-[1px] border-accent-normal rounded-3xl py-1 px-3"
+        class="text-accent-normal border-accent-normal rounded-3xl border-[1px] px-3 py-1 text-sm font-semibold"
       >
         Acerca de nosotros
       </h2>
 
       <div>
-        <h2 class="text-xl sm:text-2xl md:text-4xl 2xl:text-6xl font-bold">
+        <h2 class="text-xl font-bold sm:text-2xl md:text-4xl 2xl:text-6xl">
           No guiamos tus pasos
         </h2>
-        <h2 class="text-xl sm:text-2xl md:text-4xl 2xl:text-6xl font-bold">
+        <h2 class="text-xl font-bold sm:text-2xl md:text-4xl 2xl:text-6xl">
           ¡Los acompañamos!
         </h2>
       </div>
-      <p class="text-sm sm:text-base xl:text-lg 2xl:text-xl text-cgray">
+      <p class="text-cgray text-sm sm:text-base xl:text-lg 2xl:text-xl">
         Somos tu centro médico integral, pendientes de potenciar una mirada
         integradora del sanar, crecer y florecer de nuestros usuarios ♥️✨️
       </p>
 
-      <p class="text-sm sm:text-base xl:text-lg 2xl:text-xl text-cgray">
+      <p class="text-cgray text-sm sm:text-base xl:text-lg 2xl:text-xl">
         Si ya nos conoces, sabes que recibimos a todos con cariño, aprecio y
         buena onda. Si no nos conoces ¿Qué estas esperando para venir? 🤭
       </p>
@@ -44,7 +44,7 @@ import { Image } from "astro:assets";
         src={about}
         alt="Acerca de nosotros"
         loading="lazy"
-        class="object-cover 2xl:w-full rounded-t-3xl z-10 md:rounded-3xl mx-auto select-none"
+        class="z-10 mx-auto rounded-t-3xl object-cover select-none md:rounded-3xl 2xl:w-full"
         draggable={false}
         quality={80}
       />

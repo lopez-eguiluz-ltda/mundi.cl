@@ -5,12 +5,10 @@
     "dockerfile": "Dockerfile",
     "context": ".."
   },
-  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
-  "workspaceFolder": "/workspace",
   "shutdownAction": "stopContainer",
   "remoteUser": "vscode",
   "mounts": ["source=pnpm-store,target=/home/vscode/.pnpm-store,type=volume"],
-  "postCreateCommand": "bash -lc 'mkdir -p /home/vscode/.pnpm-store && (sudo chown -R vscode:vscode /home/vscode/.pnpm-store || true) && pnpm config set store-dir /home/vscode/.pnpm-store'",
+  "postCreateCommand": "bash -lc 'mise install && eval \"$(~/.local/bin/mise activate bash)\" && corepack install && corepack enable pnpm && mkdir -p /home/vscode/.pnpm-store && (sudo chown -R vscode:vscode /home/vscode/.pnpm-store || true) && pnpm config set store-dir /home/vscode/.pnpm-store && pnpm install'",
   "forwardPorts": [4321],
   "customizations": {
     "vscode": {

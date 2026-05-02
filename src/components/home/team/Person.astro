@@ -14,12 +14,12 @@ interface Props {
 const { name, position, photo, socials } = Astro.props;
 ---
 
-<div class="flex flex-col justify-center items-start">
+<div class="flex flex-col items-start justify-center">
   <div
-    class="relative w-64 h-80 rounded-3xl shadow-lg overflow-hidden ring-white ring-offset-2 ring-4 hover:animate-jiggle hover:animate-duration-1000 hover:animate-iteration-count-infinite"
+    class="hover:animate-jiggle hover:animate-duration-1000 hover:animate-iteration-count-infinite relative h-80 w-64 overflow-hidden rounded-3xl shadow-lg ring-4 ring-white ring-offset-2"
   >
     <div
-      class="relative hover:scale-105 transition-transform duration-300 ease-in-out w-full h-full"
+      class="relative h-full w-full transition-transform duration-300 ease-in-out hover:scale-105"
     >
       <Image
         src={photo}
@@ -27,14 +27,14 @@ const { name, position, photo, socials } = Astro.props;
         loading="lazy"
         decoding="async"
         quality={80}
-        class="object-cover rounded-3xl w-full h-full transform"
+        class="h-full w-full transform rounded-3xl object-cover"
         draggable={false}
       />
 
       {
         socials.length > 0 && (
-          <div class="absolute inset-0 opacity-0 hover:opacity-100 rounded-3xl transition-opacity duration-300 ease-in-out">
-            <div class="absolute bottom-4 bg-white/40 flex justify-center items-center w-full h-16 gap-3">
+          <div class="absolute inset-0 rounded-3xl opacity-0 transition-opacity duration-300 ease-in-out hover:opacity-100">
+            <div class="absolute bottom-4 flex h-16 w-full items-center justify-center gap-3 bg-white/40">
               {socials.map((socialLink: SocialLinkType) => (
                 <SocialLink icon={socialLink.icon} link={socialLink.link} />
               ))}
@@ -47,7 +47,7 @@ const { name, position, photo, socials } = Astro.props;
 
   <div class="flex items-center gap-3 pt-4">
     <FaCircle className="text-accent-normal" size={8} />
-    <h2 class="text-sm text-cgray font-semibold">{position}</h2>
+    <h2 class="text-cgray text-sm font-semibold">{position}</h2>
   </div>
-  <h2 class="font-bold text-xl text-white">{name}</h2>
+  <h2 class="text-xl font-bold text-white">{name}</h2>
 </div>

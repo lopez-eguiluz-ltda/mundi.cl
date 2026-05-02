@@ -42,7 +42,7 @@ const NavSection = () => {
     <nav
       className={`${navBarColor} fixed z-30 w-full backdrop-blur-md transition-all duration-500 ease-in-out`}
     >
-      <div className="flex flex-row justify-between items-center px-10 sm:px-20 lg:px-40 gap-5 lg:gap-10">
+      <div className="flex flex-row items-center justify-between gap-5 px-10 sm:px-20 lg:gap-10 lg:px-40">
         {/* LOGO NAVBAR */}
         <img
           src={logo.src}
@@ -53,7 +53,7 @@ const NavSection = () => {
         />
 
         {/* NAV MENU */}
-        <div className="lg:flex items-center justify-center w-full hidden">
+        <div className="hidden w-full items-center justify-center lg:flex">
           <NavMenu />
         </div>
 

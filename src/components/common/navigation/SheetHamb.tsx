@@ -54,26 +54,26 @@ const SheetHamb = ({ logoColorHamb }: { logoColorHamb: string }) => {
 
       <SheetContent
         side={"top"}
-        className="py-12 xl:hidden transition-all duration-300 ease-in-out max-h-screen overflow-y-auto"
+        className="max-h-screen overflow-y-auto py-12 transition-all duration-300 ease-in-out xl:hidden"
       >
         <SheetHeader>
-          <SheetTitle className="text-lg font-bold text-accent-normal text-center">
+          <SheetTitle className="text-accent-normal text-center text-lg font-bold">
             Menú de navegación
           </SheetTitle>
         </SheetHeader>
-        <div className="flex flex-col items-start justify-center gap-5 w-full px-6">
+        <div className="flex w-full flex-col items-start justify-center gap-5 px-6">
           {navHambItems.map((item) => (
             <a
               href={`/#${item.title.toLowerCase()}`}
               key={item.title}
-              className="inline-flex items-center justify-center gap-5 group"
+              className="group inline-flex items-center justify-center gap-5"
               onClick={hambClick}
             >
               <item.icon
                 size={24}
-                className="text-accent-normal group-hover:opacity-50 transition-all duration-300"
+                className="text-accent-normal transition-all duration-300 group-hover:opacity-50"
               />
-              <p className="font-medium sm:text-xl group-hover:opacity-50 transition-all duration-300">
+              <p className="font-medium transition-all duration-300 group-hover:opacity-50 sm:text-xl">
                 {item.title}
               </p>
             </a>
