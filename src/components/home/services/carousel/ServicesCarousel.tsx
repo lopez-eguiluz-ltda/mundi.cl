@@ -4,6 +4,12 @@ import ServiceCircle from './ServiceCircle'
 import { Fragment, useEffect, useState } from 'react'
 import { Carousel, CarouselContent } from '@components/common/ui/carousel'
 
+const getSpeed = (width: number) => {
+  if (width < 640) return 0.5
+  if (width < 1024) return 1.0
+  return 1.5
+}
+
 const ServiceCarousel = () => {
   const dotColor = '#E67C26'
   const services: string[] = [
@@ -21,16 +27,7 @@ const ServiceCarousel = () => {
   const [speed, setSpeed] = useState(1.5)
 
   useEffect(() => {
-    const adjustSpeed = () => {
-      const width = window.innerWidth
-      if (width < 640) {
-        setSpeed(0.5) // Velocidad para móviles
-      } else if (width < 1024) {
-        setSpeed(1.0) // Velocidad para tabletas
-      } else {
-        setSpeed(1.5) // Velocidad para escritorios
-      }
-    }
+    const adjustSpeed = () => setSpeed(getSpeed(window.innerWidth))
 
     adjustSpeed()
     window.addEventListener('resize', adjustSpeed)
