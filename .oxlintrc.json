@@ -1,0 +1,16 @@
+{
+  "plugins": ["react", "jsx-a11y"],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "warn"
+  },
+  "env": {
+    "browser": true,
+    "es2022": true
+  },
+  "rules": {
+    "no-console": "warn",
+    "react/react-in-jsx-scope": "off"
+  },
+  "ignorePatterns": ["node_modules", "dist", ".astro", "public", ".agents", ".claude"]
+}
