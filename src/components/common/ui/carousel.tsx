@@ -1,13 +1,6 @@
 import useEmblaCarousel, { type UseEmblaCarouselType } from 'embla-carousel-react'
 import { cn } from '@utils/shadcn'
-import {
-  createContext,
-  useCallback,
-  useContext,
-  useEffect,
-  useState,
-  type ComponentProps,
-} from 'react'
+import { createContext, use, useCallback, useEffect, useState, type ComponentProps } from 'react'
 
 type CarouselApi = UseEmblaCarouselType[1]
 type UseCarouselParameters = Parameters<typeof useEmblaCarousel>
@@ -33,7 +26,7 @@ type CarouselContextProps = {
 const CarouselContext = createContext<CarouselContextProps | null>(null)
 
 function useCarousel() {
-  const context = useContext(CarouselContext)
+  const context = use(CarouselContext)
 
   if (!context) {
     throw new Error('useCarousel must be used within a <Carousel />')
@@ -162,4 +155,4 @@ function CarouselItem({ className, ...props }: React.ComponentProps<'div'>) {
   )
 }
 
-export { type CarouselApi, Carousel, CarouselContent, CarouselItem }
+export { Carousel, CarouselContent, CarouselItem }

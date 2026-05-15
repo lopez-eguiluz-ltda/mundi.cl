@@ -1,15 +1,6 @@
 import { cn } from '@utils/shadcn'
 import type { ComponentProps } from 'react'
-import {
-  Close,
-  Content,
-  Description,
-  Overlay,
-  Portal,
-  Root,
-  Title,
-  Trigger,
-} from '@radix-ui/react-dialog'
+import { Close, Content, Overlay, Portal, Root, Title, Trigger } from '@radix-ui/react-dialog'
 import { IoCloseOutline } from 'react-icons/io5'
 
 function Sheet({ ...props }: Readonly<ComponentProps<typeof Root>>) {
@@ -18,10 +9,6 @@ function Sheet({ ...props }: Readonly<ComponentProps<typeof Root>>) {
 
 function SheetTrigger({ ...props }: ComponentProps<typeof Trigger>) {
   return <Trigger data-slot="sheet-trigger" {...props} />
-}
-
-function SheetClose({ ...props }: ComponentProps<typeof Close>) {
-  return <Close data-slot="sheet-close" {...props} />
 }
 
 function SheetPortal({ ...props }: Readonly<ComponentProps<typeof Portal>>) {
@@ -70,7 +57,7 @@ function SheetContent({
       >
         {children}
         <Close className="absolute top-4 right-4 rounded-xs opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:outline-hidden disabled:pointer-events-none data-[state=open]:bg-secondary">
-          <IoCloseOutline className="h-10 w-10" />
+          <IoCloseOutline className="size-10" />
           <span className="sr-only">Close</span>
         </Close>
       </Content>
@@ -88,16 +75,6 @@ function SheetHeader({ className, ...props }: ComponentProps<'div'>) {
   )
 }
 
-function SheetFooter({ className, ...props }: ComponentProps<'div'>) {
-  return (
-    <div
-      data-slot="sheet-footer"
-      className={cn('mt-auto flex flex-col gap-2 p-4', className)}
-      {...props}
-    />
-  )
-}
-
 function SheetTitle({ className, ...props }: ComponentProps<typeof Title>) {
   return (
     <Title
@@ -108,23 +85,4 @@ function SheetTitle({ className, ...props }: ComponentProps<typeof Title>) {
   )
 }
 
-function SheetDescription({ className, ...props }: ComponentProps<typeof Description>) {
-  return (
-    <Description
-      data-slot="sheet-description"
-      className={cn('text-sm text-muted-foreground', className)}
-      {...props}
-    />
-  )
-}
-
-export {
-  Sheet,
-  SheetTrigger,
-  SheetClose,
-  SheetContent,
-  SheetHeader,
-  SheetFooter,
-  SheetTitle,
-  SheetDescription,
-}
+export { Sheet, SheetTrigger, SheetContent, SheetHeader, SheetTitle }

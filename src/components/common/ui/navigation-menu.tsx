@@ -2,16 +2,7 @@ import { cva } from 'class-variance-authority'
 import { FaChevronDown } from 'react-icons/fa6'
 import { cn } from '@utils/shadcn'
 import type { ComponentProps } from 'react'
-import {
-  Content,
-  Indicator,
-  Item,
-  Link,
-  List,
-  Root,
-  Trigger,
-  Viewport,
-} from '@radix-ui/react-navigation-menu'
+import { Content, Item, Link, List, Root, Trigger, Viewport } from '@radix-ui/react-navigation-menu'
 
 function NavigationMenu({
   className,
@@ -113,21 +104,6 @@ function NavigationMenuLink({ className, ...props }: ComponentProps<typeof Link>
   )
 }
 
-function NavigationMenuIndicator({ className, ...props }: ComponentProps<typeof Indicator>) {
-  return (
-    <Indicator
-      data-slot="navigation-menu-indicator"
-      className={cn(
-        'top-full z-[1] flex h-1.5 items-end justify-center overflow-hidden data-[state=hidden]:animate-out data-[state=hidden]:fade-out data-[state=visible]:animate-in data-[state=visible]:fade-in',
-        className
-      )}
-      {...props}
-    >
-      <div className="relative top-[60%] h-2 w-2 rotate-45 rounded-tl-sm bg-border shadow-md" />
-    </Indicator>
-  )
-}
-
 export {
   NavigationMenu,
   NavigationMenuList,
@@ -135,7 +111,4 @@ export {
   NavigationMenuContent,
   NavigationMenuTrigger,
   NavigationMenuLink,
-  NavigationMenuIndicator,
-  NavigationMenuViewport,
-  navigationMenuTriggerStyle,
 }
