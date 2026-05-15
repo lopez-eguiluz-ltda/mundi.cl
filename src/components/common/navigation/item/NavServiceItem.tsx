@@ -8,7 +8,7 @@ const NavServiceItem = ({ services }: { services: NavService[] }) => {
           className="space-y-2 rounded-xl p-2 transition-colors duration-300 ease-in-out hover:bg-accent-normal/10"
           key={service.name}
         >
-          <h3 className="leading-none font-bold">{service.name}</h3>
+          <h3 className="leading-none font-semibold">{service.name}</h3>
           <p className="line-clamp-3 text-sm leading-4 text-cgray">{service.description}</p>
         </li>
       ))}

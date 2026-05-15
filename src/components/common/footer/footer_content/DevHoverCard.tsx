@@ -29,13 +29,13 @@ const DevHoverCard = ({ title }: { title: string }) => {
             <AvatarFallback>FG</AvatarFallback>
           </Avatar>
           <div>
-            <h4 className="text-sm font-semibold text-gray-700">Felipe González Alarcón</h4>
-            <p className="text-sm text-gray-500">Ingeniero Informático, UTFSM.</p>
-            <p className="text-sm text-gray-500">Desarrollador de software.</p>
+            <h4 className="text-sm font-semibold text-zinc-700">Felipe González Alarcón</h4>
+            <p className="text-sm text-zinc-500">Ingeniero Informático, UTFSM.</p>
+            <p className="text-sm text-zinc-500">Desarrollador de software.</p>
             <div className="flex items-center gap-2 pt-2">
-              <FaLink className="h-4 w-4 opacity-70" />{' '}
+              <FaLink className="size-4 opacity-70" />{' '}
               <a
-                className="text-xs text-gray-500 underline transition-opacity duration-300 ease-in-out hover:opacity-50"
+                className="text-xs text-zinc-500 underline transition-opacity duration-300 ease-in-out hover:opacity-50"
                 href={`https://www.${title}`}
                 target="_blank"
                 rel="noopener noreferrer"
