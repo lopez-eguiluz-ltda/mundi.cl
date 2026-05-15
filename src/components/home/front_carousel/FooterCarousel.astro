@@ -1,10 +1,10 @@
 ---
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp } from 'react-icons/fa'
 
-import camila from "@assets/images/equipo/camila_eguiluz.webp";
-import logo from "@assets/images/mundi_logo_semi_full.webp";
-import { RxDoubleArrowDown } from "react-icons/rx";
-import { Image } from "astro:assets";
+import camila from '@assets/images/equipo/camila_eguiluz.webp'
+import logo from '@assets/images/mundi_logo_semi_full.webp'
+import { RxDoubleArrowDown } from 'react-icons/rx'
+import { Image } from 'astro:assets'
 ---
 
 <section class="relative flex justify-center select-none md:px-10 xl:px-28">
@@ -12,11 +12,11 @@ import { Image } from "astro:assets";
     class="absolute top-0 right-0 hidden -translate-x-24 -translate-y-28 transform sm:block md:-translate-y-32 lg:-translate-x-40 xl:-translate-x-60"
   >
     <RxDoubleArrowDown
-      className="animate-sink animate-duration-1000 animate-iteration-count-infinite absolute top-0 right-0 z-20 text-white"
+      className="absolute top-0 right-0 z-20 animate-sink text-white animate-duration-1000 animate-iteration-count-infinite"
       size={90}
     />
     <RxDoubleArrowDown
-      className="animate-sink animate-duration-1000 animate-iteration-count-infinite absolute top-2 right-0 z-20 text-black opacity-50"
+      className="absolute top-2 right-0 z-20 animate-sink text-black opacity-50 animate-duration-1000 animate-iteration-count-infinite"
       size={90}
     />
   </div>
@@ -29,7 +29,7 @@ import { Image } from "astro:assets";
         <a href="#equipo">
           <div class="flex flex-row items-center">
             <div
-              class="border-primary-light h-11 w-11 -translate-x-3 overflow-hidden rounded-full border-2"
+              class="h-11 w-11 -translate-x-3 overflow-hidden rounded-full border-2 border-primary-light"
             >
               <Image
                 src={camila}
@@ -42,9 +42,7 @@ import { Image } from "astro:assets";
             </div>
 
             <div>
-              <h2
-                class="text-accent-normal text-right text-sm font-semibold sm:text-base"
-              >
+              <h2 class="text-right text-sm font-semibold text-accent-normal sm:text-base">
                 Nuestro equipo
               </h2>
             </div>
@@ -63,24 +61,18 @@ import { Image } from "astro:assets";
         />
       </div>
 
-      <div
-        class="order-first flex items-center justify-end gap-5 md:order-last"
-      >
-        <a
-          href="https://api.whatsapp.com/send?phone=56959905385"
-          rel="noreferrer"
-          target="_blank"
-        >
+      <div class="order-first flex items-center justify-end gap-5 md:order-last">
+        <a href="https://api.whatsapp.com/send?phone=56959905385" rel="noreferrer" target="_blank">
           <div>
             <h2
-              class="text-accent-normal text-right text-sm font-semibold transition-opacity duration-300 ease-in-out hover:opacity-50 sm:text-base"
+              class="text-right text-sm font-semibold text-accent-normal transition-opacity duration-300 ease-in-out hover:opacity-50 sm:text-base"
             >
               Agenda tu asesoría de orientación gratis
             </h2>
           </div>
 
           <a
-            class="animate-pop animate-duration-1000 animate-iteration-count-infinite transition-opacity duration-300 ease-in-out hover:opacity-50"
+            class="animate-pop transition-opacity duration-300 ease-in-out animate-duration-1000 animate-iteration-count-infinite hover:opacity-50"
             href="https://api.whatsapp.com/send?phone=56959905385"
             rel="noreferrer"
             target="_blank"

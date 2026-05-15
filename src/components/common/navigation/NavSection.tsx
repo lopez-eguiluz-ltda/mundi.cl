@@ -1,42 +1,42 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react'
 
-import LogoNormal from "@assets/images/mundi_logo.webp";
-import LogoWhite from "@assets/images/mundi_logo_full_white.webp";
+import LogoNormal from '@assets/images/mundi_logo.webp'
+import LogoWhite from '@assets/images/mundi_logo_full_white.webp'
 
-import NavMenu from "./NavMenu";
-import SheetHamb from "./SheetHamb";
+import NavMenu from './NavMenu'
+import SheetHamb from './SheetHamb'
 
 const NavSection = () => {
-  const [navBarColor, setNavBarColor] = useState("py-6 text-white");
-  const [logo, setLogo] = useState(LogoWhite);
-  const [logoSize, setLogoSize] = useState("w-32");
+  const [navBarColor, setNavBarColor] = useState('py-6 text-white')
+  const [logo, setLogo] = useState(LogoWhite)
+  const [logoSize, setLogoSize] = useState('w-32')
 
-  const [logoColorHamb, setLogoColorHamb] = useState<"white" | "gray">("white");
+  const [logoColorHamb, setLogoColorHamb] = useState<'white' | 'gray'>('white')
 
   useEffect(() => {
     const changeColor = () => {
-      const scrollPercent = window.scrollY / window.innerHeight;
+      const scrollPercent = window.scrollY / window.innerHeight
 
       // Si el porcentaje de scroll es mayor a X, cambia el color
       if (scrollPercent > 0.63) {
-        setNavBarColor("bg-white py-2 lg:py-4 text-cgray shadow-md");
-        setLogo(LogoNormal);
-        setLogoSize("w-16 md:w-20");
-        setLogoColorHamb("gray");
+        setNavBarColor('bg-white py-2 lg:py-4 text-cgray shadow-md')
+        setLogo(LogoNormal)
+        setLogoSize('w-16 md:w-20')
+        setLogoColorHamb('gray')
       } else {
-        setNavBarColor("py-6 text-white");
-        setLogo(LogoWhite);
-        setLogoSize("w-32");
-        setLogoColorHamb("white");
+        setNavBarColor('py-6 text-white')
+        setLogo(LogoWhite)
+        setLogoSize('w-32')
+        setLogoColorHamb('white')
       }
-    };
+    }
 
-    window.addEventListener("scroll", changeColor);
+    window.addEventListener('scroll', changeColor)
 
     return () => {
-      window.removeEventListener("scroll", changeColor);
-    };
-  }, []);
+      window.removeEventListener('scroll', changeColor)
+    }
+  }, [])
 
   return (
     <nav
@@ -65,7 +65,7 @@ const NavSection = () => {
         </div>
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default NavSection;
+export default NavSection

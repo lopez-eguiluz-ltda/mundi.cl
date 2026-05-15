@@ -1,15 +1,7 @@
-import {
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
-} from "@/components/common/ui/avatar";
-import { Button } from "@/components/common/ui/button";
-import {
-  HoverCard,
-  HoverCardContent,
-  HoverCardTrigger,
-} from "@/components/common/ui/hover-card";
-import { FaLink } from "react-icons/fa6";
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/common/ui/avatar'
+import { Button } from '@/components/common/ui/button'
+import { HoverCard, HoverCardContent, HoverCardTrigger } from '@/components/common/ui/hover-card'
+import { FaLink } from 'react-icons/fa6'
 
 const DevHoverCard = ({ title }: { title: string }) => {
   return (
@@ -37,15 +29,11 @@ const DevHoverCard = ({ title }: { title: string }) => {
             <AvatarFallback>FG</AvatarFallback>
           </Avatar>
           <div>
-            <h4 className="text-sm font-semibold text-gray-700">
-              Felipe González Alarcón
-            </h4>
-            <p className="text-sm text-gray-500">
-              Ingeniero Informático, UTFSM.
-            </p>
+            <h4 className="text-sm font-semibold text-gray-700">Felipe González Alarcón</h4>
+            <p className="text-sm text-gray-500">Ingeniero Informático, UTFSM.</p>
             <p className="text-sm text-gray-500">Desarrollador de software.</p>
             <div className="flex items-center gap-2 pt-2">
-              <FaLink className="h-4 w-4 opacity-70" />{" "}
+              <FaLink className="h-4 w-4 opacity-70" />{' '}
               <a
                 className="text-xs text-gray-500 underline transition-opacity duration-300 ease-in-out hover:opacity-50"
                 href={`https://www.${title}`}
@@ -60,7 +48,7 @@ const DevHoverCard = ({ title }: { title: string }) => {
         </div>
       </HoverCardContent>
     </HoverCard>
-  );
-};
+  )
+}
 
-export default DevHoverCard;
+export default DevHoverCard

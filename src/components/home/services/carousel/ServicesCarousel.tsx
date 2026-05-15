@@ -1,43 +1,43 @@
-import AutoScroll from "embla-carousel-auto-scroll";
-import ServiceTitle from "./ServiceTitle";
-import ServiceCircle from "./ServiceCircle";
-import { Fragment, useEffect, useState } from "react";
-import { Carousel, CarouselContent } from "@components/common/ui/carousel";
+import AutoScroll from 'embla-carousel-auto-scroll'
+import ServiceTitle from './ServiceTitle'
+import ServiceCircle from './ServiceCircle'
+import { Fragment, useEffect, useState } from 'react'
+import { Carousel, CarouselContent } from '@components/common/ui/carousel'
 
 const ServiceCarousel = () => {
-  const dotColor = "#E67C26";
+  const dotColor = '#E67C26'
   const services: string[] = [
-    "Nutrición",
-    "Medicina",
-    "Kinesiología",
-    "T. Ocupacional",
-    "Psicología",
-    "Fonoaudiología",
-    "Psicopedagogía",
-    "Neurología",
-    "Pediatría",
-  ];
+    'Nutrición',
+    'Medicina',
+    'Kinesiología',
+    'T. Ocupacional',
+    'Psicología',
+    'Fonoaudiología',
+    'Psicopedagogía',
+    'Neurología',
+    'Pediatría',
+  ]
 
-  const [speed, setSpeed] = useState(1.5);
+  const [speed, setSpeed] = useState(1.5)
 
   useEffect(() => {
     const adjustSpeed = () => {
-      const width = window.innerWidth;
+      const width = window.innerWidth
       if (width < 640) {
-        setSpeed(0.5); // Velocidad para móviles
+        setSpeed(0.5) // Velocidad para móviles
       } else if (width < 1024) {
-        setSpeed(1.0); // Velocidad para tabletas
+        setSpeed(1.0) // Velocidad para tabletas
       } else {
-        setSpeed(1.5); // Velocidad para escritorios
+        setSpeed(1.5) // Velocidad para escritorios
       }
-    };
+    }
 
-    adjustSpeed();
-    window.addEventListener("resize", adjustSpeed);
+    adjustSpeed()
+    window.addEventListener('resize', adjustSpeed)
     return () => {
-      window.removeEventListener("resize", adjustSpeed);
-    };
-  }, []);
+      window.removeEventListener('resize', adjustSpeed)
+    }
+  }, [])
 
   return (
     <section className="py-2 select-none sm:py-10 md:py-12">
@@ -46,7 +46,7 @@ const ServiceCarousel = () => {
         opts={{
           loop: true,
           active: true,
-          align: "center",
+          align: 'center',
         }}
         plugins={[
           AutoScroll({
@@ -68,7 +68,7 @@ const ServiceCarousel = () => {
         </CarouselContent>
       </Carousel>
     </section>
-  );
-};
+  )
+}
 
-export default ServiceCarousel;
+export default ServiceCarousel

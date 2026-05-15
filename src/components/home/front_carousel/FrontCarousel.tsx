@@ -1,9 +1,9 @@
-import Autoplay from "embla-carousel-autoplay";
+import Autoplay from 'embla-carousel-autoplay'
 
-import FrontCarouselItem from "./FrontCarouselItem";
-import { Carousel, CarouselContent } from "@components/common/ui/carousel";
-import carouselItems from "@utils/carouselSeed";
-import type { CarouselItemType } from "@utils/types";
+import FrontCarouselItem from './FrontCarouselItem'
+import { Carousel, CarouselContent } from '@components/common/ui/carousel'
+import carouselItems from '@utils/carouselSeed'
+import type { CarouselItemType } from '@utils/types'
 
 const FrontCarousel = () => {
   return (
@@ -29,7 +29,7 @@ const FrontCarousel = () => {
         </CarouselContent>
       </Carousel>
     </section>
-  );
-};
+  )
+}
 
-export default FrontCarousel;
+export default FrontCarousel
