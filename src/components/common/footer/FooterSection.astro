@@ -1,6 +1,6 @@
 ---
-import FooterContent from "./footer_content/FooterContent.astro";
-import FooterHeader from "./footer_header/FooterHeader.astro";
+import FooterContent from './footer_content/FooterContent.astro'
+import FooterHeader from './footer_header/FooterHeader.astro'
 ---
 
 <footer id="contacto" class="scroll-my-28">
@@ -11,13 +11,11 @@ import FooterHeader from "./footer_header/FooterHeader.astro";
   </div>
 
   <script>
-    const actualYear = new Date().getFullYear();
-    const yearElement = document.getElementById("year");
+    const actualYear = new Date().getFullYear()
+    const yearElement = document.getElementById('year')
 
     if (yearElement) {
-      yearElement.textContent = actualYear.toString();
-    } else {
-      console.log('No se encontró el elemento con id "year"');
+      yearElement.textContent = actualYear.toString()
     }
   </script>
 </footer>

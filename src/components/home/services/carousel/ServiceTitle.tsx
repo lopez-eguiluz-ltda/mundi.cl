@@ -1,4 +1,4 @@
-import { CarouselItem } from "@components/common/ui/carousel";
+import { CarouselItem } from '@components/common/ui/carousel'
 
 const ServiceTitle = ({ title }: { title: string }) => {
   return (
@@ -7,7 +7,7 @@ const ServiceTitle = ({ title }: { title: string }) => {
         {title}
       </h2>
     </CarouselItem>
-  );
-};
+  )
+}
 
-export default ServiceTitle;
+export default ServiceTitle

@@ -1,14 +1,14 @@
-import { NavigationMenuLink } from "@components/common/ui/navigation-menu";
-import NavImageItem from "./NavImageItem";
-import NavServiceItem from "./NavServiceItem";
-import type { NavService, NavImageItemType } from "@utils/types";
+import { NavigationMenuLink } from '@components/common/ui/navigation-menu'
+import NavImageItem from './NavImageItem'
+import NavServiceItem from './NavServiceItem'
+import type { NavService, NavImageItemType } from '@utils/types'
 
 const NavContentItem = ({
   navItem,
   services,
 }: {
-  navItem: NavImageItemType;
-  services: NavService[];
+  navItem: NavImageItemType
+  services: NavService[]
 }) => {
   return (
     <div className="flex gap-5 p-5 md:w-[400px] lg:w-[800px]">
@@ -22,7 +22,7 @@ const NavContentItem = ({
         <NavServiceItem services={services} />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default NavContentItem;
+export default NavContentItem

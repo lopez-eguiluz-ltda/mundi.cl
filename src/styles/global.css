@@ -1,11 +1,11 @@
-@import "tailwindcss";
-@import "tw-animate-css";
-@import "tailwind-animations";
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'tailwind-animations';
 
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --font-sans: "Quicksand Variable", system-ui, sans-serif;
+  --font-sans: 'Quicksand Variable', system-ui, sans-serif;
 
   --color-primary-normal: #07afad;
   --color-primary-light: #51c7c6;

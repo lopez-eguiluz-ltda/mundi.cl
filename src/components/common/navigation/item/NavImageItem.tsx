@@ -1,9 +1,9 @@
-import type { NavImageItemType } from "@utils/types";
+import type { NavImageItemType } from '@utils/types'
 
 const NavImageItem = ({ navItem }: { navItem: NavImageItemType }) => {
   return (
     <a
-      className="bg-accent-light/50 relative flex h-full w-full flex-col items-center justify-center rounded-3xl no-underline outline-none select-none focus:shadow-md"
+      className="relative flex h-full w-full flex-col items-center justify-center rounded-3xl bg-accent-light/50 no-underline outline-none select-none focus:shadow-md"
       href="/"
     >
       <img
@@ -14,11 +14,9 @@ const NavImageItem = ({ navItem }: { navItem: NavImageItemType }) => {
         draggable={false}
       />
 
-      <div className="absolute mt-4 mb-2 text-3xl font-bold text-white">
-        {navItem.title}
-      </div>
+      <div className="absolute mt-4 mb-2 text-3xl font-bold text-white">{navItem.title}</div>
     </a>
-  );
-};
+  )
+}
 
-export default NavImageItem;
+export default NavImageItem
