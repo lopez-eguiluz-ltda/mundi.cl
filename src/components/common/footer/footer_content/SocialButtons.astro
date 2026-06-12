@@ -1,43 +1,39 @@
 ---
-import type { SocialLinkType } from "@utils/types";
-import { FaWhatsapp } from "react-icons/fa6";
-import { ImFacebook } from "react-icons/im";
-import { SiInstagram } from "react-icons/si";
-import SocialLink from "../footer_content/SocialLink.astro";
-import { MdOutlineEmail } from "react-icons/md";
+import type { SocialLinkType } from '@utils/types'
+import { FaWhatsapp } from 'react-icons/fa6'
+import { ImFacebook } from 'react-icons/im'
+import { SiInstagram } from 'react-icons/si'
+import SocialLink from '../footer_content/SocialLink.astro'
+import { MdOutlineEmail } from 'react-icons/md'
 
 const socialLink: SocialLinkType[] = [
   {
-    link: "https://web.facebook.com/centromundi.ls",
-    name: "Facebook",
+    link: 'https://web.facebook.com/centromundi.ls',
+    name: 'Facebook',
     icon: ImFacebook,
   },
   {
-    link: "https://www.instagram.com/mundi.cl/",
-    name: "Instagram",
+    link: 'https://www.instagram.com/mundi.cl/',
+    name: 'Instagram',
     icon: SiInstagram,
   },
   {
-    link: "https://api.whatsapp.com/send?phone=56959905385",
-    name: "Whatsapp",
+    link: 'https://api.whatsapp.com/send?phone=56959905385',
+    name: 'Whatsapp',
     icon: FaWhatsapp,
   },
   {
-    link: "mailto:contacto.centromundi@gmail.com",
-    name: "Gmail",
+    link: 'mailto:contacto.centromundi@gmail.com',
+    name: 'Gmail',
     icon: MdOutlineEmail,
   },
-];
+]
 ---
 
 <div class="flex items-center justify-center gap-2 py-2">
   {
     socialLink.map((socialLink: SocialLinkType) => (
-      <SocialLink
-        icon={socialLink.icon}
-        link={socialLink.link}
-        name={socialLink.name}
-      />
+      <SocialLink icon={socialLink.icon} link={socialLink.link} name={socialLink.name} />
     ))
   }
 </div>

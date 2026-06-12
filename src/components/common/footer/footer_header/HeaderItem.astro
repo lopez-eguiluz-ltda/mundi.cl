@@ -1,16 +1,16 @@
 ---
-import type { IconType } from "react-icons";
+import type { IconType } from 'react-icons'
 
 interface Props {
-  icon: IconType;
+  icon: IconType
 }
 
-const { icon: Icon } = Astro.props;
+const { icon: Icon } = Astro.props
 ---
 
 <div class="flex w-full flex-col items-center justify-start gap-2 px-5">
   <div
-    class="text-accent-normal border-accent-normal hover:bg-accent-normal rounded-full border-[1px] bg-white p-3 transition-all duration-300 ease-in-out hover:text-white"
+    class="rounded-full border-[1px] border-accent-normal bg-white p-3 text-accent-normal transition-all duration-300 ease-in-out hover:bg-accent-normal hover:text-white"
   >
     <Icon size={24} />
   </div>
